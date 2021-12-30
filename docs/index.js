@@ -57,5 +57,5 @@ var data = {files:[
 {"link":"stmt_parser.zig.3ef60526.html","title":"stmt_parser.zig","summary_name":"[...]/glinka/src/frontend/stmt_parser.zig","covered_class":"lineCov","covered":"89.1","covered_lines":"621","uncovered_lines":"76","total_lines" : "697"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-30 12:35:19", "instrumented" : 5061, "covered" : 4770,};
+var header = { "command" : "test", "date" : "2021-12-30 12:37:28", "instrumented" : 5061, "covered" : 4770,};
 var merged_data = [];
