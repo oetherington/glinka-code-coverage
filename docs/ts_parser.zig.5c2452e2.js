@@ -107,5 +107,5 @@ var data = {lines:[
 {"lineNum":"  106","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-30 12:18:16", "instrumented" : 31, "covered" : 28,};
+var header = { "command" : "test", "date" : "2021-12-30 12:25:10", "instrumented" : 31, "covered" : 28,};
 var merged_data = [];
