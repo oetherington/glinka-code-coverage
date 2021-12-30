@@ -23,11 +23,11 @@ var data = {lines:[
 {"lineNum":"   22","line":"    errorOnImplicitAny: bool = true,"},
 {"lineNum":"   23","line":"};"},
 {"lineNum":"   24","line":""},
-{"lineNum":"   25","line":"test \"config can be initialized\" {","class":"lineCov","hits":"2","order":"328","possible_hits":"2",},
+{"lineNum":"   25","line":"test \"config can be initialized\" {","class":"lineCov","hits":"2","order":"330","possible_hits":"2",},
 {"lineNum":"   26","line":"    const cfg = Config{};"},
-{"lineNum":"   27","line":"    try expect(cfg.errorOnImplicitAny);","class":"lineCov","hits":"1","order":"329","possible_hits":"1",},
+{"lineNum":"   27","line":"    try expect(cfg.errorOnImplicitAny);","class":"lineCov","hits":"1","order":"331","possible_hits":"1",},
 {"lineNum":"   28","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-30 12:50:24", "instrumented" : 2, "covered" : 2,};
+var header = { "command" : "test", "date" : "2021-12-30 19:23:58", "instrumented" : 2, "covered" : 2,};
 var merged_data = [];
