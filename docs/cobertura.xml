@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage line-rate="0.950" lines-covered="5525" lines-valid="5816" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1640974775">
+<coverage line-rate="0.949" lines-covered="5525" lines-valid="5822" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1640978351">
 	<sources>
 		<source>/home/runner/work/glinka/glinka/src/</source>
 	</sources>
 	<packages>
-		<package name="test" line-rate="0.950" lines-covered="5525" lines-valid="5816" branch-rate="1.0" complexity="1.0">
+		<package name="test" line-rate="0.949" lines-covered="5525" lines-valid="5822" branch-rate="1.0" complexity="1.0">
 			<classes>
 				<class name="generic_eql_zig" filename="common/generic_eql.zig" branch-rate="1.0" complexity="1.0" line-rate="0.880">
 					<lines>
@@ -2593,16 +2593,22 @@
 						<line number="40" hits="0"/>
 						<line number="41" hits="0"/>
 						<line number="42" hits="0"/>
+						<line number="44" hits="0"/>
+						<line number="45" hits="0"/>
+						<line number="47" hits="0"/>
 						<line number="48" hits="0"/>
-						<line number="49" hits="0"/>
+						<line number="50" hits="0"/>
 						<line number="51" hits="0"/>
-						<line number="52" hits="0"/>
-						<line number="56" hits="0"/>
 						<line number="58" hits="0"/>
 						<line number="59" hits="0"/>
 						<line number="61" hits="0"/>
 						<line number="62" hits="0"/>
-						<line number="63" hits="0"/>
+						<line number="64" hits="0"/>
+						<line number="66" hits="0"/>
+						<line number="67" hits="0"/>
+						<line number="69" hits="0"/>
+						<line number="70" hits="0"/>
+						<line number="71" hits="0"/>
 					</lines>
 				</class>
 				<class name="lexer_zig" filename="frontend/lexer.zig" branch-rate="1.0" complexity="1.0" line-rate="1.000">

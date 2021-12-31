@@ -38,7 +38,7 @@ var data = {files:[
 {"link":"config.zig.9653cad0.html","title":"config.zig","summary_name":"[...]/glinka/src/common/config.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"2","uncovered_lines":"0","total_lines" : "2"},
 {"link":"ternary.zig.9b37d7e5.html","title":"ternary.zig","summary_name":"[...]/glinka/src/common/node_data/ternary.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"21","uncovered_lines":"0","total_lines" : "21"},
 {"link":"loop_emitter.zig.bb780502.html","title":"loop_emitter.zig","summary_name":"[...]/glinka/src/backends/js/loop_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"110","uncovered_lines":"0","total_lines" : "110"},
-{"link":"main.zig.9681a2b2.html","title":"main.zig","summary_name":"[...]/glinka/src/main.zig","covered_class":"lineNoCov","covered":"0.0","covered_lines":"0","uncovered_lines":"15","total_lines" : "15"},
+{"link":"main.zig.9681a2b2.html","title":"main.zig","summary_name":"[...]/glinka/src/main.zig","covered_class":"lineNoCov","covered":"0.0","covered_lines":"0","uncovered_lines":"21","total_lines" : "21"},
 {"link":"lexer.zig.372a4ce8.html","title":"lexer.zig","summary_name":"[...]/glinka/src/frontend/lexer.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"299","uncovered_lines":"0","total_lines" : "299"},
 {"link":"union_type.zig.8bde4bd5.html","title":"union_type.zig","summary_name":"[...]/glinka/src/common/types/union_type.zig","covered_class":"lineCov","covered":"97.8","covered_lines":"44","uncovered_lines":"1","total_lines" : "45"},
 {"link":"decl.zig.60466462.html","title":"decl.zig","summary_name":"[...]/glinka/src/common/node_data/decl.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"44","uncovered_lines":"0","total_lines" : "44"},
@@ -77,5 +77,5 @@ var data = {files:[
 {"link":"throw_emitter.zig.7442c435.html","title":"throw_emitter.zig","summary_name":"[...]/glinka/src/backends/js/throw_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"41","uncovered_lines":"0","total_lines" : "41"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-31 18:19:35", "instrumented" : 5816, "covered" : 5525,};
+var header = { "command" : "test", "date" : "2021-12-31 19:19:11", "instrumented" : 5822, "covered" : 5525,};
 var merged_data = [];

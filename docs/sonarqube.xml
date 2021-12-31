@@ -2507,16 +2507,22 @@
 		<lineToCover lineNumber="40" covered="false"/>
 		<lineToCover lineNumber="41" covered="false"/>
 		<lineToCover lineNumber="42" covered="false"/>
+		<lineToCover lineNumber="44" covered="false"/>
+		<lineToCover lineNumber="45" covered="false"/>
+		<lineToCover lineNumber="47" covered="false"/>
 		<lineToCover lineNumber="48" covered="false"/>
-		<lineToCover lineNumber="49" covered="false"/>
+		<lineToCover lineNumber="50" covered="false"/>
 		<lineToCover lineNumber="51" covered="false"/>
-		<lineToCover lineNumber="52" covered="false"/>
-		<lineToCover lineNumber="56" covered="false"/>
 		<lineToCover lineNumber="58" covered="false"/>
 		<lineToCover lineNumber="59" covered="false"/>
 		<lineToCover lineNumber="61" covered="false"/>
 		<lineToCover lineNumber="62" covered="false"/>
-		<lineToCover lineNumber="63" covered="false"/>
+		<lineToCover lineNumber="64" covered="false"/>
+		<lineToCover lineNumber="66" covered="false"/>
+		<lineToCover lineNumber="67" covered="false"/>
+		<lineToCover lineNumber="69" covered="false"/>
+		<lineToCover lineNumber="70" covered="false"/>
+		<lineToCover lineNumber="71" covered="false"/>
 	</file>
 	<file path="/home/runner/work/glinka/glinka/src/frontend/lexer.zig">
 		<lineToCover lineNumber="79" covered="true"/>
