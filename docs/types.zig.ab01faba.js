@@ -26,12 +26,12 @@ var data = {lines:[
 {"lineNum":"   25","line":"const CompilerTestCase = @import(\"compiler_test_case.zig\").CompilerTestCase;"},
 {"lineNum":"   26","line":"const allocate = @import(\"../common/allocate.zig\");"},
 {"lineNum":"   27","line":""},
-{"lineNum":"   28","line":"pub fn processAlias(cmp: *Compiler, nd: Node) void {","class":"lineCov","hits":"2","order":"3795","possible_hits":"2",},
-{"lineNum":"   29","line":"    std.debug.assert(nd.getType() == NodeType.Alias);","class":"lineCov","hits":"1","order":"3796","possible_hits":"1",},
+{"lineNum":"   28","line":"pub fn processAlias(cmp: *Compiler, nd: Node) void {","class":"lineCov","hits":"2","order":"4411","possible_hits":"2",},
+{"lineNum":"   29","line":"    std.debug.assert(nd.getType() == NodeType.Alias);","class":"lineCov","hits":"1","order":"4412","possible_hits":"1",},
 {"lineNum":"   30","line":""},
-{"lineNum":"   31","line":"    const alias = nd.data.Alias;","class":"linePartCov","hits":"2","order":"3797","possible_hits":"3",},
-{"lineNum":"   32","line":"    const name = alias.name;","class":"lineCov","hits":"1","order":"3798","possible_hits":"1",},
-{"lineNum":"   33","line":"    const ty = cmp.findType(alias.value) orelse {","class":"lineCov","hits":"2","order":"3799","possible_hits":"2",},
+{"lineNum":"   31","line":"    const alias = nd.data.Alias;","class":"linePartCov","hits":"2","order":"4413","possible_hits":"3",},
+{"lineNum":"   32","line":"    const name = alias.name;","class":"lineCov","hits":"1","order":"4414","possible_hits":"1",},
+{"lineNum":"   33","line":"    const ty = cmp.findType(alias.value) orelse {","class":"lineCov","hits":"2","order":"4415","possible_hits":"2",},
 {"lineNum":"   34","line":"        cmp.errors.append(CompileError.genericError(","class":"lineNoCov","hits":"0","possible_hits":"2",},
 {"lineNum":"   35","line":"            GenericError.new(nd.csr, cmp.fmt(","class":"lineNoCov","hits":"0","possible_hits":"2",},
 {"lineNum":"   36","line":"                \"Target type for alias \'{s}\' cannot be resolved\","},
@@ -41,15 +41,15 @@ var data = {lines:[
 {"lineNum":"   40","line":"        return;","class":"lineNoCov","hits":"0","possible_hits":"1",},
 {"lineNum":"   41","line":"    };"},
 {"lineNum":"   42","line":""},
-{"lineNum":"   43","line":"    cmp.scope.putType(name, ty);","class":"lineCov","hits":"1","order":"3808","possible_hits":"1",},
+{"lineNum":"   43","line":"    cmp.scope.putType(name, ty);","class":"lineCov","hits":"1","order":"4424","possible_hits":"1",},
 {"lineNum":"   44","line":"}"},
 {"lineNum":"   45","line":""},
-{"lineNum":"   46","line":"test \"can compile a type alias declaration\" {","class":"lineCov","hits":"2","order":"3792","possible_hits":"2",},
-{"lineNum":"   47","line":"    try (CompilerTestCase{","class":"lineCov","hits":"1","order":"3809","possible_hits":"1",},
+{"lineNum":"   46","line":"test \"can compile a type alias declaration\" {","class":"lineCov","hits":"2","order":"4408","possible_hits":"2",},
+{"lineNum":"   47","line":"    try (CompilerTestCase{","class":"lineCov","hits":"1","order":"4425","possible_hits":"1",},
 {"lineNum":"   48","line":"        .code = \"type ATypeAlias = number | boolean;\","},
-{"lineNum":"   49","line":"    }).run();","class":"lineCov","hits":"1","order":"3793","possible_hits":"1",},
+{"lineNum":"   49","line":"    }).run();","class":"lineCov","hits":"1","order":"4409","possible_hits":"1",},
 {"lineNum":"   50","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-30 19:23:58", "instrumented" : 14, "covered" : 9,};
+var header = { "command" : "test", "date" : "2021-12-31 18:16:32", "instrumented" : 14, "covered" : 9,};
 var merged_data = [];
