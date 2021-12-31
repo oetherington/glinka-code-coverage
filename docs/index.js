@@ -77,5 +77,5 @@ var data = {files:[
 {"link":"throw_emitter.zig.7442c435.html","title":"throw_emitter.zig","summary_name":"[...]/glinka/src/backends/js/throw_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"41","uncovered_lines":"0","total_lines" : "41"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-31 18:16:32", "instrumented" : 5816, "covered" : 5525,};
+var header = { "command" : "test", "date" : "2021-12-31 18:19:35", "instrumented" : 5816, "covered" : 5525,};
 var merged_data = [];

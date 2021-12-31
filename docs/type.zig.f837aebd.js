@@ -547,5 +547,5 @@ var data = {lines:[
 {"lineNum":"  546","line":"// TODO: Add test for writing an interface type"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-31 18:16:32", "instrumented" : 301, "covered" : 289,};
+var header = { "command" : "test", "date" : "2021-12-31 18:19:35", "instrumented" : 301, "covered" : 289,};
 var merged_data = [];
