@@ -42,11 +42,11 @@ var data = {lines:[
 {"lineNum":"   41","line":"        try self.callbacks.epilog(self);","class":"lineCov","hits":"1","order":"134","possible_hits":"1",},
 {"lineNum":"   42","line":"    }"},
 {"lineNum":"   43","line":""},
-{"lineNum":"   44","line":"    pub fn processNode(self: *Backend, nd: Node) Error!void {","class":"lineCov","hits":"2","order":"3866","possible_hits":"2",},
-{"lineNum":"   45","line":"        try self.callbacks.processNode(self, nd);","class":"lineCov","hits":"1","order":"3867","possible_hits":"1",},
+{"lineNum":"   44","line":"    pub fn processNode(self: *Backend, nd: Node) Error!void {","class":"lineCov","hits":"2","order":"3962","possible_hits":"2",},
+{"lineNum":"   45","line":"        try self.callbacks.processNode(self, nd);","class":"lineCov","hits":"1","order":"3963","possible_hits":"1",},
 {"lineNum":"   46","line":"    }"},
 {"lineNum":"   47","line":"};"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-31 19:19:11", "instrumented" : 6, "covered" : 6,};
+var header = { "command" : "test", "date" : "2022-01-02 21:08:39", "instrumented" : 6, "covered" : 6,};
 var merged_data = [];

@@ -257,13 +257,13 @@ var data = {lines:[
 {"lineNum":"  256","line":"                \'0\'...\'9\' => return self.number(),","class":"lineCov","hits":"1","order":"376","possible_hits":"1",},
 {"lineNum":"  257","line":"                \'\\\'\', \'\"\', \'`\' => return self.string(),","class":"lineCov","hits":"1","order":"541","possible_hits":"1",},
 {"lineNum":"  258","line":"                \'{\' => return self.atom(Token.Type.LBrace),","class":"lineCov","hits":"1","order":"382","possible_hits":"1",},
-{"lineNum":"  259","line":"                \'}\' => return self.atom(Token.Type.RBrace),","class":"lineCov","hits":"1","order":"2609","possible_hits":"1",},
-{"lineNum":"  260","line":"                \'[\' => return self.atom(Token.Type.LBrack),","class":"lineCov","hits":"1","order":"2542","possible_hits":"1",},
-{"lineNum":"  261","line":"                \']\' => return self.atom(Token.Type.RBrack),","class":"lineCov","hits":"1","order":"2562","possible_hits":"1",},
-{"lineNum":"  262","line":"                \'(\' => return self.atom(Token.Type.LParen),","class":"lineCov","hits":"1","order":"2450","possible_hits":"1",},
-{"lineNum":"  263","line":"                \')\' => return self.atom(Token.Type.RParen),","class":"lineCov","hits":"1","order":"2484","possible_hits":"1",},
-{"lineNum":"  264","line":"                \',\' => return self.atom(Token.Type.Comma),","class":"lineCov","hits":"1","order":"2552","possible_hits":"1",},
-{"lineNum":"  265","line":"                \':\' => return self.atom(Token.Type.Colon),","class":"lineCov","hits":"1","order":"2595","possible_hits":"1",},
+{"lineNum":"  259","line":"                \'}\' => return self.atom(Token.Type.RBrace),","class":"lineCov","hits":"1","order":"2650","possible_hits":"1",},
+{"lineNum":"  260","line":"                \'[\' => return self.atom(Token.Type.LBrack),","class":"lineCov","hits":"1","order":"2583","possible_hits":"1",},
+{"lineNum":"  261","line":"                \']\' => return self.atom(Token.Type.RBrack),","class":"lineCov","hits":"1","order":"2603","possible_hits":"1",},
+{"lineNum":"  262","line":"                \'(\' => return self.atom(Token.Type.LParen),","class":"lineCov","hits":"1","order":"2491","possible_hits":"1",},
+{"lineNum":"  263","line":"                \')\' => return self.atom(Token.Type.RParen),","class":"lineCov","hits":"1","order":"2525","possible_hits":"1",},
+{"lineNum":"  264","line":"                \',\' => return self.atom(Token.Type.Comma),","class":"lineCov","hits":"1","order":"2593","possible_hits":"1",},
+{"lineNum":"  265","line":"                \':\' => return self.atom(Token.Type.Colon),","class":"lineCov","hits":"1","order":"2636","possible_hits":"1",},
 {"lineNum":"  266","line":"                \';\' => return self.atom(Token.Type.Semi),","class":"lineCov","hits":"1","order":"602","possible_hits":"1",},
 {"lineNum":"  267","line":"                \'/\' => {"},
 {"lineNum":"  268","line":"                    if (self.index + 1 >= self.code.len)","class":"linePartCov","hits":"2","order":"437","possible_hits":"3",},
@@ -306,8 +306,8 @@ var data = {lines:[
 {"lineNum":"  305","line":"                            continue :nextLoop;","class":"lineCov","hits":"1","order":"470","possible_hits":"1",},
 {"lineNum":"  306","line":"                        },"},
 {"lineNum":"  307","line":"                        else => {"},
-{"lineNum":"  308","line":"                            self.index -= 1;","class":"linePartCov","hits":"1","order":"2934","possible_hits":"2",},
-{"lineNum":"  309","line":"                            return self.operator();","class":"lineCov","hits":"1","order":"2935","possible_hits":"1",},
+{"lineNum":"  308","line":"                            self.index -= 1;","class":"linePartCov","hits":"1","order":"2975","possible_hits":"2",},
+{"lineNum":"  309","line":"                            return self.operator();","class":"lineCov","hits":"1","order":"2976","possible_hits":"1",},
 {"lineNum":"  310","line":"                        },"},
 {"lineNum":"  311","line":"                    }"},
 {"lineNum":"  312","line":"                },"},
@@ -579,5 +579,5 @@ var data = {lines:[
 {"lineNum":"  578","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2021-12-31 19:19:11", "instrumented" : 299, "covered" : 299,};
+var header = { "command" : "test", "date" : "2022-01-02 21:08:39", "instrumented" : 299, "covered" : 299,};
 var merged_data = [];

@@ -25,7 +25,7 @@
     {"file": "/home/runner/work/glinka/glinka/src/compiler/expression.zig", "percent_covered": "100.00", "covered_lines": "56", "total_lines": "56"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/block.zig", "percent_covered": "100.00", "covered_lines": "10", "total_lines": "10"},
     {"file": "/home/runner/work/glinka/glinka/src/common/cursor.zig", "percent_covered": "100.00", "covered_lines": "20", "total_lines": "20"},
-    {"file": "/home/runner/work/glinka/glinka/src/common/node_data/object.zig", "percent_covered": "100.00", "covered_lines": "40", "total_lines": "40"},
+    {"file": "/home/runner/work/glinka/glinka/src/common/node_data/object.zig", "percent_covered": "100.00", "covered_lines": "77", "total_lines": "77"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/for.zig", "percent_covered": "100.00", "covered_lines": "67", "total_lines": "67"},
     {"file": "/home/runner/work/glinka/glinka/src/common/types/type.zig", "percent_covered": "96.01", "covered_lines": "289", "total_lines": "301"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/compiler_test_case.zig", "percent_covered": "97.30", "covered_lines": "36", "total_lines": "37"},
@@ -46,7 +46,7 @@
     {"file": "/home/runner/work/glinka/glinka/src/compiler/errors/report_test_case.zig", "percent_covered": "100.00", "covered_lines": "7", "total_lines": "7"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/call.zig", "percent_covered": "100.00", "covered_lines": "21", "total_lines": "21"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/unary_op.zig", "percent_covered": "100.00", "covered_lines": "22", "total_lines": "22"},
-    {"file": "/home/runner/work/glinka/glinka/src/common/node.zig", "percent_covered": "97.58", "covered_lines": "121", "total_lines": "124"},
+    {"file": "/home/runner/work/glinka/glinka/src/common/node.zig", "percent_covered": "97.66", "covered_lines": "125", "total_lines": "128"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/errors/error_context.zig", "percent_covered": "90.91", "covered_lines": "30", "total_lines": "33"},
     {"file": "/home/runner/work/glinka/glinka/src/common/backend.zig", "percent_covered": "100.00", "covered_lines": "6", "total_lines": "6"},
     {"file": "/home/runner/work/glinka/glinka/src/common/writer.zig", "percent_covered": "100.00", "covered_lines": "88", "total_lines": "88"},
@@ -66,7 +66,7 @@
     {"file": "/home/runner/work/glinka/glinka/src/compiler/errors/return_error.zig", "percent_covered": "100.00", "covered_lines": "27", "total_lines": "27"},
     {"file": "/home/runner/work/glinka/glinka/src/frontend/stmt_parser.zig", "percent_covered": "89.27", "covered_lines": "649", "total_lines": "727"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/declaration.zig", "percent_covered": "82.76", "covered_lines": "72", "total_lines": "87"},
-    {"file": "/home/runner/work/glinka/glinka/src/frontend/type_parser.zig", "percent_covered": "97.58", "covered_lines": "161", "total_lines": "165"},
+    {"file": "/home/runner/work/glinka/glinka/src/frontend/type_parser.zig", "percent_covered": "95.58", "covered_lines": "216", "total_lines": "226"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/throw.zig", "percent_covered": "100.00", "covered_lines": "29", "total_lines": "29"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/function.zig", "percent_covered": "100.00", "covered_lines": "147", "total_lines": "147"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/binary_op.zig", "percent_covered": "100.00", "covered_lines": "19", "total_lines": "19"},
@@ -77,11 +77,11 @@
     {"file": "/home/runner/work/glinka/glinka/src/backends/js/js_backend.zig", "percent_covered": "95.00", "covered_lines": "57", "total_lines": "60"},
     {"file": "/home/runner/work/glinka/glinka/src/backends/js/throw_emitter.zig", "percent_covered": "100.00", "covered_lines": "41", "total_lines": "41"}
   ],
-  "percent_covered": "94.90",
-  "covered_lines": 5525,
-  "total_lines": 5822,
+  "percent_covered": "94.89",
+  "covered_lines": 5621,
+  "total_lines": 5924,
   "percent_low": 25,
   "percent_high": 75,
   "command": "test",
-  "date": "2021-12-31 19:19:11"
+  "date": "2022-01-02 21:08:39"
 }
