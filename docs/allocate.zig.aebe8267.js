@@ -23,8 +23,8 @@ var data = {lines:[
 {"lineNum":"   22","line":"    return a.create(T) catch reportAndExit();","class":"lineCov","hits":"2","order":"223","possible_hits":"2",},
 {"lineNum":"   23","line":"}"},
 {"lineNum":"   24","line":""},
-{"lineNum":"   25","line":"pub fn alloc(a: Allocator, comptime T: type, n: usize) []T {","class":"lineCov","hits":"1","order":"2148","possible_hits":"1",},
-{"lineNum":"   26","line":"    return a.alloc(T, n) catch reportAndExit();","class":"lineCov","hits":"1","order":"2149","possible_hits":"1",},
+{"lineNum":"   25","line":"pub fn alloc(a: Allocator, comptime T: type, n: usize) []T {","class":"lineCov","hits":"1","order":"2176","possible_hits":"1",},
+{"lineNum":"   26","line":"    return a.alloc(T, n) catch reportAndExit();","class":"lineCov","hits":"1","order":"2177","possible_hits":"1",},
 {"lineNum":"   27","line":"}"},
 {"lineNum":"   28","line":""},
 {"lineNum":"   29","line":"pub fn reportAndExit() noreturn {","class":"lineNoCov","hits":"0","possible_hits":"1",},
@@ -35,5 +35,5 @@ var data = {lines:[
 {"lineNum":"   34","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-03 22:01:04", "instrumented" : 9, "covered" : 4,};
+var header = { "command" : "test", "date" : "2022-01-05 21:30:20", "instrumented" : 9, "covered" : 4,};
 var merged_data = [];

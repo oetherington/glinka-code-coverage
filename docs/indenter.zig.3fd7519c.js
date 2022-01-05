@@ -34,16 +34,16 @@ var data = {lines:[
 {"lineNum":"   33","line":"    try writer.print(fmt, args);","class":"linePartCov","hits":"51","order":"756","possible_hits":"100",},
 {"lineNum":"   34","line":"}"},
 {"lineNum":"   35","line":""},
-{"lineNum":"   36","line":"test \"can format strings with indentation\" {","class":"lineCov","hits":"3","order":"4655","possible_hits":"3",},
-{"lineNum":"   37","line":"    const ctx = try WriteContext(.{}).new(std.testing.allocator);","class":"lineCov","hits":"1","order":"4656","possible_hits":"1",},
-{"lineNum":"   38","line":"    defer ctx.deinit();","class":"linePartCov","hits":"1","order":"4662","possible_hits":"5",},
-{"lineNum":"   39","line":"    try putInd(ctx.writer(), 0, \"hello {s}\\n\", .{\"world\"});","class":"linePartCov","hits":"1","order":"4657","possible_hits":"2",},
-{"lineNum":"   40","line":"    try putInd(ctx.writer(), 4, \"hello {s}\\n\", .{\"world\"});","class":"linePartCov","hits":"1","order":"4658","possible_hits":"2",},
-{"lineNum":"   41","line":"    const str = try ctx.toString();","class":"linePartCov","hits":"1","order":"4659","possible_hits":"2",},
-{"lineNum":"   42","line":"    defer ctx.freeString(str);","class":"linePartCov","hits":"1","order":"4661","possible_hits":"2",},
-{"lineNum":"   43","line":"    try expectEqualStrings(\"hello world\\n    hello world\\n\", str);","class":"linePartCov","hits":"1","order":"4660","possible_hits":"2",},
+{"lineNum":"   36","line":"test \"can format strings with indentation\" {","class":"lineCov","hits":"3","order":"4682","possible_hits":"3",},
+{"lineNum":"   37","line":"    const ctx = try WriteContext(.{}).new(std.testing.allocator);","class":"lineCov","hits":"1","order":"4683","possible_hits":"1",},
+{"lineNum":"   38","line":"    defer ctx.deinit();","class":"linePartCov","hits":"1","order":"4689","possible_hits":"5",},
+{"lineNum":"   39","line":"    try putInd(ctx.writer(), 0, \"hello {s}\\n\", .{\"world\"});","class":"linePartCov","hits":"1","order":"4684","possible_hits":"2",},
+{"lineNum":"   40","line":"    try putInd(ctx.writer(), 4, \"hello {s}\\n\", .{\"world\"});","class":"linePartCov","hits":"1","order":"4685","possible_hits":"2",},
+{"lineNum":"   41","line":"    const str = try ctx.toString();","class":"linePartCov","hits":"1","order":"4686","possible_hits":"2",},
+{"lineNum":"   42","line":"    defer ctx.freeString(str);","class":"linePartCov","hits":"1","order":"4688","possible_hits":"2",},
+{"lineNum":"   43","line":"    try expectEqualStrings(\"hello world\\n    hello world\\n\", str);","class":"linePartCov","hits":"1","order":"4687","possible_hits":"2",},
 {"lineNum":"   44","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-03 22:01:04", "instrumented" : 14, "covered" : 14,};
+var header = { "command" : "test", "date" : "2022-01-05 21:30:20", "instrumented" : 14, "covered" : 14,};
 var merged_data = [];
