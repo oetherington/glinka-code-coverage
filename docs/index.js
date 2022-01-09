@@ -80,5 +80,5 @@ var data = {files:[
 {"link":"types.zig.ab01faba.html","title":"types.zig","summary_name":"[...]/glinka/src/compiler/types.zig","covered_class":"linePartCov","covered":"64.3","covered_lines":"9","uncovered_lines":"5","total_lines" : "14"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-08 20:31:10", "instrumented" : 6145, "covered" : 5808,};
+var header = { "command" : "test", "date" : "2022-01-09 12:39:00", "instrumented" : 6145, "covered" : 5808,};
 var merged_data = [];
