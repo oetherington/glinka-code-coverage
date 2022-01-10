@@ -24,13 +24,13 @@ var data = {lines:[
 {"lineNum":"   23","line":"        return false;","class":"lineNoCov","hits":"0","possible_hits":"10",},
 {"lineNum":"   24","line":"    if (a.ptr == b.ptr)","class":"linePartCov","hits":"6","order":"840","possible_hits":"20",},
 {"lineNum":"   25","line":"        return true;","class":"linePartCov","hits":"3","order":"841","possible_hits":"10",},
-{"lineNum":"   26","line":"    for (a) |item, index| {","class":"linePartCov","hits":"6","order":"1020","possible_hits":"20",},
+{"lineNum":"   26","line":"    for (a) |item, index| {","class":"linePartCov","hits":"6","order":"1034","possible_hits":"20",},
 {"lineNum":"   27","line":"        switch (@typeInfo(T)) {"},
 {"lineNum":"   28","line":"            .Struct => if (!b[index].eql(item)) return false,","class":"lineNoCov","hits":"0","possible_hits":"14",},
-{"lineNum":"   29","line":"            else => if (b[index] != item) return false,","class":"linePartCov","hits":"3","order":"1021","possible_hits":"6",},
+{"lineNum":"   29","line":"            else => if (b[index] != item) return false,","class":"linePartCov","hits":"3","order":"1035","possible_hits":"6",},
 {"lineNum":"   30","line":"        }"},
 {"lineNum":"   31","line":"    }"},
-{"lineNum":"   32","line":"    return true;","class":"linePartCov","hits":"3","order":"1187","possible_hits":"10",},
+{"lineNum":"   32","line":"    return true;","class":"linePartCov","hits":"3","order":"1201","possible_hits":"10",},
 {"lineNum":"   33","line":"}"},
 {"lineNum":"   34","line":""},
 {"lineNum":"   35","line":"/// This is the same as std.meta.eql except slices are compared with"},
@@ -97,5 +97,5 @@ var data = {lines:[
 {"lineNum":"   96","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-10 07:49:02", "instrumented" : 25, "covered" : 22,};
+var header = { "command" : "test", "date" : "2022-01-10 08:51:49", "instrumented" : 25, "covered" : 22,};
 var merged_data = [];
