@@ -105,8 +105,8 @@ var data = {lines:[
 {"lineNum":"  104","line":"            .Enum => @panic(\"TODO hash Enum\"),","class":"lineNoCov","hits":"0","possible_hits":"1",},
 {"lineNum":"  105","line":"            .Function => |f| f.hash(),","class":"lineCov","hits":"1","order":"1625","possible_hits":"1",},
 {"lineNum":"  106","line":"            .Union => |un| un.hash(),","class":"lineCov","hits":"1","order":"217","possible_hits":"1",},
-{"lineNum":"  107","line":"            .Alias => |al| al.hash(),","class":"lineCov","hits":"1","order":"4856","possible_hits":"1",},
-{"lineNum":"  108","line":"            .Interface => |in| in.hash(),","class":"lineCov","hits":"1","order":"4884","possible_hits":"1",},
+{"lineNum":"  107","line":"            .Alias => |al| al.hash(),","class":"lineCov","hits":"1","order":"4871","possible_hits":"1",},
+{"lineNum":"  108","line":"            .Interface => |in| in.hash(),","class":"lineCov","hits":"1","order":"4899","possible_hits":"1",},
 {"lineNum":"  109","line":"        };"},
 {"lineNum":"  110","line":"    }"},
 {"lineNum":"  111","line":""},
@@ -706,5 +706,5 @@ var data = {lines:[
 {"lineNum":"  705","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-11 07:31:37", "instrumented" : 413, "covered" : 398,};
+var header = { "command" : "test", "date" : "2022-01-11 20:42:28", "instrumented" : 413, "covered" : 398,};
 var merged_data = [];

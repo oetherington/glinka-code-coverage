@@ -59,8 +59,8 @@ var data = {lines:[
 {"lineNum":"   58","line":"                if (tag_a != tag_b) return false;","class":"linePartCov","hits":"2","order":"834","possible_hits":"3",},
 {"lineNum":"   59","line":""},
 {"lineNum":"   60","line":"                inline for (info.fields) |field_info| {"},
-{"lineNum":"   61","line":"                    if (@field(UnionTag, field_info.name) == tag_a) {","class":"linePartCov","hits":"37","order":"835","possible_hits":"64",},
-{"lineNum":"   62","line":"                        return eql(@field(a, field_info.name), @field(b, field_info.name));","class":"linePartCov","hits":"7","order":"836","possible_hits":"64",},
+{"lineNum":"   61","line":"                    if (@field(UnionTag, field_info.name) == tag_a) {","class":"linePartCov","hits":"36","order":"835","possible_hits":"63",},
+{"lineNum":"   62","line":"                        return eql(@field(a, field_info.name), @field(b, field_info.name));","class":"linePartCov","hits":"7","order":"836","possible_hits":"63",},
 {"lineNum":"   63","line":"                    }"},
 {"lineNum":"   64","line":"                }"},
 {"lineNum":"   65","line":"                return false;","class":"lineNoCov","hits":"0","possible_hits":"3",},
@@ -97,5 +97,5 @@ var data = {lines:[
 {"lineNum":"   96","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-11 07:31:37", "instrumented" : 25, "covered" : 22,};
+var header = { "command" : "test", "date" : "2022-01-11 20:42:28", "instrumented" : 25, "covered" : 22,};
 var merged_data = [];

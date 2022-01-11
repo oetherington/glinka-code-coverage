@@ -6,9 +6,9 @@ var data = {files:[
 {"link":"type_finder.zig.6f440704.html","title":"type_finder.zig","summary_name":"[...]/glinka/src/compiler/type_finder.zig","covered_class":"lineCov","covered":"95.9","covered_lines":"94","uncovered_lines":"4","total_lines" : "98"},
 {"link":"inferrer.zig.84ea1c8f.html","title":"inferrer.zig","summary_name":"[...]/glinka/src/compiler/inferrer.zig","covered_class":"lineCov","covered":"90.4","covered_lines":"369","uncovered_lines":"39","total_lines" : "408"},
 {"link":"expr_emitter.zig.e91aa658.html","title":"expr_emitter.zig","summary_name":"[...]/glinka/src/backends/js/expr_emitter.zig","covered_class":"lineCov","covered":"99.1","covered_lines":"212","uncovered_lines":"2","total_lines" : "214"},
-{"link":"function_emitter.zig.3ee426ee.html","title":"function_emitter.zig","summary_name":"[...]/glinka/src/backends/js/function_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"48","uncovered_lines":"0","total_lines" : "48"},
+{"link":"function_emitter.zig.3ee426ee.html","title":"function_emitter.zig","summary_name":"[...]/glinka/src/backends/js/function_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"83","uncovered_lines":"0","total_lines" : "83"},
 {"link":"indenter.zig.3fd7519c.html","title":"indenter.zig","summary_name":"[...]/glinka/src/common/node_data/indenter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
-{"link":"function.zig.bc596159.html","title":"function.zig","summary_name":"[...]/glinka/src/compiler/function.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"147","uncovered_lines":"0","total_lines" : "147"},
+{"link":"function.zig.bc596159.html","title":"function.zig","summary_name":"[...]/glinka/src/compiler/function.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"168","uncovered_lines":"0","total_lines" : "168"},
 {"link":"array_access.zig.ead2cf58.html","title":"array_access.zig","summary_name":"[...]/glinka/src/common/node_data/array_access.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"18","uncovered_lines":"0","total_lines" : "18"},
 {"link":"labelled.zig.c02615fb.html","title":"labelled.zig","summary_name":"[...]/glinka/src/common/node_data/labelled.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"15","uncovered_lines":"0","total_lines" : "15"},
 {"link":"loop_emitter.zig.bb780502.html","title":"loop_emitter.zig","summary_name":"[...]/glinka/src/backends/js/loop_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"110","uncovered_lines":"0","total_lines" : "110"},
@@ -63,7 +63,7 @@ var data = {files:[
 {"link":"backend.zig.4fc549b.html","title":"backend.zig","summary_name":"[...]/glinka/src/common/backend.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"6","uncovered_lines":"0","total_lines" : "6"},
 {"link":"writer.zig.c0df1213.html","title":"writer.zig","summary_name":"[...]/glinka/src/common/writer.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"88","uncovered_lines":"0","total_lines" : "88"},
 {"link":"context_error.zig.ebe83fed.html","title":"context_error.zig","summary_name":"[...]/glinka/src/compiler/errors/context_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"17","uncovered_lines":"0","total_lines" : "17"},
-{"link":"expr_parser.zig.6e8dbcf2.html","title":"expr_parser.zig","summary_name":"[...]/glinka/src/frontend/expr_parser.zig","covered_class":"lineCov","covered":"94.0","covered_lines":"537","uncovered_lines":"34","total_lines" : "571"},
+{"link":"expr_parser.zig.6e8dbcf2.html","title":"expr_parser.zig","summary_name":"[...]/glinka/src/frontend/expr_parser.zig","covered_class":"lineCov","covered":"94.0","covered_lines":"531","uncovered_lines":"34","total_lines" : "565"},
 {"link":"scope.zig.f36a7bd.html","title":"scope.zig","summary_name":"[...]/glinka/src/compiler/scope.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"123","uncovered_lines":"0","total_lines" : "123"},
 {"link":"typebook.zig.df9caca.html","title":"typebook.zig","summary_name":"[...]/glinka/src/compiler/typebook.zig","covered_class":"lineCov","covered":"98.8","covered_lines":"255","uncovered_lines":"3","total_lines" : "258"},
 {"link":"block_emitter.zig.ac32c588.html","title":"block_emitter.zig","summary_name":"[...]/glinka/src/backends/js/block_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"19","uncovered_lines":"0","total_lines" : "19"},
@@ -82,5 +82,5 @@ var data = {files:[
 {"link":"throw.zig.d8945f80.html","title":"throw.zig","summary_name":"[...]/glinka/src/compiler/throw.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"29","uncovered_lines":"0","total_lines" : "29"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-11 07:31:37", "instrumented" : 6434, "covered" : 6103,};
+var header = { "command" : "test", "date" : "2022-01-11 20:42:28", "instrumented" : 6484, "covered" : 6153,};
 var merged_data = [];

@@ -66,13 +66,13 @@ var data = {lines:[
 {"lineNum":"   65","line":"        };"},
 {"lineNum":"   66","line":"    }"},
 {"lineNum":"   67","line":""},
-{"lineNum":"   68","line":"    pub fn noMatchExpected(","class":"lineCov","hits":"1","order":"3782","possible_hits":"1",},
+{"lineNum":"   68","line":"    pub fn noMatchExpected(","class":"lineCov","hits":"1","order":"3776","possible_hits":"1",},
 {"lineNum":"   69","line":"        expectedData: anytype,"},
 {"lineNum":"   70","line":"        foundData: anytype,"},
 {"lineNum":"   71","line":"    ) ParseResult {"},
-{"lineNum":"   72","line":"        return ParseResult.noMatch(ParseError.expected(","class":"lineCov","hits":"1","order":"3785","possible_hits":"1",},
-{"lineNum":"   73","line":"            expectedData,","class":"lineCov","hits":"1","order":"3783","possible_hits":"1",},
-{"lineNum":"   74","line":"            foundData,","class":"lineCov","hits":"1","order":"3784","possible_hits":"1",},
+{"lineNum":"   72","line":"        return ParseResult.noMatch(ParseError.expected(","class":"lineCov","hits":"1","order":"3779","possible_hits":"1",},
+{"lineNum":"   73","line":"            expectedData,","class":"lineCov","hits":"1","order":"3777","possible_hits":"1",},
+{"lineNum":"   74","line":"            foundData,","class":"lineCov","hits":"1","order":"3778","possible_hits":"1",},
 {"lineNum":"   75","line":"        ));"},
 {"lineNum":"   76","line":"    }"},
 {"lineNum":"   77","line":""},
@@ -84,12 +84,12 @@ var data = {lines:[
 {"lineNum":"   83","line":"        return @as(Type, self) == .Success;","class":"lineCov","hits":"1","order":"662","possible_hits":"1",},
 {"lineNum":"   84","line":"    }"},
 {"lineNum":"   85","line":""},
-{"lineNum":"   86","line":"    pub fn isError(self: ParseResult) bool {","class":"lineCov","hits":"1","order":"4165","possible_hits":"1",},
-{"lineNum":"   87","line":"        return @as(Type, self) == .Error;","class":"lineCov","hits":"1","order":"4166","possible_hits":"1",},
+{"lineNum":"   86","line":"    pub fn isError(self: ParseResult) bool {","class":"lineCov","hits":"1","order":"4159","possible_hits":"1",},
+{"lineNum":"   87","line":"        return @as(Type, self) == .Error;","class":"lineCov","hits":"1","order":"4160","possible_hits":"1",},
 {"lineNum":"   88","line":"    }"},
 {"lineNum":"   89","line":""},
-{"lineNum":"   90","line":"    pub fn isNoMatch(self: ParseResult) bool {","class":"lineCov","hits":"1","order":"4168","possible_hits":"1",},
-{"lineNum":"   91","line":"        return @as(Type, self) == .NoMatch;","class":"lineCov","hits":"1","order":"4169","possible_hits":"1",},
+{"lineNum":"   90","line":"    pub fn isNoMatch(self: ParseResult) bool {","class":"lineCov","hits":"1","order":"4162","possible_hits":"1",},
+{"lineNum":"   91","line":"        return @as(Type, self) == .NoMatch;","class":"lineCov","hits":"1","order":"4163","possible_hits":"1",},
 {"lineNum":"   92","line":"    }"},
 {"lineNum":"   93","line":""},
 {"lineNum":"   94","line":"    pub fn reportIfError(self: ParseResult, writer: anytype) !void {","class":"lineCov","hits":"2","order":"2830","possible_hits":"2",},
@@ -171,5 +171,5 @@ var data = {lines:[
 {"lineNum":"  170","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-11 07:31:37", "instrumented" : 71, "covered" : 69,};
+var header = { "command" : "test", "date" : "2022-01-11 20:42:28", "instrumented" : 71, "covered" : 69,};
 var merged_data = [];

@@ -63,8 +63,8 @@ var data = {lines:[
 {"lineNum":"   62","line":"        CStyle: CStyleClause,"},
 {"lineNum":"   63","line":"        Each: EachClause,"},
 {"lineNum":"   64","line":""},
-{"lineNum":"   65","line":"        pub fn getType(self: Clause) Clause.Type {","class":"lineCov","hits":"1","order":"3895","possible_hits":"1",},
-{"lineNum":"   66","line":"            return @as(Clause.Type, self);","class":"lineCov","hits":"1","order":"3896","possible_hits":"1",},
+{"lineNum":"   65","line":"        pub fn getType(self: Clause) Clause.Type {","class":"lineCov","hits":"1","order":"3889","possible_hits":"1",},
+{"lineNum":"   66","line":"            return @as(Clause.Type, self);","class":"lineCov","hits":"1","order":"3890","possible_hits":"1",},
 {"lineNum":"   67","line":"        }"},
 {"lineNum":"   68","line":""},
 {"lineNum":"   69","line":"        pub fn dump(","class":"linePartCov","hits":"1","order":"1280","possible_hits":"2",},
@@ -104,8 +104,8 @@ var data = {lines:[
 {"lineNum":"  103","line":"        };"},
 {"lineNum":"  104","line":"    }"},
 {"lineNum":"  105","line":""},
-{"lineNum":"  106","line":"    pub fn getType(self: For) Clause.Type {","class":"lineCov","hits":"1","order":"3893","possible_hits":"1",},
-{"lineNum":"  107","line":"        return self.clause.getType();","class":"lineCov","hits":"1","order":"3894","possible_hits":"1",},
+{"lineNum":"  106","line":"    pub fn getType(self: For) Clause.Type {","class":"lineCov","hits":"1","order":"3887","possible_hits":"1",},
+{"lineNum":"  107","line":"        return self.clause.getType();","class":"lineCov","hits":"1","order":"3888","possible_hits":"1",},
 {"lineNum":"  108","line":"    }"},
 {"lineNum":"  109","line":""},
 {"lineNum":"  110","line":"    pub fn dump(","class":"linePartCov","hits":"1","order":"1277","possible_hits":"2",},
@@ -196,5 +196,5 @@ var data = {lines:[
 {"lineNum":"  195","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-11 07:31:37", "instrumented" : 67, "covered" : 67,};
+var header = { "command" : "test", "date" : "2022-01-11 20:42:28", "instrumented" : 67, "covered" : 67,};
 var merged_data = [];
