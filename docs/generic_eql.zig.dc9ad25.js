@@ -30,20 +30,20 @@ var data = {lines:[
 {"lineNum":"   29","line":"            else => if (b[index] != item) return false,","class":"linePartCov","hits":"3","order":"1035","possible_hits":"6",},
 {"lineNum":"   30","line":"        }"},
 {"lineNum":"   31","line":"    }"},
-{"lineNum":"   32","line":"    return true;","class":"linePartCov","hits":"3","order":"1201","possible_hits":"10",},
+{"lineNum":"   32","line":"    return true;","class":"linePartCov","hits":"3","order":"1206","possible_hits":"10",},
 {"lineNum":"   33","line":"}"},
 {"lineNum":"   34","line":""},
 {"lineNum":"   35","line":"/// This is the same as std.meta.eql except slices are compared with"},
 {"lineNum":"   36","line":"/// std.mem.eql instead of a simple pointer comparison"},
-{"lineNum":"   37","line":"pub fn eql(a: anytype, b: @TypeOf(a)) bool {","class":"linePartCov","hits":"27","order":"828","possible_hits":"68",},
+{"lineNum":"   37","line":"pub fn eql(a: anytype, b: @TypeOf(a)) bool {","class":"linePartCov","hits":"27","order":"828","possible_hits":"69",},
 {"lineNum":"   38","line":"    const T = @TypeOf(a);"},
 {"lineNum":"   39","line":""},
 {"lineNum":"   40","line":"    switch (@typeInfo(T)) {"},
 {"lineNum":"   41","line":"        .Struct => |info| {"},
 {"lineNum":"   42","line":"            inline for (info.fields) |field_info| {"},
-{"lineNum":"   43","line":"                if (!eql(@field(a, field_info.name), @field(b, field_info.name))) return false;","class":"linePartCov","hits":"14","order":"829","possible_hits":"39",},
+{"lineNum":"   43","line":"                if (!eql(@field(a, field_info.name), @field(b, field_info.name))) return false;","class":"linePartCov","hits":"14","order":"829","possible_hits":"40",},
 {"lineNum":"   44","line":"            }"},
-{"lineNum":"   45","line":"            return true;","class":"linePartCov","hits":"14","order":"831","possible_hits":"42",},
+{"lineNum":"   45","line":"            return true;","class":"linePartCov","hits":"14","order":"831","possible_hits":"43",},
 {"lineNum":"   46","line":"        },"},
 {"lineNum":"   47","line":"        .ErrorUnion => {"},
 {"lineNum":"   48","line":"            if (a) |a_p| {"},
@@ -97,5 +97,5 @@ var data = {lines:[
 {"lineNum":"   96","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-10 08:51:49", "instrumented" : 25, "covered" : 22,};
+var header = { "command" : "test", "date" : "2022-01-11 07:31:37", "instrumented" : 25, "covered" : 22,};
 var merged_data = [];
