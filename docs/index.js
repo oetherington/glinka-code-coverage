@@ -2,10 +2,10 @@ var data = {files:[
 {"link":"generic_eql.zig.dc9ad25.html","title":"generic_eql.zig","summary_name":"[...]/glinka/src/common/generic_eql.zig","covered_class":"lineCov","covered":"88.0","covered_lines":"22","uncovered_lines":"3","total_lines" : "25"},
 {"link":"allocate.zig.aebe8267.html","title":"allocate.zig","summary_name":"[...]/glinka/src/common/allocate.zig","covered_class":"linePartCov","covered":"44.4","covered_lines":"4","uncovered_lines":"5","total_lines" : "9"},
 {"link":"dump_test_case.zig.705ecbaa.html","title":"dump_test_case.zig","summary_name":"[...]/glinka/src/common/node_data/dump_test_case.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"8","uncovered_lines":"0","total_lines" : "8"},
-{"link":"driver.zig.9bd939d1.html","title":"driver.zig","summary_name":"[...]/glinka/src/common/driver.zig","covered_class":"lineNoCov","covered":"0.0","covered_lines":"0","uncovered_lines":"15","total_lines" : "15"},
+{"link":"driver.zig.9bd939d1.html","title":"driver.zig","summary_name":"[...]/glinka/src/common/driver.zig","covered_class":"lineNoCov","covered":"0.0","covered_lines":"0","uncovered_lines":"28","total_lines" : "28"},
 {"link":"type_finder.zig.6f440704.html","title":"type_finder.zig","summary_name":"[...]/glinka/src/compiler/type_finder.zig","covered_class":"lineCov","covered":"95.9","covered_lines":"94","uncovered_lines":"4","total_lines" : "98"},
-{"link":"inferrer.zig.84ea1c8f.html","title":"inferrer.zig","summary_name":"[...]/glinka/src/compiler/inferrer.zig","covered_class":"lineCov","covered":"90.4","covered_lines":"369","uncovered_lines":"39","total_lines" : "408"},
-{"link":"expr_emitter.zig.e91aa658.html","title":"expr_emitter.zig","summary_name":"[...]/glinka/src/backends/js/expr_emitter.zig","covered_class":"lineCov","covered":"99.1","covered_lines":"212","uncovered_lines":"2","total_lines" : "214"},
+{"link":"inferrer.zig.84ea1c8f.html","title":"inferrer.zig","summary_name":"[...]/glinka/src/compiler/inferrer.zig","covered_class":"lineCov","covered":"88.9","covered_lines":"392","uncovered_lines":"49","total_lines" : "441"},
+{"link":"expr_emitter.zig.e91aa658.html","title":"expr_emitter.zig","summary_name":"[...]/glinka/src/backends/js/expr_emitter.zig","covered_class":"lineCov","covered":"99.1","covered_lines":"225","uncovered_lines":"2","total_lines" : "227"},
 {"link":"function_emitter.zig.3ee426ee.html","title":"function_emitter.zig","summary_name":"[...]/glinka/src/backends/js/function_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"83","uncovered_lines":"0","total_lines" : "83"},
 {"link":"indenter.zig.3fd7519c.html","title":"indenter.zig","summary_name":"[...]/glinka/src/common/node_data/indenter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
 {"link":"function.zig.bc596159.html","title":"function.zig","summary_name":"[...]/glinka/src/compiler/function.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"168","uncovered_lines":"0","total_lines" : "168"},
@@ -43,9 +43,9 @@ var data = {files:[
 {"link":"do.zig.d129334b.html","title":"do.zig","summary_name":"[...]/glinka/src/common/node_data/do.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"20","uncovered_lines":"0","total_lines" : "20"},
 {"link":"switch.zig.24a4938.html","title":"switch.zig","summary_name":"[...]/glinka/src/common/node_data/switch.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"59","uncovered_lines":"0","total_lines" : "59"},
 {"link":"ts_parser.zig.5c2452e2.html","title":"ts_parser.zig","summary_name":"[...]/glinka/src/frontend/ts_parser.zig","covered_class":"lineCov","covered":"90.3","covered_lines":"28","uncovered_lines":"3","total_lines" : "31"},
-{"link":"compiler.zig.a7d41d09.html","title":"compiler.zig","summary_name":"[...]/glinka/src/compiler/compiler.zig","covered_class":"lineCov","covered":"87.6","covered_lines":"92","uncovered_lines":"13","total_lines" : "105"},
+{"link":"compiler.zig.a7d41d09.html","title":"compiler.zig","summary_name":"[...]/glinka/src/compiler/compiler.zig","covered_class":"lineCov","covered":"88.7","covered_lines":"102","uncovered_lines":"13","total_lines" : "115"},
 {"link":"config.zig.9653cad0.html","title":"config.zig","summary_name":"[...]/glinka/src/common/config.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"2","uncovered_lines":"0","total_lines" : "2"},
-{"link":"main.zig.9681a2b2.html","title":"main.zig","summary_name":"[...]/glinka/src/main.zig","covered_class":"lineNoCov","covered":"0.0","covered_lines":"0","uncovered_lines":"23","total_lines" : "23"},
+{"link":"main.zig.9681a2b2.html","title":"main.zig","summary_name":"[...]/glinka/src/main.zig","covered_class":"lineNoCov","covered":"0.0","covered_lines":"0","uncovered_lines":"36","total_lines" : "36"},
 {"link":"lexer.zig.372a4ce8.html","title":"lexer.zig","summary_name":"[...]/glinka/src/frontend/lexer.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"288","uncovered_lines":"0","total_lines" : "288"},
 {"link":"error_context.zig.b69ff614.html","title":"error_context.zig","summary_name":"[...]/glinka/src/compiler/errors/error_context.zig","covered_class":"lineCov","covered":"90.9","covered_lines":"30","uncovered_lines":"3","total_lines" : "33"},
 {"link":"report_test_case.zig.97ca736c.html","title":"report_test_case.zig","summary_name":"[...]/glinka/src/compiler/errors/report_test_case.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"7","uncovered_lines":"0","total_lines" : "7"},
@@ -82,5 +82,5 @@ var data = {files:[
 {"link":"throw.zig.d8945f80.html","title":"throw.zig","summary_name":"[...]/glinka/src/compiler/throw.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"29","uncovered_lines":"0","total_lines" : "29"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-11 20:42:28", "instrumented" : 6484, "covered" : 6153,};
+var header = { "command" : "test", "date" : "2022-01-12 21:56:54", "instrumented" : 6566, "covered" : 6199,};
 var merged_data = [];
