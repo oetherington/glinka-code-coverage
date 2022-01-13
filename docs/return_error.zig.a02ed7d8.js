@@ -40,9 +40,9 @@ var data = {lines:[
 {"lineNum":"   39","line":""},
 {"lineNum":"   40","line":"    pub fn report(self: ReturnError, writer: anytype) !void {","class":"linePartCov","hits":"2","order":"2661","possible_hits":"4",},
 {"lineNum":"   41","line":"        if (self.expectedTy.getType() == .Void) {","class":"linePartCov","hits":"3","order":"2662","possible_hits":"6",},
-{"lineNum":"   42","line":"            try writer.print(","class":"linePartCov","hits":"1","order":"4866","possible_hits":"2",},
+{"lineNum":"   42","line":"            try writer.print(","class":"linePartCov","hits":"1","order":"4869","possible_hits":"2",},
 {"lineNum":"   43","line":"                \"Error: {d}:{d}: Cannot return a value from a void function\","},
-{"lineNum":"   44","line":"                .{ self.csr.ln, self.csr.ch },","class":"linePartCov","hits":"1","order":"4865","possible_hits":"2",},
+{"lineNum":"   44","line":"                .{ self.csr.ln, self.csr.ch },","class":"linePartCov","hits":"1","order":"4868","possible_hits":"2",},
 {"lineNum":"   45","line":"            );"},
 {"lineNum":"   46","line":"        } else if (self.actualTy) |actualTy| {","class":"linePartCov","hits":"2","order":"2663","possible_hits":"4",},
 {"lineNum":"   47","line":"            try writer.print(","class":"linePartCov","hits":"1","order":"2665","possible_hits":"2",},
@@ -53,11 +53,11 @@ var data = {lines:[
 {"lineNum":"   52","line":"            try writer.print(\" from a function returning \", .{});","class":"linePartCov","hits":"1","order":"2667","possible_hits":"2",},
 {"lineNum":"   53","line":"            try self.expectedTy.write(writer);","class":"linePartCov","hits":"1","order":"2668","possible_hits":"2",},
 {"lineNum":"   54","line":"        } else {"},
-{"lineNum":"   55","line":"            try writer.print(","class":"linePartCov","hits":"1","order":"4874","possible_hits":"2",},
+{"lineNum":"   55","line":"            try writer.print(","class":"linePartCov","hits":"1","order":"4877","possible_hits":"2",},
 {"lineNum":"   56","line":"                \"Error: {d}:{d}: Non-void function must return value of type \","},
-{"lineNum":"   57","line":"                .{ self.csr.ln, self.csr.ch },","class":"linePartCov","hits":"1","order":"4873","possible_hits":"2",},
+{"lineNum":"   57","line":"                .{ self.csr.ln, self.csr.ch },","class":"linePartCov","hits":"1","order":"4876","possible_hits":"2",},
 {"lineNum":"   58","line":"            );"},
-{"lineNum":"   59","line":"            try self.expectedTy.write(writer);","class":"linePartCov","hits":"1","order":"4875","possible_hits":"2",},
+{"lineNum":"   59","line":"            try self.expectedTy.write(writer);","class":"linePartCov","hits":"1","order":"4878","possible_hits":"2",},
 {"lineNum":"   60","line":"        }"},
 {"lineNum":"   61","line":""},
 {"lineNum":"   62","line":"        try writer.print(\"\\n\", .{});","class":"linePartCov","hits":"1","order":"2669","possible_hits":"2",},
@@ -75,5 +75,5 @@ var data = {lines:[
 {"lineNum":"   74","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-12 21:56:54", "instrumented" : 27, "covered" : 27,};
+var header = { "command" : "test", "date" : "2022-01-13 08:50:59", "instrumented" : 27, "covered" : 27,};
 var merged_data = [];

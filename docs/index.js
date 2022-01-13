@@ -76,11 +76,11 @@ var data = {files:[
 {"link":"return_error.zig.a02ed7d8.html","title":"return_error.zig","summary_name":"[...]/glinka/src/compiler/errors/return_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"27","uncovered_lines":"0","total_lines" : "27"},
 {"link":"types.zig.ab01faba.html","title":"types.zig","summary_name":"[...]/glinka/src/compiler/types.zig","covered_class":"linePartCov","covered":"64.5","covered_lines":"20","uncovered_lines":"11","total_lines" : "31"},
 {"link":"implicit_any_error.zig.4d2793e8.html","title":"implicit_any_error.zig","summary_name":"[...]/glinka/src/compiler/errors/implicit_any_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
-{"link":"stmt_parser.zig.3ef60526.html","title":"stmt_parser.zig","summary_name":"[...]/glinka/src/frontend/stmt_parser.zig","covered_class":"lineCov","covered":"89.4","covered_lines":"677","uncovered_lines":"80","total_lines" : "757"},
+{"link":"stmt_parser.zig.3ef60526.html","title":"stmt_parser.zig","summary_name":"[...]/glinka/src/frontend/stmt_parser.zig","covered_class":"lineCov","covered":"89.4","covered_lines":"680","uncovered_lines":"81","total_lines" : "761"},
 {"link":"declaration.zig.94a333d9.html","title":"declaration.zig","summary_name":"[...]/glinka/src/compiler/declaration.zig","covered_class":"lineCov","covered":"82.8","covered_lines":"72","uncovered_lines":"15","total_lines" : "87"},
 {"link":"type_parser.zig.769b1d50.html","title":"type_parser.zig","summary_name":"[...]/glinka/src/frontend/type_parser.zig","covered_class":"lineCov","covered":"95.3","covered_lines":"221","uncovered_lines":"11","total_lines" : "232"},
 {"link":"throw.zig.d8945f80.html","title":"throw.zig","summary_name":"[...]/glinka/src/compiler/throw.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"29","uncovered_lines":"0","total_lines" : "29"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-12 21:56:54", "instrumented" : 6566, "covered" : 6199,};
+var header = { "command" : "test", "date" : "2022-01-13 08:50:59", "instrumented" : 6570, "covered" : 6202,};
 var merged_data = [];
