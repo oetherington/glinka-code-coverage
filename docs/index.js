@@ -55,6 +55,7 @@ var data = {files:[
 {"link":"interface_type.zig.284cca97.html","title":"interface_type.zig","summary_name":"[...]/glinka/src/common/types/interface_type.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"96","uncovered_lines":"0","total_lines" : "96"},
 {"link":"array_type.zig.30f31fe6.html","title":"array_type.zig","summary_name":"[...]/glinka/src/common/types/array_type.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"19","uncovered_lines":"0","total_lines" : "19"},
 {"link":"function_type.zig.c51c3f09.html","title":"function_type.zig","summary_name":"[...]/glinka/src/common/types/function_type.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"25","uncovered_lines":"0","total_lines" : "25"},
+{"link":"op_map.zig.472ec8af.html","title":"op_map.zig","summary_name":"[...]/glinka/src/compiler/op_map.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"61","uncovered_lines":"0","total_lines" : "61"},
 {"link":"decl.zig.60466462.html","title":"decl.zig","summary_name":"[...]/glinka/src/common/node_data/decl.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"44","uncovered_lines":"0","total_lines" : "44"},
 {"link":"union_type.zig.8bde4bd5.html","title":"union_type.zig","summary_name":"[...]/glinka/src/common/types/union_type.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"22","uncovered_lines":"0","total_lines" : "22"},
 {"link":"emit_test_case.zig.621ad2ab.html","title":"emit_test_case.zig","summary_name":"[...]/glinka/src/backends/js/emit_test_case.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
@@ -65,7 +66,7 @@ var data = {files:[
 {"link":"context_error.zig.ebe83fed.html","title":"context_error.zig","summary_name":"[...]/glinka/src/compiler/errors/context_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"17","uncovered_lines":"0","total_lines" : "17"},
 {"link":"expr_parser.zig.6e8dbcf2.html","title":"expr_parser.zig","summary_name":"[...]/glinka/src/frontend/expr_parser.zig","covered_class":"lineCov","covered":"94.0","covered_lines":"531","uncovered_lines":"34","total_lines" : "565"},
 {"link":"scope.zig.f36a7bd.html","title":"scope.zig","summary_name":"[...]/glinka/src/compiler/scope.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"123","uncovered_lines":"0","total_lines" : "123"},
-{"link":"typebook.zig.df9caca.html","title":"typebook.zig","summary_name":"[...]/glinka/src/compiler/typebook.zig","covered_class":"lineCov","covered":"98.8","covered_lines":"255","uncovered_lines":"3","total_lines" : "258"},
+{"link":"typebook.zig.df9caca.html","title":"typebook.zig","summary_name":"[...]/glinka/src/compiler/typebook.zig","covered_class":"lineCov","covered":"98.5","covered_lines":"195","uncovered_lines":"3","total_lines" : "198"},
 {"link":"block_emitter.zig.ac32c588.html","title":"block_emitter.zig","summary_name":"[...]/glinka/src/backends/js/block_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"19","uncovered_lines":"0","total_lines" : "19"},
 {"link":"compile_error.zig.19e5aefc.html","title":"compile_error.zig","summary_name":"[...]/glinka/src/compiler/errors/compile_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"133","uncovered_lines":"0","total_lines" : "133"},
 {"link":"parser.zig.5338642d.html","title":"parser.zig","summary_name":"[...]/glinka/src/common/parser.zig","covered_class":"linePartCov","covered":"67.9","covered_lines":"19","uncovered_lines":"9","total_lines" : "28"},
@@ -82,5 +83,5 @@ var data = {files:[
 {"link":"throw.zig.d8945f80.html","title":"throw.zig","summary_name":"[...]/glinka/src/compiler/throw.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"29","uncovered_lines":"0","total_lines" : "29"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-13 08:50:59", "instrumented" : 6570, "covered" : 6202,};
+var header = { "command" : "test", "date" : "2022-01-13 08:55:56", "instrumented" : 6571, "covered" : 6203,};
 var merged_data = [];
