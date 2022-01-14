@@ -16,7 +16,7 @@
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/ternary.zig", "percent_covered": "100.00", "covered_lines": "21", "total_lines": "21"},
     {"file": "/home/runner/work/glinka/glinka/src/common/types/alias_type.zig", "percent_covered": "100.00", "covered_lines": "31", "total_lines": "31"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/while.zig", "percent_covered": "100.00", "covered_lines": "20", "total_lines": "20"},
-    {"file": "/home/runner/work/glinka/glinka/src/backends/js/op_to_string.zig", "percent_covered": "100.00", "covered_lines": "102", "total_lines": "102"},
+    {"file": "/home/runner/work/glinka/glinka/src/backends/js/op_to_string.zig", "percent_covered": "100.00", "covered_lines": "104", "total_lines": "104"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/if.zig", "percent_covered": "100.00", "covered_lines": "51", "total_lines": "51"},
     {"file": "/home/runner/work/glinka/glinka/src/backends/js/cond_emitter.zig", "percent_covered": "100.00", "covered_lines": "126", "total_lines": "126"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/binary_op.zig", "percent_covered": "100.00", "covered_lines": "19", "total_lines": "19"},
@@ -56,7 +56,7 @@
     {"file": "/home/runner/work/glinka/glinka/src/common/types/interface_type.zig", "percent_covered": "100.00", "covered_lines": "96", "total_lines": "96"},
     {"file": "/home/runner/work/glinka/glinka/src/common/types/array_type.zig", "percent_covered": "100.00", "covered_lines": "19", "total_lines": "19"},
     {"file": "/home/runner/work/glinka/glinka/src/common/types/function_type.zig", "percent_covered": "100.00", "covered_lines": "25", "total_lines": "25"},
-    {"file": "/home/runner/work/glinka/glinka/src/compiler/op_map.zig", "percent_covered": "100.00", "covered_lines": "61", "total_lines": "61"},
+    {"file": "/home/runner/work/glinka/glinka/src/compiler/op_map.zig", "percent_covered": "100.00", "covered_lines": "62", "total_lines": "62"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/decl.zig", "percent_covered": "100.00", "covered_lines": "44", "total_lines": "44"},
     {"file": "/home/runner/work/glinka/glinka/src/common/types/union_type.zig", "percent_covered": "100.00", "covered_lines": "22", "total_lines": "22"},
     {"file": "/home/runner/work/glinka/glinka/src/backends/js/emit_test_case.zig", "percent_covered": "100.00", "covered_lines": "14", "total_lines": "14"},
@@ -79,15 +79,15 @@
     {"file": "/home/runner/work/glinka/glinka/src/compiler/types.zig", "percent_covered": "64.52", "covered_lines": "20", "total_lines": "31"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/errors/implicit_any_error.zig", "percent_covered": "100.00", "covered_lines": "14", "total_lines": "14"},
     {"file": "/home/runner/work/glinka/glinka/src/frontend/stmt_parser.zig", "percent_covered": "89.36", "covered_lines": "680", "total_lines": "761"},
-    {"file": "/home/runner/work/glinka/glinka/src/compiler/declaration.zig", "percent_covered": "82.76", "covered_lines": "72", "total_lines": "87"},
+    {"file": "/home/runner/work/glinka/glinka/src/compiler/declaration.zig", "percent_covered": "88.89", "covered_lines": "96", "total_lines": "108"},
     {"file": "/home/runner/work/glinka/glinka/src/frontend/type_parser.zig", "percent_covered": "95.26", "covered_lines": "221", "total_lines": "232"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/throw.zig", "percent_covered": "100.00", "covered_lines": "29", "total_lines": "29"}
   ],
-  "percent_covered": "94.40",
-  "covered_lines": 6203,
-  "total_lines": 6571,
+  "percent_covered": "94.47",
+  "covered_lines": 6230,
+  "total_lines": 6595,
   "percent_low": 25,
   "percent_high": 75,
   "command": "test",
-  "date": "2022-01-13 18:06:34"
+  "date": "2022-01-14 07:52:30"
 }
