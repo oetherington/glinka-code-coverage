@@ -235,13 +235,13 @@ var data = {lines:[
 {"lineNum":"  234","line":"                \'0\'...\'9\' => return lexNumber(self),","class":"lineCov","hits":"1","order":"454","possible_hits":"1",},
 {"lineNum":"  235","line":"                \'\\\'\', \'\"\', \'`\' => return self.string(),","class":"lineCov","hits":"1","order":"630","possible_hits":"1",},
 {"lineNum":"  236","line":"                \'{\' => return self.atom(Token.Type.LBrace),","class":"lineCov","hits":"1","order":"460","possible_hits":"1",},
-{"lineNum":"  237","line":"                \'}\' => return self.atom(Token.Type.RBrace),","class":"lineCov","hits":"1","order":"2944","possible_hits":"1",},
-{"lineNum":"  238","line":"                \'[\' => return self.atom(Token.Type.LBrack),","class":"lineCov","hits":"1","order":"2877","possible_hits":"1",},
-{"lineNum":"  239","line":"                \']\' => return self.atom(Token.Type.RBrack),","class":"lineCov","hits":"1","order":"2897","possible_hits":"1",},
-{"lineNum":"  240","line":"                \'(\' => return self.atom(Token.Type.LParen),","class":"lineCov","hits":"1","order":"2785","possible_hits":"1",},
-{"lineNum":"  241","line":"                \')\' => return self.atom(Token.Type.RParen),","class":"lineCov","hits":"1","order":"2819","possible_hits":"1",},
-{"lineNum":"  242","line":"                \',\' => return self.atom(Token.Type.Comma),","class":"lineCov","hits":"1","order":"2887","possible_hits":"1",},
-{"lineNum":"  243","line":"                \':\' => return self.atom(Token.Type.Colon),","class":"lineCov","hits":"1","order":"2930","possible_hits":"1",},
+{"lineNum":"  237","line":"                \'}\' => return self.atom(Token.Type.RBrace),","class":"lineCov","hits":"1","order":"2962","possible_hits":"1",},
+{"lineNum":"  238","line":"                \'[\' => return self.atom(Token.Type.LBrack),","class":"lineCov","hits":"1","order":"2895","possible_hits":"1",},
+{"lineNum":"  239","line":"                \']\' => return self.atom(Token.Type.RBrack),","class":"lineCov","hits":"1","order":"2915","possible_hits":"1",},
+{"lineNum":"  240","line":"                \'(\' => return self.atom(Token.Type.LParen),","class":"lineCov","hits":"1","order":"2803","possible_hits":"1",},
+{"lineNum":"  241","line":"                \')\' => return self.atom(Token.Type.RParen),","class":"lineCov","hits":"1","order":"2837","possible_hits":"1",},
+{"lineNum":"  242","line":"                \',\' => return self.atom(Token.Type.Comma),","class":"lineCov","hits":"1","order":"2905","possible_hits":"1",},
+{"lineNum":"  243","line":"                \':\' => return self.atom(Token.Type.Colon),","class":"lineCov","hits":"1","order":"2948","possible_hits":"1",},
 {"lineNum":"  244","line":"                \';\' => return self.atom(Token.Type.Semi),","class":"lineCov","hits":"1","order":"691","possible_hits":"1",},
 {"lineNum":"  245","line":"                \'/\' => {"},
 {"lineNum":"  246","line":"                    if (self.index + 1 >= self.code.len)","class":"linePartCov","hits":"2","order":"515","possible_hits":"3",},
@@ -284,8 +284,8 @@ var data = {lines:[
 {"lineNum":"  283","line":"                            continue :nextLoop;","class":"lineCov","hits":"1","order":"548","possible_hits":"1",},
 {"lineNum":"  284","line":"                        },"},
 {"lineNum":"  285","line":"                        else => {"},
-{"lineNum":"  286","line":"                            self.index -= 1;","class":"linePartCov","hits":"1","order":"3291","possible_hits":"2",},
-{"lineNum":"  287","line":"                            return self.operator();","class":"lineCov","hits":"1","order":"3292","possible_hits":"1",},
+{"lineNum":"  286","line":"                            self.index -= 1;","class":"linePartCov","hits":"1","order":"3309","possible_hits":"2",},
+{"lineNum":"  287","line":"                            return self.operator();","class":"lineCov","hits":"1","order":"3310","possible_hits":"1",},
 {"lineNum":"  288","line":"                        },"},
 {"lineNum":"  289","line":"                    }"},
 {"lineNum":"  290","line":"                },"},
@@ -557,5 +557,5 @@ var data = {lines:[
 {"lineNum":"  556","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-14 19:49:40", "instrumented" : 288, "covered" : 288,};
+var header = { "command" : "test", "date" : "2022-01-15 21:43:22", "instrumented" : 288, "covered" : 288,};
 var merged_data = [];
