@@ -213,16 +213,16 @@ var data = {lines:[
 {"lineNum":"  212","line":"        return ty;","class":"lineCov","hits":"1","order":"228","possible_hits":"1",},
 {"lineNum":"  213","line":"    }"},
 {"lineNum":"  214","line":""},
-{"lineNum":"  215","line":"    pub fn getAlias(self: *TypeBook, name: []const u8, ty: Type.Ptr) Type.Ptr {","class":"lineCov","hits":"1","order":"5067","possible_hits":"1",},
-{"lineNum":"  216","line":"        const alias = Type{ .Alias = Type.AliasType.new(name, ty) };","class":"lineCov","hits":"1","order":"5068","possible_hits":"1",},
+{"lineNum":"  215","line":"    pub fn getAlias(self: *TypeBook, name: []const u8, ty: Type.Ptr) Type.Ptr {","class":"lineCov","hits":"1","order":"5092","possible_hits":"1",},
+{"lineNum":"  216","line":"        const alias = Type{ .Alias = Type.AliasType.new(name, ty) };","class":"lineCov","hits":"1","order":"5093","possible_hits":"1",},
 {"lineNum":"  217","line":""},
-{"lineNum":"  218","line":"        if (self.tyMap.get(alias)) |t|","class":"lineCov","hits":"2","order":"5069","possible_hits":"2",},
+{"lineNum":"  218","line":"        if (self.tyMap.get(alias)) |t|","class":"lineCov","hits":"2","order":"5094","possible_hits":"2",},
 {"lineNum":"  219","line":"            return t;","class":"lineNoCov","hits":"0","possible_hits":"1",},
 {"lineNum":"  220","line":""},
-{"lineNum":"  221","line":"        var t = allocate.create(self.alloc, Type);","class":"lineCov","hits":"1","order":"5071","possible_hits":"1",},
-{"lineNum":"  222","line":"        t.* = alias;","class":"lineCov","hits":"1","order":"5072","possible_hits":"1",},
-{"lineNum":"  223","line":"        self.tyMap.put(alias, t) catch allocate.reportAndExit();","class":"lineCov","hits":"1","order":"5073","possible_hits":"1",},
-{"lineNum":"  224","line":"        return t;","class":"lineCov","hits":"1","order":"5074","possible_hits":"1",},
+{"lineNum":"  221","line":"        var t = allocate.create(self.alloc, Type);","class":"lineCov","hits":"1","order":"5096","possible_hits":"1",},
+{"lineNum":"  222","line":"        t.* = alias;","class":"lineCov","hits":"1","order":"5097","possible_hits":"1",},
+{"lineNum":"  223","line":"        self.tyMap.put(alias, t) catch allocate.reportAndExit();","class":"lineCov","hits":"1","order":"5098","possible_hits":"1",},
+{"lineNum":"  224","line":"        return t;","class":"lineCov","hits":"1","order":"5099","possible_hits":"1",},
 {"lineNum":"  225","line":"    }"},
 {"lineNum":"  226","line":""},
 {"lineNum":"  227","line":"    pub fn getInterface(","class":"lineCov","hits":"1","order":"327","possible_hits":"1",},
@@ -376,5 +376,5 @@ var data = {lines:[
 {"lineNum":"  375","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-18 07:58:34", "instrumented" : 198, "covered" : 195,};
+var header = { "command" : "test", "date" : "2022-01-19 08:23:57", "instrumented" : 198, "covered" : 195,};
 var merged_data = [];

@@ -3674,49 +3674,47 @@
 		<lineToCover lineNumber="79" covered="true"/>
 	</file>
 	<file path="/home/runner/work/glinka/glinka/src/common/node.zig">
-		<lineToCover lineNumber="171" covered="true"/>
-		<lineToCover lineNumber="175" covered="true"/>
-		<lineToCover lineNumber="176" covered="true"/>
+		<lineToCover lineNumber="173" covered="true"/>
 		<lineToCover lineNumber="177" covered="true"/>
-		<lineToCover lineNumber="184" covered="true"/>
-		<lineToCover lineNumber="185" covered="true"/>
+		<lineToCover lineNumber="178" covered="true"/>
+		<lineToCover lineNumber="179" covered="true"/>
 		<lineToCover lineNumber="186" covered="true"/>
+		<lineToCover lineNumber="187" covered="true"/>
 		<lineToCover lineNumber="188" covered="true"/>
 		<lineToCover lineNumber="190" covered="true"/>
-		<lineToCover lineNumber="191" covered="true"/>
 		<lineToCover lineNumber="192" covered="true"/>
 		<lineToCover lineNumber="193" covered="true"/>
+		<lineToCover lineNumber="194" covered="true"/>
 		<lineToCover lineNumber="195" covered="true"/>
-		<lineToCover lineNumber="196" covered="true"/>
 		<lineToCover lineNumber="197" covered="true"/>
 		<lineToCover lineNumber="198" covered="true"/>
+		<lineToCover lineNumber="199" covered="true"/>
 		<lineToCover lineNumber="200" covered="true"/>
-		<lineToCover lineNumber="201" covered="true"/>
 		<lineToCover lineNumber="202" covered="true"/>
+		<lineToCover lineNumber="203" covered="true"/>
 		<lineToCover lineNumber="204" covered="true"/>
 		<lineToCover lineNumber="206" covered="true"/>
-		<lineToCover lineNumber="207" covered="true"/>
 		<lineToCover lineNumber="208" covered="true"/>
+		<lineToCover lineNumber="209" covered="true"/>
 		<lineToCover lineNumber="210" covered="true"/>
-		<lineToCover lineNumber="211" covered="true"/>
 		<lineToCover lineNumber="212" covered="true"/>
 		<lineToCover lineNumber="213" covered="true"/>
+		<lineToCover lineNumber="214" covered="true"/>
 		<lineToCover lineNumber="215" covered="true"/>
-		<lineToCover lineNumber="216" covered="true"/>
 		<lineToCover lineNumber="217" covered="true"/>
+		<lineToCover lineNumber="218" covered="true"/>
 		<lineToCover lineNumber="219" covered="true"/>
 		<lineToCover lineNumber="221" covered="true"/>
-		<lineToCover lineNumber="222" covered="true"/>
 		<lineToCover lineNumber="223" covered="true"/>
+		<lineToCover lineNumber="224" covered="true"/>
 		<lineToCover lineNumber="225" covered="true"/>
-		<lineToCover lineNumber="226" covered="true"/>
 		<lineToCover lineNumber="227" covered="true"/>
 		<lineToCover lineNumber="228" covered="true"/>
+		<lineToCover lineNumber="229" covered="true"/>
 		<lineToCover lineNumber="230" covered="true"/>
 		<lineToCover lineNumber="232" covered="true"/>
-		<lineToCover lineNumber="233" covered="true"/>
+		<lineToCover lineNumber="234" covered="true"/>
 		<lineToCover lineNumber="235" covered="true"/>
-		<lineToCover lineNumber="236" covered="true"/>
 		<lineToCover lineNumber="237" covered="true"/>
 		<lineToCover lineNumber="238" covered="true"/>
 		<lineToCover lineNumber="239" covered="true"/>
@@ -3731,82 +3729,84 @@
 		<lineToCover lineNumber="248" covered="true"/>
 		<lineToCover lineNumber="249" covered="true"/>
 		<lineToCover lineNumber="250" covered="true"/>
-		<lineToCover lineNumber="254" covered="true"/>
-		<lineToCover lineNumber="255" covered="true"/>
-		<lineToCover lineNumber="259" covered="true"/>
-		<lineToCover lineNumber="260" covered="true"/>
+		<lineToCover lineNumber="251" covered="true"/>
+		<lineToCover lineNumber="252" covered="true"/>
+		<lineToCover lineNumber="256" covered="true"/>
+		<lineToCover lineNumber="257" covered="true"/>
 		<lineToCover lineNumber="261" covered="true"/>
+		<lineToCover lineNumber="262" covered="true"/>
 		<lineToCover lineNumber="263" covered="true"/>
-		<lineToCover lineNumber="264" covered="true"/>
 		<lineToCover lineNumber="265" covered="true"/>
-		<lineToCover lineNumber="271" covered="true"/>
-		<lineToCover lineNumber="274" covered="true"/>
-		<lineToCover lineNumber="275" covered="true"/>
-		<lineToCover lineNumber="278" covered="true"/>
-		<lineToCover lineNumber="281" covered="true"/>
-		<lineToCover lineNumber="282" covered="true"/>
+		<lineToCover lineNumber="266" covered="true"/>
+		<lineToCover lineNumber="267" covered="true"/>
+		<lineToCover lineNumber="273" covered="true"/>
+		<lineToCover lineNumber="276" covered="true"/>
+		<lineToCover lineNumber="277" covered="true"/>
+		<lineToCover lineNumber="280" covered="true"/>
 		<lineToCover lineNumber="283" covered="true"/>
+		<lineToCover lineNumber="284" covered="true"/>
 		<lineToCover lineNumber="285" covered="true"/>
-		<lineToCover lineNumber="286" covered="true"/>
 		<lineToCover lineNumber="287" covered="true"/>
-		<lineToCover lineNumber="293" covered="true"/>
-		<lineToCover lineNumber="296" covered="true"/>
-		<lineToCover lineNumber="297" covered="true"/>
-		<lineToCover lineNumber="300" covered="true"/>
-		<lineToCover lineNumber="303" covered="true"/>
-		<lineToCover lineNumber="304" covered="true"/>
+		<lineToCover lineNumber="288" covered="true"/>
+		<lineToCover lineNumber="289" covered="true"/>
+		<lineToCover lineNumber="295" covered="true"/>
+		<lineToCover lineNumber="298" covered="true"/>
+		<lineToCover lineNumber="299" covered="true"/>
+		<lineToCover lineNumber="302" covered="true"/>
 		<lineToCover lineNumber="305" covered="true"/>
+		<lineToCover lineNumber="306" covered="true"/>
 		<lineToCover lineNumber="307" covered="true"/>
-		<lineToCover lineNumber="308" covered="true"/>
 		<lineToCover lineNumber="309" covered="true"/>
-		<lineToCover lineNumber="315" covered="true"/>
-		<lineToCover lineNumber="323" covered="true"/>
-		<lineToCover lineNumber="324" covered="true"/>
-		<lineToCover lineNumber="327" covered="true"/>
-		<lineToCover lineNumber="328" covered="true"/>
+		<lineToCover lineNumber="310" covered="true"/>
+		<lineToCover lineNumber="311" covered="true"/>
+		<lineToCover lineNumber="317" covered="true"/>
+		<lineToCover lineNumber="325" covered="true"/>
+		<lineToCover lineNumber="326" covered="true"/>
 		<lineToCover lineNumber="329" covered="true"/>
 		<lineToCover lineNumber="330" covered="true"/>
-		<lineToCover lineNumber="333" covered="false"/>
-		<lineToCover lineNumber="334" covered="false"/>
+		<lineToCover lineNumber="331" covered="true"/>
+		<lineToCover lineNumber="332" covered="true"/>
 		<lineToCover lineNumber="335" covered="false"/>
-		<lineToCover lineNumber="338" covered="true"/>
-		<lineToCover lineNumber="342" covered="true"/>
-		<lineToCover lineNumber="343" covered="true"/>
+		<lineToCover lineNumber="336" covered="false"/>
+		<lineToCover lineNumber="337" covered="false"/>
+		<lineToCover lineNumber="340" covered="true"/>
 		<lineToCover lineNumber="344" covered="true"/>
 		<lineToCover lineNumber="345" covered="true"/>
 		<lineToCover lineNumber="346" covered="true"/>
-		<lineToCover lineNumber="349" covered="true"/>
-		<lineToCover lineNumber="355" covered="true"/>
-		<lineToCover lineNumber="361" covered="true"/>
-		<lineToCover lineNumber="362" covered="true"/>
+		<lineToCover lineNumber="347" covered="true"/>
+		<lineToCover lineNumber="348" covered="true"/>
+		<lineToCover lineNumber="351" covered="true"/>
+		<lineToCover lineNumber="357" covered="true"/>
 		<lineToCover lineNumber="363" covered="true"/>
 		<lineToCover lineNumber="364" covered="true"/>
-		<lineToCover lineNumber="367" covered="true"/>
+		<lineToCover lineNumber="365" covered="true"/>
+		<lineToCover lineNumber="366" covered="true"/>
 		<lineToCover lineNumber="369" covered="true"/>
 		<lineToCover lineNumber="371" covered="true"/>
 		<lineToCover lineNumber="373" covered="true"/>
 		<lineToCover lineNumber="375" covered="true"/>
-		<lineToCover lineNumber="376" covered="true"/>
 		<lineToCover lineNumber="377" covered="true"/>
 		<lineToCover lineNumber="378" covered="true"/>
-		<lineToCover lineNumber="381" covered="true"/>
-		<lineToCover lineNumber="384" covered="true"/>
+		<lineToCover lineNumber="379" covered="true"/>
+		<lineToCover lineNumber="380" covered="true"/>
+		<lineToCover lineNumber="383" covered="true"/>
 		<lineToCover lineNumber="386" covered="true"/>
 		<lineToCover lineNumber="388" covered="true"/>
-		<lineToCover lineNumber="391" covered="true"/>
+		<lineToCover lineNumber="390" covered="true"/>
 		<lineToCover lineNumber="393" covered="true"/>
 		<lineToCover lineNumber="395" covered="true"/>
-		<lineToCover lineNumber="398" covered="true"/>
+		<lineToCover lineNumber="397" covered="true"/>
 		<lineToCover lineNumber="400" covered="true"/>
 		<lineToCover lineNumber="402" covered="true"/>
-		<lineToCover lineNumber="405" covered="true"/>
-		<lineToCover lineNumber="406" covered="true"/>
+		<lineToCover lineNumber="404" covered="true"/>
 		<lineToCover lineNumber="407" covered="true"/>
+		<lineToCover lineNumber="408" covered="true"/>
 		<lineToCover lineNumber="409" covered="true"/>
-		<lineToCover lineNumber="410" covered="true"/>
 		<lineToCover lineNumber="411" covered="true"/>
 		<lineToCover lineNumber="412" covered="true"/>
 		<lineToCover lineNumber="413" covered="true"/>
+		<lineToCover lineNumber="414" covered="true"/>
+		<lineToCover lineNumber="415" covered="true"/>
 	</file>
 	<file path="/home/runner/work/glinka/glinka/src/common/node_data/call.zig">
 		<lineToCover lineNumber="34" covered="true"/>
@@ -4790,148 +4790,142 @@
 		<lineToCover lineNumber="694" covered="true"/>
 		<lineToCover lineNumber="695" covered="true"/>
 		<lineToCover lineNumber="696" covered="true"/>
-		<lineToCover lineNumber="697" covered="true"/>
-		<lineToCover lineNumber="699" covered="true"/>
-		<lineToCover lineNumber="701" covered="true"/>
+		<lineToCover lineNumber="698" covered="true"/>
+		<lineToCover lineNumber="700" covered="true"/>
 		<lineToCover lineNumber="702" covered="true"/>
 		<lineToCover lineNumber="703" covered="true"/>
 		<lineToCover lineNumber="704" covered="true"/>
 		<lineToCover lineNumber="705" covered="true"/>
-		<lineToCover lineNumber="707" covered="true"/>
-		<lineToCover lineNumber="709" covered="true"/>
-		<lineToCover lineNumber="710" covered="true"/>
-		<lineToCover lineNumber="711" covered="true"/>
-		<lineToCover lineNumber="712" covered="true"/>
-		<lineToCover lineNumber="713" covered="true"/>
-		<lineToCover lineNumber="715" covered="true"/>
-		<lineToCover lineNumber="717" covered="true"/>
+		<lineToCover lineNumber="708" covered="true"/>
+		<lineToCover lineNumber="710" covered="false"/>
+		<lineToCover lineNumber="711" covered="false"/>
+		<lineToCover lineNumber="713" covered="false"/>
+		<lineToCover lineNumber="718" covered="true"/>
 		<lineToCover lineNumber="719" covered="true"/>
-		<lineToCover lineNumber="724" covered="true"/>
+		<lineToCover lineNumber="722" covered="true"/>
+		<lineToCover lineNumber="723" covered="true"/>
 		<lineToCover lineNumber="725" covered="true"/>
+		<lineToCover lineNumber="726" covered="true"/>
+		<lineToCover lineNumber="727" covered="true"/>
 		<lineToCover lineNumber="729" covered="true"/>
 		<lineToCover lineNumber="730" covered="true"/>
 		<lineToCover lineNumber="731" covered="true"/>
 		<lineToCover lineNumber="732" covered="true"/>
 		<lineToCover lineNumber="733" covered="true"/>
 		<lineToCover lineNumber="734" covered="true"/>
-		<lineToCover lineNumber="737" covered="true"/>
-		<lineToCover lineNumber="740" covered="true"/>
+		<lineToCover lineNumber="735" covered="true"/>
+		<lineToCover lineNumber="738" covered="true"/>
 		<lineToCover lineNumber="741" covered="true"/>
+		<lineToCover lineNumber="742" covered="true"/>
+		<lineToCover lineNumber="743" covered="true"/>
+		<lineToCover lineNumber="744" covered="true"/>
+		<lineToCover lineNumber="746" covered="true"/>
+		<lineToCover lineNumber="748" covered="true"/>
+		<lineToCover lineNumber="749" covered="true"/>
+		<lineToCover lineNumber="750" covered="true"/>
 		<lineToCover lineNumber="751" covered="true"/>
 		<lineToCover lineNumber="752" covered="true"/>
-		<lineToCover lineNumber="755" covered="true"/>
+		<lineToCover lineNumber="754" covered="true"/>
+		<lineToCover lineNumber="756" covered="true"/>
 		<lineToCover lineNumber="757" covered="true"/>
 		<lineToCover lineNumber="758" covered="true"/>
-		<lineToCover lineNumber="759" covered="false"/>
-		<lineToCover lineNumber="761" covered="true"/>
+		<lineToCover lineNumber="759" covered="true"/>
+		<lineToCover lineNumber="760" covered="true"/>
 		<lineToCover lineNumber="762" covered="true"/>
-		<lineToCover lineNumber="763" covered="true"/>
-		<lineToCover lineNumber="765" covered="true"/>
-		<lineToCover lineNumber="769" covered="true"/>
-		<lineToCover lineNumber="770" covered="true"/>
-		<lineToCover lineNumber="773" covered="true"/>
-		<lineToCover lineNumber="774" covered="true"/>
-		<lineToCover lineNumber="775" covered="true"/>
+		<lineToCover lineNumber="764" covered="true"/>
+		<lineToCover lineNumber="766" covered="true"/>
+		<lineToCover lineNumber="771" covered="true"/>
+		<lineToCover lineNumber="772" covered="true"/>
 		<lineToCover lineNumber="776" covered="true"/>
 		<lineToCover lineNumber="777" covered="true"/>
 		<lineToCover lineNumber="778" covered="true"/>
+		<lineToCover lineNumber="779" covered="true"/>
+		<lineToCover lineNumber="780" covered="true"/>
 		<lineToCover lineNumber="781" covered="true"/>
-		<lineToCover lineNumber="789" covered="true"/>
-		<lineToCover lineNumber="790" covered="true"/>
-		<lineToCover lineNumber="791" covered="true"/>
-		<lineToCover lineNumber="792" covered="true"/>
-		<lineToCover lineNumber="794" covered="true"/>
-		<lineToCover lineNumber="796" covered="true"/>
+		<lineToCover lineNumber="784" covered="true"/>
+		<lineToCover lineNumber="787" covered="true"/>
+		<lineToCover lineNumber="788" covered="true"/>
 		<lineToCover lineNumber="798" covered="true"/>
 		<lineToCover lineNumber="799" covered="true"/>
-		<lineToCover lineNumber="800" covered="true"/>
 		<lineToCover lineNumber="802" covered="true"/>
-		<lineToCover lineNumber="803" covered="true"/>
-		<lineToCover lineNumber="804" covered="false"/>
-		<lineToCover lineNumber="806" covered="true"/>
-		<lineToCover lineNumber="807" covered="true"/>
+		<lineToCover lineNumber="804" covered="true"/>
+		<lineToCover lineNumber="805" covered="true"/>
+		<lineToCover lineNumber="806" covered="false"/>
 		<lineToCover lineNumber="808" covered="true"/>
+		<lineToCover lineNumber="809" covered="true"/>
 		<lineToCover lineNumber="810" covered="true"/>
-		<lineToCover lineNumber="813" covered="true"/>
+		<lineToCover lineNumber="812" covered="true"/>
+		<lineToCover lineNumber="816" covered="true"/>
 		<lineToCover lineNumber="817" covered="true"/>
-		<lineToCover lineNumber="880" covered="true"/>
-		<lineToCover lineNumber="881" covered="true"/>
-		<lineToCover lineNumber="882" covered="true"/>
-		<lineToCover lineNumber="883" covered="true"/>
-		<lineToCover lineNumber="885" covered="true"/>
-		<lineToCover lineNumber="886" covered="true"/>
-		<lineToCover lineNumber="888" covered="true"/>
-		<lineToCover lineNumber="890" covered="true"/>
-		<lineToCover lineNumber="892" covered="true"/>
-		<lineToCover lineNumber="893" covered="true"/>
-		<lineToCover lineNumber="894" covered="false"/>
-		<lineToCover lineNumber="896" covered="true"/>
-		<lineToCover lineNumber="897" covered="false"/>
-		<lineToCover lineNumber="899" covered="true"/>
-		<lineToCover lineNumber="901" covered="true"/>
-		<lineToCover lineNumber="902" covered="true"/>
-		<lineToCover lineNumber="903" covered="false"/>
-		<lineToCover lineNumber="905" covered="true"/>
-		<lineToCover lineNumber="906" covered="true"/>
-		<lineToCover lineNumber="909" covered="true"/>
-		<lineToCover lineNumber="931" covered="true"/>
+		<lineToCover lineNumber="820" covered="true"/>
+		<lineToCover lineNumber="821" covered="true"/>
+		<lineToCover lineNumber="822" covered="true"/>
+		<lineToCover lineNumber="823" covered="true"/>
+		<lineToCover lineNumber="824" covered="true"/>
+		<lineToCover lineNumber="825" covered="true"/>
+		<lineToCover lineNumber="828" covered="true"/>
+		<lineToCover lineNumber="836" covered="true"/>
+		<lineToCover lineNumber="837" covered="true"/>
+		<lineToCover lineNumber="838" covered="true"/>
+		<lineToCover lineNumber="839" covered="true"/>
+		<lineToCover lineNumber="841" covered="true"/>
+		<lineToCover lineNumber="843" covered="true"/>
+		<lineToCover lineNumber="845" covered="true"/>
+		<lineToCover lineNumber="846" covered="true"/>
+		<lineToCover lineNumber="847" covered="true"/>
+		<lineToCover lineNumber="849" covered="true"/>
+		<lineToCover lineNumber="850" covered="true"/>
+		<lineToCover lineNumber="851" covered="false"/>
+		<lineToCover lineNumber="853" covered="true"/>
+		<lineToCover lineNumber="854" covered="true"/>
+		<lineToCover lineNumber="855" covered="true"/>
+		<lineToCover lineNumber="857" covered="true"/>
+		<lineToCover lineNumber="860" covered="true"/>
+		<lineToCover lineNumber="864" covered="true"/>
+		<lineToCover lineNumber="927" covered="true"/>
+		<lineToCover lineNumber="928" covered="true"/>
+		<lineToCover lineNumber="929" covered="true"/>
+		<lineToCover lineNumber="930" covered="true"/>
 		<lineToCover lineNumber="932" covered="true"/>
+		<lineToCover lineNumber="933" covered="true"/>
+		<lineToCover lineNumber="935" covered="true"/>
 		<lineToCover lineNumber="937" covered="true"/>
-		<lineToCover lineNumber="938" covered="true"/>
-		<lineToCover lineNumber="942" covered="true"/>
-		<lineToCover lineNumber="945" covered="true"/>
+		<lineToCover lineNumber="939" covered="true"/>
+		<lineToCover lineNumber="940" covered="true"/>
+		<lineToCover lineNumber="941" covered="false"/>
+		<lineToCover lineNumber="943" covered="true"/>
+		<lineToCover lineNumber="944" covered="false"/>
 		<lineToCover lineNumber="946" covered="true"/>
-		<lineToCover lineNumber="947" covered="true"/>
 		<lineToCover lineNumber="948" covered="true"/>
 		<lineToCover lineNumber="949" covered="true"/>
-		<lineToCover lineNumber="950" covered="true"/>
-		<lineToCover lineNumber="951" covered="true"/>
+		<lineToCover lineNumber="950" covered="false"/>
 		<lineToCover lineNumber="952" covered="true"/>
-		<lineToCover lineNumber="957" covered="true"/>
-		<lineToCover lineNumber="958" covered="true"/>
-		<lineToCover lineNumber="959" covered="true"/>
-		<lineToCover lineNumber="960" covered="true"/>
-		<lineToCover lineNumber="963" covered="true"/>
-		<lineToCover lineNumber="964" covered="true"/>
-		<lineToCover lineNumber="965" covered="true"/>
-		<lineToCover lineNumber="968" covered="true"/>
-		<lineToCover lineNumber="969" covered="true"/>
-		<lineToCover lineNumber="970" covered="true"/>
-		<lineToCover lineNumber="971" covered="true"/>
-		<lineToCover lineNumber="974" covered="true"/>
-		<lineToCover lineNumber="975" covered="true"/>
-		<lineToCover lineNumber="976" covered="true"/>
-		<lineToCover lineNumber="977" covered="true"/>
+		<lineToCover lineNumber="953" covered="true"/>
+		<lineToCover lineNumber="956" covered="true"/>
 		<lineToCover lineNumber="978" covered="true"/>
 		<lineToCover lineNumber="979" covered="true"/>
-		<lineToCover lineNumber="980" covered="true"/>
-		<lineToCover lineNumber="983" covered="true"/>
 		<lineToCover lineNumber="984" covered="true"/>
 		<lineToCover lineNumber="985" covered="true"/>
-		<lineToCover lineNumber="986" covered="true"/>
-		<lineToCover lineNumber="987" covered="true"/>
-		<lineToCover lineNumber="990" covered="true"/>
-		<lineToCover lineNumber="991" covered="true"/>
+		<lineToCover lineNumber="989" covered="true"/>
 		<lineToCover lineNumber="992" covered="true"/>
 		<lineToCover lineNumber="993" covered="true"/>
+		<lineToCover lineNumber="994" covered="true"/>
+		<lineToCover lineNumber="995" covered="true"/>
 		<lineToCover lineNumber="996" covered="true"/>
 		<lineToCover lineNumber="997" covered="true"/>
 		<lineToCover lineNumber="998" covered="true"/>
-		<lineToCover lineNumber="1001" covered="true"/>
-		<lineToCover lineNumber="1002" covered="true"/>
-		<lineToCover lineNumber="1003" covered="true"/>
+		<lineToCover lineNumber="999" covered="true"/>
 		<lineToCover lineNumber="1004" covered="true"/>
 		<lineToCover lineNumber="1005" covered="true"/>
 		<lineToCover lineNumber="1006" covered="true"/>
 		<lineToCover lineNumber="1007" covered="true"/>
-		<lineToCover lineNumber="1008" covered="true"/>
-		<lineToCover lineNumber="1009" covered="true"/>
 		<lineToCover lineNumber="1010" covered="true"/>
 		<lineToCover lineNumber="1011" covered="true"/>
 		<lineToCover lineNumber="1012" covered="true"/>
-		<lineToCover lineNumber="1013" covered="true"/>
+		<lineToCover lineNumber="1015" covered="true"/>
 		<lineToCover lineNumber="1016" covered="true"/>
 		<lineToCover lineNumber="1017" covered="true"/>
+		<lineToCover lineNumber="1018" covered="true"/>
 		<lineToCover lineNumber="1021" covered="true"/>
 		<lineToCover lineNumber="1022" covered="true"/>
 		<lineToCover lineNumber="1023" covered="true"/>
@@ -4939,43 +4933,77 @@
 		<lineToCover lineNumber="1025" covered="true"/>
 		<lineToCover lineNumber="1026" covered="true"/>
 		<lineToCover lineNumber="1027" covered="true"/>
-		<lineToCover lineNumber="1028" covered="true"/>
-		<lineToCover lineNumber="1029" covered="true"/>
+		<lineToCover lineNumber="1030" covered="true"/>
+		<lineToCover lineNumber="1031" covered="true"/>
 		<lineToCover lineNumber="1032" covered="true"/>
-		<lineToCover lineNumber="1035" covered="true"/>
-		<lineToCover lineNumber="1036" covered="true"/>
+		<lineToCover lineNumber="1033" covered="true"/>
+		<lineToCover lineNumber="1034" covered="true"/>
 		<lineToCover lineNumber="1037" covered="true"/>
 		<lineToCover lineNumber="1038" covered="true"/>
+		<lineToCover lineNumber="1039" covered="true"/>
 		<lineToCover lineNumber="1040" covered="true"/>
-		<lineToCover lineNumber="1042" covered="true"/>
+		<lineToCover lineNumber="1043" covered="true"/>
 		<lineToCover lineNumber="1044" covered="true"/>
+		<lineToCover lineNumber="1045" covered="true"/>
+		<lineToCover lineNumber="1048" covered="true"/>
 		<lineToCover lineNumber="1049" covered="true"/>
+		<lineToCover lineNumber="1050" covered="true"/>
 		<lineToCover lineNumber="1051" covered="true"/>
 		<lineToCover lineNumber="1052" covered="true"/>
+		<lineToCover lineNumber="1053" covered="true"/>
 		<lineToCover lineNumber="1054" covered="true"/>
 		<lineToCover lineNumber="1055" covered="true"/>
+		<lineToCover lineNumber="1056" covered="true"/>
 		<lineToCover lineNumber="1057" covered="true"/>
 		<lineToCover lineNumber="1058" covered="true"/>
-		<lineToCover lineNumber="1059" covered="false"/>
-		<lineToCover lineNumber="1061" covered="true"/>
+		<lineToCover lineNumber="1059" covered="true"/>
+		<lineToCover lineNumber="1060" covered="true"/>
 		<lineToCover lineNumber="1063" covered="true"/>
 		<lineToCover lineNumber="1064" covered="true"/>
-		<lineToCover lineNumber="1067" covered="true"/>
+		<lineToCover lineNumber="1068" covered="true"/>
+		<lineToCover lineNumber="1069" covered="true"/>
 		<lineToCover lineNumber="1070" covered="true"/>
 		<lineToCover lineNumber="1071" covered="true"/>
+		<lineToCover lineNumber="1072" covered="true"/>
+		<lineToCover lineNumber="1073" covered="true"/>
+		<lineToCover lineNumber="1074" covered="true"/>
 		<lineToCover lineNumber="1075" covered="true"/>
 		<lineToCover lineNumber="1076" covered="true"/>
-		<lineToCover lineNumber="1077" covered="true"/>
-		<lineToCover lineNumber="1078" covered="true"/>
 		<lineToCover lineNumber="1079" covered="true"/>
-		<lineToCover lineNumber="1080" covered="true"/>
-		<lineToCover lineNumber="1081" covered="true"/>
 		<lineToCover lineNumber="1082" covered="true"/>
 		<lineToCover lineNumber="1083" covered="true"/>
 		<lineToCover lineNumber="1084" covered="true"/>
+		<lineToCover lineNumber="1085" covered="true"/>
 		<lineToCover lineNumber="1087" covered="true"/>
-		<lineToCover lineNumber="1090" covered="true"/>
+		<lineToCover lineNumber="1089" covered="true"/>
 		<lineToCover lineNumber="1091" covered="true"/>
+		<lineToCover lineNumber="1096" covered="true"/>
+		<lineToCover lineNumber="1098" covered="true"/>
+		<lineToCover lineNumber="1099" covered="true"/>
+		<lineToCover lineNumber="1101" covered="true"/>
+		<lineToCover lineNumber="1102" covered="true"/>
+		<lineToCover lineNumber="1104" covered="true"/>
+		<lineToCover lineNumber="1105" covered="true"/>
+		<lineToCover lineNumber="1106" covered="false"/>
+		<lineToCover lineNumber="1108" covered="true"/>
+		<lineToCover lineNumber="1110" covered="true"/>
+		<lineToCover lineNumber="1111" covered="true"/>
+		<lineToCover lineNumber="1114" covered="true"/>
+		<lineToCover lineNumber="1117" covered="true"/>
+		<lineToCover lineNumber="1118" covered="true"/>
+		<lineToCover lineNumber="1122" covered="true"/>
+		<lineToCover lineNumber="1123" covered="true"/>
+		<lineToCover lineNumber="1124" covered="true"/>
+		<lineToCover lineNumber="1125" covered="true"/>
+		<lineToCover lineNumber="1126" covered="true"/>
+		<lineToCover lineNumber="1127" covered="true"/>
+		<lineToCover lineNumber="1128" covered="true"/>
+		<lineToCover lineNumber="1129" covered="true"/>
+		<lineToCover lineNumber="1130" covered="true"/>
+		<lineToCover lineNumber="1131" covered="true"/>
+		<lineToCover lineNumber="1134" covered="true"/>
+		<lineToCover lineNumber="1137" covered="true"/>
+		<lineToCover lineNumber="1138" covered="true"/>
 	</file>
 	<file path="/home/runner/work/glinka/glinka/src/compiler/scope.zig">
 		<lineToCover lineNumber="43" covered="true"/>
