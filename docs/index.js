@@ -85,5 +85,5 @@ var data = {files:[
 {"link":"declaration.zig.94a333d9.html","title":"declaration.zig","summary_name":"[...]/glinka/src/compiler/declaration.zig","covered_class":"lineCov","covered":"88.9","covered_lines":"96","uncovered_lines":"12","total_lines" : "108"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-19 08:23:57", "instrumented" : 6803, "covered" : 6419,};
+var header = { "command" : "test", "date" : "2022-01-19 08:42:21", "instrumented" : 6803, "covered" : 6419,};
 var merged_data = [];
