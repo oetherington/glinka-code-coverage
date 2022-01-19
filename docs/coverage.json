@@ -36,7 +36,7 @@
     {"file": "/home/runner/work/glinka/glinka/src/compiler/expression.zig", "percent_covered": "100.00", "covered_lines": "56", "total_lines": "56"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/block.zig", "percent_covered": "100.00", "covered_lines": "10", "total_lines": "10"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/compiler_test_case.zig", "percent_covered": "97.30", "covered_lines": "36", "total_lines": "37"},
-    {"file": "/home/runner/work/glinka/glinka/src/common/parse_result.zig", "percent_covered": "97.18", "covered_lines": "69", "total_lines": "71"},
+    {"file": "/home/runner/work/glinka/glinka/src/common/parse_result.zig", "percent_covered": "94.52", "covered_lines": "69", "total_lines": "73"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/dot.zig", "percent_covered": "100.00", "covered_lines": "15", "total_lines": "15"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/try.zig", "percent_covered": "100.00", "covered_lines": "48", "total_lines": "48"},
     {"file": "/home/runner/work/glinka/glinka/src/common/node_data/interface.zig", "percent_covered": "100.00", "covered_lines": "38", "total_lines": "38"},
@@ -82,15 +82,15 @@
     {"file": "/home/runner/work/glinka/glinka/src/compiler/conditional.zig", "percent_covered": "90.91", "covered_lines": "40", "total_lines": "44"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/errors/return_error.zig", "percent_covered": "100.00", "covered_lines": "27", "total_lines": "27"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/throw.zig", "percent_covered": "100.00", "covered_lines": "29", "total_lines": "29"},
-    {"file": "/home/runner/work/glinka/glinka/src/frontend/type_parser.zig", "percent_covered": "94.51", "covered_lines": "241", "total_lines": "255"},
+    {"file": "/home/runner/work/glinka/glinka/src/frontend/type_parser.zig", "percent_covered": "93.13", "covered_lines": "271", "total_lines": "291"},
     {"file": "/home/runner/work/glinka/glinka/src/frontend/stmt_parser.zig", "percent_covered": "88.95", "covered_lines": "781", "total_lines": "878"},
     {"file": "/home/runner/work/glinka/glinka/src/compiler/declaration.zig", "percent_covered": "88.89", "covered_lines": "96", "total_lines": "108"}
   ],
-  "percent_covered": "94.47",
-  "covered_lines": 6574,
-  "total_lines": 6959,
+  "percent_covered": "94.38",
+  "covered_lines": 6604,
+  "total_lines": 6997,
   "percent_low": 25,
   "percent_high": 75,
   "command": "test",
-  "date": "2022-01-19 21:06:17"
+  "date": "2022-01-19 21:33:16"
 }

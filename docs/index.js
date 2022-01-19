@@ -35,7 +35,7 @@ var data = {files:[
 {"link":"expression.zig.9a88ddd3.html","title":"expression.zig","summary_name":"[...]/glinka/src/compiler/expression.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"56","uncovered_lines":"0","total_lines" : "56"},
 {"link":"block.zig.57df2d77.html","title":"block.zig","summary_name":"[...]/glinka/src/compiler/block.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"10","uncovered_lines":"0","total_lines" : "10"},
 {"link":"compiler_test_case.zig.57020a57.html","title":"compiler_test_case.zig","summary_name":"[...]/glinka/src/compiler/compiler_test_case.zig","covered_class":"lineCov","covered":"97.3","covered_lines":"36","uncovered_lines":"1","total_lines" : "37"},
-{"link":"parse_result.zig.b0423763.html","title":"parse_result.zig","summary_name":"[...]/glinka/src/common/parse_result.zig","covered_class":"lineCov","covered":"97.2","covered_lines":"69","uncovered_lines":"2","total_lines" : "71"},
+{"link":"parse_result.zig.b0423763.html","title":"parse_result.zig","summary_name":"[...]/glinka/src/common/parse_result.zig","covered_class":"lineCov","covered":"94.5","covered_lines":"69","uncovered_lines":"4","total_lines" : "73"},
 {"link":"dot.zig.5624d565.html","title":"dot.zig","summary_name":"[...]/glinka/src/common/node_data/dot.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"15","uncovered_lines":"0","total_lines" : "15"},
 {"link":"try.zig.76229c5f.html","title":"try.zig","summary_name":"[...]/glinka/src/common/node_data/try.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"48","uncovered_lines":"0","total_lines" : "48"},
 {"link":"interface.zig.f5a46497.html","title":"interface.zig","summary_name":"[...]/glinka/src/common/node_data/interface.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"38","uncovered_lines":"0","total_lines" : "38"},
@@ -81,10 +81,10 @@ var data = {files:[
 {"link":"conditional.zig.340ce221.html","title":"conditional.zig","summary_name":"[...]/glinka/src/compiler/conditional.zig","covered_class":"lineCov","covered":"90.9","covered_lines":"40","uncovered_lines":"4","total_lines" : "44"},
 {"link":"return_error.zig.a02ed7d8.html","title":"return_error.zig","summary_name":"[...]/glinka/src/compiler/errors/return_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"27","uncovered_lines":"0","total_lines" : "27"},
 {"link":"throw.zig.d8945f80.html","title":"throw.zig","summary_name":"[...]/glinka/src/compiler/throw.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"29","uncovered_lines":"0","total_lines" : "29"},
-{"link":"type_parser.zig.769b1d50.html","title":"type_parser.zig","summary_name":"[...]/glinka/src/frontend/type_parser.zig","covered_class":"lineCov","covered":"94.5","covered_lines":"241","uncovered_lines":"14","total_lines" : "255"},
+{"link":"type_parser.zig.769b1d50.html","title":"type_parser.zig","summary_name":"[...]/glinka/src/frontend/type_parser.zig","covered_class":"lineCov","covered":"93.1","covered_lines":"271","uncovered_lines":"20","total_lines" : "291"},
 {"link":"stmt_parser.zig.3ef60526.html","title":"stmt_parser.zig","summary_name":"[...]/glinka/src/frontend/stmt_parser.zig","covered_class":"lineCov","covered":"89.0","covered_lines":"781","uncovered_lines":"97","total_lines" : "878"},
 {"link":"declaration.zig.94a333d9.html","title":"declaration.zig","summary_name":"[...]/glinka/src/compiler/declaration.zig","covered_class":"lineCov","covered":"88.9","covered_lines":"96","uncovered_lines":"12","total_lines" : "108"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-19 21:06:17", "instrumented" : 6959, "covered" : 6574,};
+var header = { "command" : "test", "date" : "2022-01-19 21:33:16", "instrumented" : 6997, "covered" : 6604,};
 var merged_data = [];
