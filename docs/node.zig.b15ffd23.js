@@ -257,8 +257,8 @@ var data = {lines:[
 {"lineNum":"  256","line":"        }"},
 {"lineNum":"  257","line":"    }"},
 {"lineNum":"  258","line":""},
-{"lineNum":"  259","line":"    pub fn getType(self: NodeData) NodeType {","class":"lineCov","hits":"1","order":"3602","possible_hits":"1",},
-{"lineNum":"  260","line":"        return @as(NodeType, self);","class":"lineCov","hits":"1","order":"3603","possible_hits":"1",},
+{"lineNum":"  259","line":"    pub fn getType(self: NodeData) NodeType {","class":"lineCov","hits":"1","order":"3835","possible_hits":"1",},
+{"lineNum":"  260","line":"        return @as(NodeType, self);","class":"lineCov","hits":"1","order":"3836","possible_hits":"1",},
 {"lineNum":"  261","line":"    }"},
 {"lineNum":"  262","line":"};"},
 {"lineNum":"  263","line":""},
@@ -420,5 +420,5 @@ var data = {lines:[
 {"lineNum":"  419","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-20 20:31:30", "instrumented" : 133, "covered" : 130,};
+var header = { "command" : "test", "date" : "2022-01-24 08:01:28", "instrumented" : 133, "covered" : 130,};
 var merged_data = [];
