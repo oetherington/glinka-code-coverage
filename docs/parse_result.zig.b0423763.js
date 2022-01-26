@@ -66,13 +66,13 @@ var data = {lines:[
 {"lineNum":"   65","line":"        };"},
 {"lineNum":"   66","line":"    }"},
 {"lineNum":"   67","line":""},
-{"lineNum":"   68","line":"    pub fn noMatchExpected(","class":"lineCov","hits":"1","order":"4250","possible_hits":"1",},
+{"lineNum":"   68","line":"    pub fn noMatchExpected(","class":"lineCov","hits":"1","order":"4386","possible_hits":"1",},
 {"lineNum":"   69","line":"        expectedData: anytype,"},
 {"lineNum":"   70","line":"        foundData: anytype,"},
 {"lineNum":"   71","line":"    ) ParseResult {"},
-{"lineNum":"   72","line":"        return ParseResult.noMatch(ParseError.expected(","class":"lineCov","hits":"1","order":"4253","possible_hits":"1",},
-{"lineNum":"   73","line":"            expectedData,","class":"lineCov","hits":"1","order":"4251","possible_hits":"1",},
-{"lineNum":"   74","line":"            foundData,","class":"lineCov","hits":"1","order":"4252","possible_hits":"1",},
+{"lineNum":"   72","line":"        return ParseResult.noMatch(ParseError.expected(","class":"lineCov","hits":"1","order":"4389","possible_hits":"1",},
+{"lineNum":"   73","line":"            expectedData,","class":"lineCov","hits":"1","order":"4387","possible_hits":"1",},
+{"lineNum":"   74","line":"            foundData,","class":"lineCov","hits":"1","order":"4388","possible_hits":"1",},
 {"lineNum":"   75","line":"        ));"},
 {"lineNum":"   76","line":"    }"},
 {"lineNum":"   77","line":""},
@@ -171,5 +171,5 @@ var data = {lines:[
 {"lineNum":"  170","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-24 08:01:28", "instrumented" : 73, "covered" : 69,};
+var header = { "command" : "test", "date" : "2022-01-26 08:59:51", "instrumented" : 73, "covered" : 69,};
 var merged_data = [];

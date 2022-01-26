@@ -6,7 +6,7 @@ var data = {files:[
 {"link":"inferrer.zig.84ea1c8f.html","title":"inferrer.zig","summary_name":"[...]/glinka/src/compiler/inferrer.zig","covered_class":"lineCov","covered":"88.9","covered_lines":"392","uncovered_lines":"49","total_lines" : "441"},
 {"link":"expr_emitter.zig.e91aa658.html","title":"expr_emitter.zig","summary_name":"[...]/glinka/src/backends/js/expr_emitter.zig","covered_class":"lineCov","covered":"99.1","covered_lines":"225","uncovered_lines":"2","total_lines" : "227"},
 {"link":"type_finder.zig.6f440704.html","title":"type_finder.zig","summary_name":"[...]/glinka/src/compiler/type_finder.zig","covered_class":"lineCov","covered":"87.8","covered_lines":"108","uncovered_lines":"15","total_lines" : "123"},
-{"link":"class_emitter.zig.4e515f65.html","title":"class_emitter.zig","summary_name":"[...]/glinka/src/backends/js/class_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"12","uncovered_lines":"0","total_lines" : "12"},
+{"link":"class_emitter.zig.4e515f65.html","title":"class_emitter.zig","summary_name":"[...]/glinka/src/backends/js/class_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"50","uncovered_lines":"0","total_lines" : "50"},
 {"link":"function_emitter.zig.3ee426ee.html","title":"function_emitter.zig","summary_name":"[...]/glinka/src/backends/js/function_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"83","uncovered_lines":"0","total_lines" : "83"},
 {"link":"indenter.zig.3fd7519c.html","title":"indenter.zig","summary_name":"[...]/glinka/src/common/node_data/indenter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
 {"link":"function.zig.bc596159.html","title":"function.zig","summary_name":"[...]/glinka/src/compiler/function.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"168","uncovered_lines":"0","total_lines" : "168"},
@@ -71,7 +71,7 @@ var data = {files:[
 {"link":"context_error.zig.ebe83fed.html","title":"context_error.zig","summary_name":"[...]/glinka/src/compiler/errors/context_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"17","uncovered_lines":"0","total_lines" : "17"},
 {"link":"expr_parser.zig.6e8dbcf2.html","title":"expr_parser.zig","summary_name":"[...]/glinka/src/frontend/expr_parser.zig","covered_class":"lineCov","covered":"93.8","covered_lines":"556","uncovered_lines":"37","total_lines" : "593"},
 {"link":"scope.zig.f36a7bd.html","title":"scope.zig","summary_name":"[...]/glinka/src/compiler/scope.zig","covered_class":"lineCov","covered":"97.7","covered_lines":"128","uncovered_lines":"3","total_lines" : "131"},
-{"link":"typebook.zig.df9caca.html","title":"typebook.zig","summary_name":"[...]/glinka/src/compiler/typebook.zig","covered_class":"lineCov","covered":"99.0","covered_lines":"194","uncovered_lines":"2","total_lines" : "196"},
+{"link":"typebook.zig.df9caca.html","title":"typebook.zig","summary_name":"[...]/glinka/src/compiler/typebook.zig","covered_class":"lineCov","covered":"99.0","covered_lines":"198","uncovered_lines":"2","total_lines" : "200"},
 {"link":"block_emitter.zig.ac32c588.html","title":"block_emitter.zig","summary_name":"[...]/glinka/src/backends/js/block_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"19","uncovered_lines":"0","total_lines" : "19"},
 {"link":"compile_error.zig.19e5aefc.html","title":"compile_error.zig","summary_name":"[...]/glinka/src/compiler/errors/compile_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"133","uncovered_lines":"0","total_lines" : "133"},
 {"link":"parser.zig.5338642d.html","title":"parser.zig","summary_name":"[...]/glinka/src/common/parser.zig","covered_class":"linePartCov","covered":"67.9","covered_lines":"19","uncovered_lines":"9","total_lines" : "28"},
@@ -79,12 +79,12 @@ var data = {files:[
 {"link":"generic_error.zig.4eeaaf4d.html","title":"generic_error.zig","summary_name":"[...]/glinka/src/compiler/errors/generic_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
 {"link":"return_error.zig.a02ed7d8.html","title":"return_error.zig","summary_name":"[...]/glinka/src/compiler/errors/return_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"27","uncovered_lines":"0","total_lines" : "27"},
 {"link":"implicit_any_error.zig.4d2793e8.html","title":"implicit_any_error.zig","summary_name":"[...]/glinka/src/compiler/errors/implicit_any_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
-{"link":"types.zig.ab01faba.html","title":"types.zig","summary_name":"[...]/glinka/src/compiler/types.zig","covered_class":"linePartCov","covered":"74.7","covered_lines":"62","uncovered_lines":"21","total_lines" : "83"},
+{"link":"types.zig.ab01faba.html","title":"types.zig","summary_name":"[...]/glinka/src/compiler/types.zig","covered_class":"lineCov","covered":"84.3","covered_lines":"140","uncovered_lines":"26","total_lines" : "166"},
 {"link":"throw.zig.d8945f80.html","title":"throw.zig","summary_name":"[...]/glinka/src/compiler/throw.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"29","uncovered_lines":"0","total_lines" : "29"},
 {"link":"type_parser.zig.769b1d50.html","title":"type_parser.zig","summary_name":"[...]/glinka/src/frontend/type_parser.zig","covered_class":"lineCov","covered":"93.1","covered_lines":"271","uncovered_lines":"20","total_lines" : "291"},
-{"link":"stmt_parser.zig.3ef60526.html","title":"stmt_parser.zig","summary_name":"[...]/glinka/src/frontend/stmt_parser.zig","covered_class":"lineCov","covered":"89.0","covered_lines":"781","uncovered_lines":"97","total_lines" : "878"},
+{"link":"stmt_parser.zig.3ef60526.html","title":"stmt_parser.zig","summary_name":"[...]/glinka/src/frontend/stmt_parser.zig","covered_class":"lineCov","covered":"89.1","covered_lines":"782","uncovered_lines":"96","total_lines" : "878"},
 {"link":"declaration.zig.94a333d9.html","title":"declaration.zig","summary_name":"[...]/glinka/src/compiler/declaration.zig","covered_class":"lineCov","covered":"88.9","covered_lines":"96","uncovered_lines":"12","total_lines" : "108"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-24 08:01:28", "instrumented" : 7070, "covered" : 6654,};
+var header = { "command" : "test", "date" : "2022-01-26 08:59:51", "instrumented" : 7195, "covered" : 6775,};
 var merged_data = [];

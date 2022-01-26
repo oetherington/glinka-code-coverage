@@ -42,8 +42,8 @@ var data = {lines:[
 {"lineNum":"   41","line":"        return self.callbacks.parseExpr(self);"},
 {"lineNum":"   42","line":"    }"},
 {"lineNum":"   43","line":""},
-{"lineNum":"   44","line":"    pub fn parseType(self: *Parser) ParseResult {","class":"lineCov","hits":"1","order":"3826","possible_hits":"1",},
-{"lineNum":"   45","line":"        return self.callbacks.parseType(self);","class":"lineCov","hits":"1","order":"3827","possible_hits":"1",},
+{"lineNum":"   44","line":"    pub fn parseType(self: *Parser) ParseResult {","class":"lineCov","hits":"1","order":"3962","possible_hits":"1",},
+{"lineNum":"   45","line":"        return self.callbacks.parseType(self);","class":"lineCov","hits":"1","order":"3963","possible_hits":"1",},
 {"lineNum":"   46","line":"    }"},
 {"lineNum":"   47","line":""},
 {"lineNum":"   48","line":"    pub fn parseBlock(self: *Parser) ParseResult {"},
@@ -99,5 +99,5 @@ var data = {lines:[
 {"lineNum":"   98","line":"};"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-24 08:01:28", "instrumented" : 28, "covered" : 19,};
+var header = { "command" : "test", "date" : "2022-01-26 08:59:51", "instrumented" : 28, "covered" : 19,};
 var merged_data = [];
