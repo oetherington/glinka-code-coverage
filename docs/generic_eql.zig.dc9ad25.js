@@ -23,7 +23,7 @@ var data = {lines:[
 {"lineNum":"   22","line":"    if (a.len != b.len)","class":"linePartCov","hits":"6","order":"245","possible_hits":"22",},
 {"lineNum":"   23","line":"        return false;","class":"lineNoCov","hits":"0","possible_hits":"11",},
 {"lineNum":"   24","line":"    if (a.ptr == b.ptr)","class":"linePartCov","hits":"6","order":"246","possible_hits":"22",},
-{"lineNum":"   25","line":"        return true;","class":"linePartCov","hits":"3","order":"925","possible_hits":"11",},
+{"lineNum":"   25","line":"        return true;","class":"linePartCov","hits":"3","order":"928","possible_hits":"11",},
 {"lineNum":"   26","line":"    for (a) |item, index| {","class":"linePartCov","hits":"6","order":"247","possible_hits":"22",},
 {"lineNum":"   27","line":"        switch (@typeInfo(T)) {"},
 {"lineNum":"   28","line":"            .Struct => if (!b[index].eql(item)) return false,","class":"lineNoCov","hits":"0","possible_hits":"16",},
@@ -35,7 +35,7 @@ var data = {lines:[
 {"lineNum":"   34","line":""},
 {"lineNum":"   35","line":"/// This is the same as std.meta.eql except slices are compared with"},
 {"lineNum":"   36","line":"/// std.mem.eql instead of a simple pointer comparison"},
-{"lineNum":"   37","line":"pub fn eql(a: anytype, b: @TypeOf(a)) bool {","class":"linePartCov","hits":"29","order":"236","possible_hits":"74",},
+{"lineNum":"   37","line":"pub fn eql(a: anytype, b: @TypeOf(a)) bool {","class":"linePartCov","hits":"30","order":"236","possible_hits":"74",},
 {"lineNum":"   38","line":"    const T = @TypeOf(a);"},
 {"lineNum":"   39","line":""},
 {"lineNum":"   40","line":"    switch (@typeInfo(T)) {"},
@@ -83,19 +83,19 @@ var data = {lines:[
 {"lineNum":"   82","line":"        },"},
 {"lineNum":"   83","line":"        .Pointer => |info| {"},
 {"lineNum":"   84","line":"            return switch (info.size) {","class":"linePartCov","hits":"5","order":"250","possible_hits":"13",},
-{"lineNum":"   85","line":"                .One, .Many, .C => a == b,","class":"lineCov","hits":"2","order":"929","possible_hits":"2",},
+{"lineNum":"   85","line":"                .One, .Many, .C => a == b,","class":"lineCov","hits":"2","order":"932","possible_hits":"2",},
 {"lineNum":"   86","line":"                .Slice => memEql(info.child, a, b),","class":"linePartCov","hits":"3","order":"243","possible_hits":"11",},
 {"lineNum":"   87","line":"            };"},
 {"lineNum":"   88","line":"        },"},
 {"lineNum":"   89","line":"        .Optional => {"},
-{"lineNum":"   90","line":"            if (a == null and b == null) return true;","class":"linePartCov","hits":"2","order":"926","possible_hits":"4",},
-{"lineNum":"   91","line":"            if (a == null or b == null) return false;","class":"linePartCov","hits":"2","order":"927","possible_hits":"4",},
-{"lineNum":"   92","line":"            return eql(a.?, b.?);","class":"linePartCov","hits":"2","order":"928","possible_hits":"4",},
+{"lineNum":"   90","line":"            if (a == null and b == null) return true;","class":"linePartCov","hits":"2","order":"929","possible_hits":"4",},
+{"lineNum":"   91","line":"            if (a == null or b == null) return false;","class":"linePartCov","hits":"2","order":"930","possible_hits":"4",},
+{"lineNum":"   92","line":"            return eql(a.?, b.?);","class":"linePartCov","hits":"2","order":"931","possible_hits":"4",},
 {"lineNum":"   93","line":"        },"},
-{"lineNum":"   94","line":"        else => return a == b,","class":"linePartCov","hits":"5","order":"924","possible_hits":"8",},
+{"lineNum":"   94","line":"        else => return a == b,","class":"linePartCov","hits":"6","order":"927","possible_hits":"8",},
 {"lineNum":"   95","line":"    }"},
 {"lineNum":"   96","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-01-26 08:59:51", "instrumented" : 25, "covered" : 22,};
+var header = { "command" : "test", "date" : "2022-01-27 20:25:15", "instrumented" : 25, "covered" : 22,};
 var merged_data = [];
