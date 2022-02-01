@@ -78,7 +78,7 @@ var data = {lines:[
 {"lineNum":"   77","line":"                .Function => |f| self.alloc.free(f.args),","class":"lineCov","hits":"1","order":"403","possible_hits":"1",},
 {"lineNum":"   78","line":"                .Union => |un| self.alloc.free(un.tys),","class":"lineCov","hits":"1","order":"401","possible_hits":"1",},
 {"lineNum":"   79","line":"                .Interface => |in| self.alloc.free(in.members),","class":"lineCov","hits":"1","order":"404","possible_hits":"1",},
-{"lineNum":"   80","line":"                .Class => |cls| self.alloc.free(cls.members),","class":"lineCov","hits":"1","order":"3337","possible_hits":"1",},
+{"lineNum":"   80","line":"                .Class => |cls| self.alloc.free(cls.members),","class":"lineCov","hits":"1","order":"3342","possible_hits":"1",},
 {"lineNum":"   81","line":"                else => {},"},
 {"lineNum":"   82","line":"            }"},
 {"lineNum":"   83","line":""},
@@ -224,9 +224,9 @@ var data = {lines:[
 {"lineNum":"  223","line":"        std.debug.panic(\"Alias \'{s}\' has not been prepared\", .{name});"},
 {"lineNum":"  224","line":"    }"},
 {"lineNum":"  225","line":""},
-{"lineNum":"  226","line":"    pub fn putInterface(self: *TypeBook, inTy: Type.Ptr) void {","class":"lineCov","hits":"2","order":"3277","possible_hits":"2",},
-{"lineNum":"  227","line":"        std.debug.assert(inTy.getType() == .Interface);","class":"lineCov","hits":"1","order":"3278","possible_hits":"1",},
-{"lineNum":"  228","line":"        self.tyMap.put(inTy.*, inTy) catch allocate.reportAndExit();","class":"lineCov","hits":"1","order":"3279","possible_hits":"1",},
+{"lineNum":"  226","line":"    pub fn putInterface(self: *TypeBook, inTy: Type.Ptr) void {","class":"lineCov","hits":"2","order":"3282","possible_hits":"2",},
+{"lineNum":"  227","line":"        std.debug.assert(inTy.getType() == .Interface);","class":"lineCov","hits":"1","order":"3283","possible_hits":"1",},
+{"lineNum":"  228","line":"        self.tyMap.put(inTy.*, inTy) catch allocate.reportAndExit();","class":"lineCov","hits":"1","order":"3284","possible_hits":"1",},
 {"lineNum":"  229","line":"    }"},
 {"lineNum":"  230","line":""},
 {"lineNum":"  231","line":"    pub fn getInterface(","class":"lineCov","hits":"1","order":"331","possible_hits":"1",},
@@ -255,9 +255,9 @@ var data = {lines:[
 {"lineNum":"  254","line":"        return ty;","class":"lineCov","hits":"1","order":"352","possible_hits":"1",},
 {"lineNum":"  255","line":"    }"},
 {"lineNum":"  256","line":""},
-{"lineNum":"  257","line":"    pub fn putClass(self: *TypeBook, clsTy: Type.Ptr) void {","class":"lineCov","hits":"2","order":"3331","possible_hits":"2",},
-{"lineNum":"  258","line":"        std.debug.assert(clsTy.getType() == .Class);","class":"lineCov","hits":"1","order":"3332","possible_hits":"1",},
-{"lineNum":"  259","line":"        self.tyMap.put(clsTy.*, clsTy) catch allocate.reportAndExit();","class":"lineCov","hits":"1","order":"3333","possible_hits":"1",},
+{"lineNum":"  257","line":"    pub fn putClass(self: *TypeBook, clsTy: Type.Ptr) void {","class":"lineCov","hits":"2","order":"3336","possible_hits":"2",},
+{"lineNum":"  258","line":"        std.debug.assert(clsTy.getType() == .Class);","class":"lineCov","hits":"1","order":"3337","possible_hits":"1",},
+{"lineNum":"  259","line":"        self.tyMap.put(clsTy.*, clsTy) catch allocate.reportAndExit();","class":"lineCov","hits":"1","order":"3338","possible_hits":"1",},
 {"lineNum":"  260","line":"    }"},
 {"lineNum":"  261","line":"};"},
 {"lineNum":"  262","line":""},
@@ -385,5 +385,5 @@ var data = {lines:[
 {"lineNum":"  384","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-01 20:02:57", "instrumented" : 198, "covered" : 196,};
+var header = { "command" : "test", "date" : "2022-02-01 21:28:32", "instrumented" : 198, "covered" : 196,};
 var merged_data = [];

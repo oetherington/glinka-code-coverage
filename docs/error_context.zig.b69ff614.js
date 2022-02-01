@@ -58,9 +58,9 @@ var data = {lines:[
 {"lineNum":"   57","line":"            try err.report(writer);","class":"lineCov","hits":"2","order":"2617","possible_hits":"2",},
 {"lineNum":"   58","line":"    }"},
 {"lineNum":"   59","line":""},
-{"lineNum":"   60","line":"    pub fn reportToStdErr(self: ErrorContext) !void {","class":"lineCov","hits":"2","order":"3449","possible_hits":"2",},
-{"lineNum":"   61","line":"        const writer = std.io.getStdErr().writer();","class":"lineCov","hits":"1","order":"3450","possible_hits":"1",},
-{"lineNum":"   62","line":"        try self.report(writer);","class":"lineCov","hits":"1","order":"3451","possible_hits":"1",},
+{"lineNum":"   60","line":"    pub fn reportToStdErr(self: ErrorContext) !void {","class":"lineCov","hits":"2","order":"3454","possible_hits":"2",},
+{"lineNum":"   61","line":"        const writer = std.io.getStdErr().writer();","class":"lineCov","hits":"1","order":"3455","possible_hits":"1",},
+{"lineNum":"   62","line":"        try self.report(writer);","class":"lineCov","hits":"1","order":"3456","possible_hits":"1",},
 {"lineNum":"   63","line":"    }"},
 {"lineNum":"   64","line":"};"},
 {"lineNum":"   65","line":""},
@@ -96,5 +96,5 @@ var data = {lines:[
 {"lineNum":"   95","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-01 20:02:57", "instrumented" : 33, "covered" : 33,};
+var header = { "command" : "test", "date" : "2022-02-01 21:28:32", "instrumented" : 33, "covered" : 33,};
 var merged_data = [];

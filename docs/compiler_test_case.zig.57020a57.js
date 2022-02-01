@@ -87,12 +87,12 @@ var data = {lines:[
 {"lineNum":"   86","line":"        var compiler = Compiler.new(","class":"lineCov","hits":"58","order":"3013","possible_hits":"58",},
 {"lineNum":"   87","line":"            std.testing.allocator,"},
 {"lineNum":"   88","line":"            &config,"},
-{"lineNum":"   89","line":"            &backend.backend,","class":"lineCov","hits":"1","order":"4996","possible_hits":"1",},
+{"lineNum":"   89","line":"            &backend.backend,","class":"lineCov","hits":"1","order":"5005","possible_hits":"1",},
 {"lineNum":"   90","line":"        );"},
 {"lineNum":"   91","line":"        defer compiler.deinit();","class":"linePartCov","hits":"58","order":"3091","possible_hits":"175",},
 {"lineNum":"   92","line":""},
 {"lineNum":"   93","line":"        if (self.setup) |setup|"},
-{"lineNum":"   94","line":"            try setup(compiler);","class":"linePartCov","hits":"1","order":"4997","possible_hits":"2",},
+{"lineNum":"   94","line":"            try setup(compiler);","class":"linePartCov","hits":"1","order":"5006","possible_hits":"2",},
 {"lineNum":"   95","line":""},
 {"lineNum":"   96","line":"        try compiler.compileProgramNode(res.Success);","class":"linePartCov","hits":"116","order":"3014","possible_hits":"174",},
 {"lineNum":"   97","line":""},
@@ -113,13 +113,13 @@ var data = {lines:[
 {"lineNum":"  112","line":"        try std.testing.expectEqual(expected, actual);","class":"lineCov","hits":"7","order":"3010","possible_hits":"7",},
 {"lineNum":"  113","line":"    }"},
 {"lineNum":"  114","line":""},
-{"lineNum":"  115","line":"    pub fn expectEqualStrings(","class":"lineCov","hits":"1","order":"3420","possible_hits":"1",},
+{"lineNum":"  115","line":"    pub fn expectEqualStrings(","class":"lineCov","hits":"1","order":"3425","possible_hits":"1",},
 {"lineNum":"  116","line":"        self: CompilerTestCase,"},
 {"lineNum":"  117","line":"        expected: []const u8,"},
 {"lineNum":"  118","line":"        actual: []const u8,"},
-{"lineNum":"  119","line":"    ) Error!void {","class":"lineCov","hits":"1","order":"3422","possible_hits":"1",},
+{"lineNum":"  119","line":"    ) Error!void {","class":"lineCov","hits":"1","order":"3427","possible_hits":"1",},
 {"lineNum":"  120","line":"        _ = self;"},
-{"lineNum":"  121","line":"        try std.testing.expectEqualStrings(expected, actual);","class":"lineCov","hits":"1","order":"3421","possible_hits":"1",},
+{"lineNum":"  121","line":"        try std.testing.expectEqualStrings(expected, actual);","class":"lineCov","hits":"1","order":"3426","possible_hits":"1",},
 {"lineNum":"  122","line":"    }"},
 {"lineNum":"  123","line":""},
 {"lineNum":"  124","line":"    pub fn checkNoErrors(self: CompilerTestCase, cmp: Compiler) anyerror!void {","class":"lineCov","hits":"2","order":"3087","possible_hits":"2",},
@@ -131,5 +131,5 @@ var data = {lines:[
 {"lineNum":"  130","line":"};"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-01 20:02:57", "instrumented" : 37, "covered" : 36,};
+var header = { "command" : "test", "date" : "2022-02-01 21:28:32", "instrumented" : 37, "covered" : 36,};
 var merged_data = [];
