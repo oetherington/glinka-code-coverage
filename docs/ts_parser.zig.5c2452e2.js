@@ -85,12 +85,12 @@ var data = {lines:[
 {"lineNum":"   84","line":"        return typeParser.parseType(self.getParser());","class":"lineCov","hits":"1","order":"2978","possible_hits":"1",},
 {"lineNum":"   85","line":"    }"},
 {"lineNum":"   86","line":""},
-{"lineNum":"   87","line":"    pub fn parseBlock(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"3683","possible_hits":"1",},
-{"lineNum":"   88","line":"        return stmtParser.parseBlock(self.getParser());","class":"lineCov","hits":"1","order":"3684","possible_hits":"1",},
+{"lineNum":"   87","line":"    pub fn parseBlock(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"3677","possible_hits":"1",},
+{"lineNum":"   88","line":"        return stmtParser.parseBlock(self.getParser());","class":"lineCov","hits":"1","order":"3678","possible_hits":"1",},
 {"lineNum":"   89","line":"    }"},
 {"lineNum":"   90","line":""},
-{"lineNum":"   91","line":"    pub fn parseStmt(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"4343","possible_hits":"1",},
-{"lineNum":"   92","line":"        return stmtParser.parseStmt(self.getParser());","class":"lineCov","hits":"1","order":"4344","possible_hits":"1",},
+{"lineNum":"   91","line":"    pub fn parseStmt(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"4337","possible_hits":"1",},
+{"lineNum":"   92","line":"        return stmtParser.parseStmt(self.getParser());","class":"lineCov","hits":"1","order":"4338","possible_hits":"1",},
 {"lineNum":"   93","line":"    }"},
 {"lineNum":"   94","line":""},
 {"lineNum":"   95","line":"    pub fn next(self: *TsParser) ParseResult {"},
@@ -107,5 +107,5 @@ var data = {lines:[
 {"lineNum":"  106","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-03 08:56:39", "instrumented" : 31, "covered" : 28,};
+var header = { "command" : "test", "date" : "2022-02-03 18:39:00", "instrumented" : 31, "covered" : 28,};
 var merged_data = [];

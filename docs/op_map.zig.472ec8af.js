@@ -37,8 +37,8 @@ var data = {lines:[
 {"lineNum":"   36","line":"        output: ?Type.Ptr,"},
 {"lineNum":"   37","line":"    },"},
 {"lineNum":"   38","line":""},
-{"lineNum":"   39","line":"    pub fn getType(self: OpEntry) Variant {","class":"lineCov","hits":"1","order":"4955","possible_hits":"1",},
-{"lineNum":"   40","line":"        return @as(Variant, self);","class":"lineCov","hits":"1","order":"4956","possible_hits":"1",},
+{"lineNum":"   39","line":"    pub fn getType(self: OpEntry) Variant {","class":"lineCov","hits":"1","order":"4949","possible_hits":"1",},
+{"lineNum":"   40","line":"        return @as(Variant, self);","class":"lineCov","hits":"1","order":"4950","possible_hits":"1",},
 {"lineNum":"   41","line":"    }"},
 {"lineNum":"   42","line":""},
 {"lineNum":"   43","line":"    pub fn un(input: Type.Ptr, output: ?Type.Ptr) OpEntry {","class":"lineCov","hits":"1","order":"1793","possible_hits":"1",},
@@ -137,5 +137,5 @@ var data = {lines:[
 {"lineNum":"  136","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-03 08:56:39", "instrumented" : 65, "covered" : 65,};
+var header = { "command" : "test", "date" : "2022-02-03 18:39:00", "instrumented" : 65, "covered" : 65,};
 var merged_data = [];

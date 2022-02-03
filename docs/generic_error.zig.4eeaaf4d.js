@@ -34,13 +34,13 @@ var data = {lines:[
 {"lineNum":"   33","line":"        };"},
 {"lineNum":"   34","line":"    }"},
 {"lineNum":"   35","line":""},
-{"lineNum":"   36","line":"    pub fn report(self: GenericError, writer: anytype) !void {","class":"lineCov","hits":"4","order":"2372","possible_hits":"4",},
-{"lineNum":"   37","line":"        try writer.print(","class":"lineCov","hits":"2","order":"2376","possible_hits":"2",},
+{"lineNum":"   36","line":"    pub fn report(self: GenericError, writer: anytype) !void {","class":"linePartCov","hits":"2","order":"2372","possible_hits":"4",},
+{"lineNum":"   37","line":"        try writer.print(","class":"linePartCov","hits":"1","order":"2376","possible_hits":"2",},
 {"lineNum":"   38","line":"            \"Error: {d}:{d}: {s}\\n\","},
 {"lineNum":"   39","line":"            .{"},
-{"lineNum":"   40","line":"                self.csr.ln,","class":"lineCov","hits":"2","order":"2373","possible_hits":"2",},
-{"lineNum":"   41","line":"                self.csr.ch,","class":"lineCov","hits":"2","order":"2374","possible_hits":"2",},
-{"lineNum":"   42","line":"                self.msg,","class":"lineCov","hits":"2","order":"2375","possible_hits":"2",},
+{"lineNum":"   40","line":"                self.csr.ln,","class":"linePartCov","hits":"1","order":"2373","possible_hits":"2",},
+{"lineNum":"   41","line":"                self.csr.ch,","class":"linePartCov","hits":"1","order":"2374","possible_hits":"2",},
+{"lineNum":"   42","line":"                self.msg,","class":"linePartCov","hits":"1","order":"2375","possible_hits":"2",},
 {"lineNum":"   43","line":"            },"},
 {"lineNum":"   44","line":"        );"},
 {"lineNum":"   45","line":"    }"},
@@ -55,5 +55,5 @@ var data = {lines:[
 {"lineNum":"   54","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-03 08:56:39", "instrumented" : 14, "covered" : 14,};
+var header = { "command" : "test", "date" : "2022-02-03 18:39:00", "instrumented" : 14, "covered" : 14,};
 var merged_data = [];

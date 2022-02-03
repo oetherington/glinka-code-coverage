@@ -115,13 +115,13 @@ var data = {lines:[
 {"lineNum":"  114","line":"        return @as(CompileError.Type, self);","class":"lineCov","hits":"1","order":"2262","possible_hits":"1",},
 {"lineNum":"  115","line":"    }"},
 {"lineNum":"  116","line":""},
-{"lineNum":"  117","line":"    pub fn report(self: CompileError, writer: anytype) !void {","class":"lineCov","hits":"4","order":"2229","possible_hits":"4",},
-{"lineNum":"  118","line":"        switch (self) {","class":"linePartCov","hits":"2","order":"2230","possible_hits":"4",},
+{"lineNum":"  117","line":"    pub fn report(self: CompileError, writer: anytype) !void {","class":"linePartCov","hits":"2","order":"2229","possible_hits":"4",},
+{"lineNum":"  118","line":"        switch (self) {","class":"linePartCov","hits":"1","order":"2230","possible_hits":"4",},
 {"lineNum":"  119","line":"            .TypeError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2268","possible_hits":"2",},
 {"lineNum":"  120","line":"            .OpError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2296","possible_hits":"2",},
 {"lineNum":"  121","line":"            .ContextError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2323","possible_hits":"2",},
 {"lineNum":"  122","line":"            .RedefinitionError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2349","possible_hits":"2",},
-{"lineNum":"  123","line":"            .GenericError => |err| try err.report(writer),","class":"lineCov","hits":"2","order":"2371","possible_hits":"2",},
+{"lineNum":"  123","line":"            .GenericError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2371","possible_hits":"2",},
 {"lineNum":"  124","line":"            .AssignError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2397","possible_hits":"2",},
 {"lineNum":"  125","line":"            .ReturnError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2425","possible_hits":"2",},
 {"lineNum":"  126","line":"            .ImplicitAnyError => |err| try err.report(writer),","class":"linePartCov","hits":"1","order":"2451","possible_hits":"2",},
@@ -266,5 +266,5 @@ var data = {lines:[
 {"lineNum":"  265","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-03 08:56:39", "instrumented" : 133, "covered" : 133,};
+var header = { "command" : "test", "date" : "2022-02-03 18:39:00", "instrumented" : 133, "covered" : 133,};
 var merged_data = [];

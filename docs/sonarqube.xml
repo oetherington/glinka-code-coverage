@@ -2810,11 +2810,11 @@
 		<lineToCover lineNumber="359" covered="true"/>
 		<lineToCover lineNumber="360" covered="true"/>
 		<lineToCover lineNumber="361" covered="true"/>
-		<lineToCover lineNumber="362" covered="true"/>
-		<lineToCover lineNumber="364" covered="true"/>
-		<lineToCover lineNumber="368" covered="true"/>
+		<lineToCover lineNumber="363" covered="true"/>
+		<lineToCover lineNumber="367" covered="true"/>
+		<lineToCover lineNumber="370" covered="true"/>
 		<lineToCover lineNumber="371" covered="true"/>
-		<lineToCover lineNumber="372" covered="true"/>
+		<lineToCover lineNumber="374" covered="true"/>
 		<lineToCover lineNumber="375" covered="true"/>
 		<lineToCover lineNumber="376" covered="true"/>
 		<lineToCover lineNumber="377" covered="true"/>
@@ -2822,11 +2822,10 @@
 		<lineToCover lineNumber="379" covered="true"/>
 		<lineToCover lineNumber="380" covered="true"/>
 		<lineToCover lineNumber="381" covered="true"/>
-		<lineToCover lineNumber="382" covered="true"/>
+		<lineToCover lineNumber="383" covered="true"/>
 		<lineToCover lineNumber="384" covered="true"/>
 		<lineToCover lineNumber="385" covered="true"/>
-		<lineToCover lineNumber="386" covered="true"/>
-		<lineToCover lineNumber="390" covered="true"/>
+		<lineToCover lineNumber="389" covered="true"/>
 	</file>
 	<file path="/home/runner/work/glinka/glinka/src/compiler/errors/implicit_any_error.zig">
 		<lineToCover lineNumber="27" covered="true"/>
@@ -3420,9 +3419,9 @@
 		<lineToCover lineNumber="55" covered="true"/>
 		<lineToCover lineNumber="56" covered="true"/>
 		<lineToCover lineNumber="57" covered="true"/>
-		<lineToCover lineNumber="60" covered="true"/>
-		<lineToCover lineNumber="61" covered="true"/>
-		<lineToCover lineNumber="62" covered="true"/>
+		<lineToCover lineNumber="60" covered="false"/>
+		<lineToCover lineNumber="61" covered="false"/>
+		<lineToCover lineNumber="62" covered="false"/>
 		<lineToCover lineNumber="66" covered="true"/>
 		<lineToCover lineNumber="67" covered="true"/>
 		<lineToCover lineNumber="68" covered="true"/>
@@ -6446,8 +6445,8 @@
 		<lineToCover lineNumber="122" covered="true"/>
 		<lineToCover lineNumber="125" covered="true"/>
 		<lineToCover lineNumber="126" covered="true"/>
-		<lineToCover lineNumber="129" covered="true"/>
-		<lineToCover lineNumber="130" covered="true"/>
+		<lineToCover lineNumber="129" covered="false"/>
+		<lineToCover lineNumber="130" covered="false"/>
 		<lineToCover lineNumber="133" covered="true"/>
 		<lineToCover lineNumber="134" covered="true"/>
 		<lineToCover lineNumber="137" covered="true"/>

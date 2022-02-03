@@ -87,12 +87,12 @@ var data = {lines:[
 {"lineNum":"   86","line":"        var compiler = Compiler.new(","class":"lineCov","hits":"58","order":"3049","possible_hits":"58",},
 {"lineNum":"   87","line":"            std.testing.allocator,"},
 {"lineNum":"   88","line":"            &config,"},
-{"lineNum":"   89","line":"            &backend.backend,","class":"lineCov","hits":"1","order":"5045","possible_hits":"1",},
+{"lineNum":"   89","line":"            &backend.backend,","class":"lineCov","hits":"1","order":"5039","possible_hits":"1",},
 {"lineNum":"   90","line":"        );"},
 {"lineNum":"   91","line":"        defer compiler.deinit();","class":"linePartCov","hits":"58","order":"3127","possible_hits":"175",},
 {"lineNum":"   92","line":""},
 {"lineNum":"   93","line":"        if (self.setup) |setup|"},
-{"lineNum":"   94","line":"            try setup(compiler);","class":"linePartCov","hits":"1","order":"5046","possible_hits":"2",},
+{"lineNum":"   94","line":"            try setup(compiler);","class":"linePartCov","hits":"1","order":"5040","possible_hits":"2",},
 {"lineNum":"   95","line":""},
 {"lineNum":"   96","line":"        try compiler.compileProgramNode(res.Success);","class":"linePartCov","hits":"116","order":"3050","possible_hits":"174",},
 {"lineNum":"   97","line":""},
@@ -131,5 +131,5 @@ var data = {lines:[
 {"lineNum":"  130","line":"};"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-03 08:56:39", "instrumented" : 37, "covered" : 36,};
+var header = { "command" : "test", "date" : "2022-02-03 18:39:00", "instrumented" : 37, "covered" : 36,};
 var merged_data = [];

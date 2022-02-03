@@ -237,11 +237,11 @@ var data = {lines:[
 {"lineNum":"  236","line":"                \'\\\'\', \'\"\', \'`\' => return self.string(),","class":"lineCov","hits":"1","order":"2871","possible_hits":"1",},
 {"lineNum":"  237","line":"                \'{\' => return self.atom(Token.Type.LBrace),","class":"lineCov","hits":"1","order":"2701","possible_hits":"1",},
 {"lineNum":"  238","line":"                \'}\' => return self.atom(Token.Type.RBrace),","class":"lineCov","hits":"1","order":"3278","possible_hits":"1",},
-{"lineNum":"  239","line":"                \'[\' => return self.atom(Token.Type.LBrack),","class":"lineCov","hits":"1","order":"3551","possible_hits":"1",},
-{"lineNum":"  240","line":"                \']\' => return self.atom(Token.Type.RBrack),","class":"lineCov","hits":"1","order":"3571","possible_hits":"1",},
-{"lineNum":"  241","line":"                \'(\' => return self.atom(Token.Type.LParen),","class":"lineCov","hits":"1","order":"3525","possible_hits":"1",},
-{"lineNum":"  242","line":"                \')\' => return self.atom(Token.Type.RParen),","class":"lineCov","hits":"1","order":"3531","possible_hits":"1",},
-{"lineNum":"  243","line":"                \',\' => return self.atom(Token.Type.Comma),","class":"lineCov","hits":"1","order":"3561","possible_hits":"1",},
+{"lineNum":"  239","line":"                \'[\' => return self.atom(Token.Type.LBrack),","class":"lineCov","hits":"1","order":"3545","possible_hits":"1",},
+{"lineNum":"  240","line":"                \']\' => return self.atom(Token.Type.RBrack),","class":"lineCov","hits":"1","order":"3565","possible_hits":"1",},
+{"lineNum":"  241","line":"                \'(\' => return self.atom(Token.Type.LParen),","class":"lineCov","hits":"1","order":"3519","possible_hits":"1",},
+{"lineNum":"  242","line":"                \')\' => return self.atom(Token.Type.RParen),","class":"lineCov","hits":"1","order":"3525","possible_hits":"1",},
+{"lineNum":"  243","line":"                \',\' => return self.atom(Token.Type.Comma),","class":"lineCov","hits":"1","order":"3555","possible_hits":"1",},
 {"lineNum":"  244","line":"                \':\' => return self.atom(Token.Type.Colon),","class":"lineCov","hits":"1","order":"3263","possible_hits":"1",},
 {"lineNum":"  245","line":"                \';\' => return self.atom(Token.Type.Semi),","class":"lineCov","hits":"1","order":"2932","possible_hits":"1",},
 {"lineNum":"  246","line":"                \'/\' => {"},
@@ -285,8 +285,8 @@ var data = {lines:[
 {"lineNum":"  284","line":"                            continue :nextLoop;","class":"lineCov","hits":"1","order":"2789","possible_hits":"1",},
 {"lineNum":"  285","line":"                        },"},
 {"lineNum":"  286","line":"                        else => {"},
-{"lineNum":"  287","line":"                            self.index -= 1;","class":"linePartCov","hits":"1","order":"3962","possible_hits":"2",},
-{"lineNum":"  288","line":"                            return self.operator();","class":"lineCov","hits":"1","order":"3963","possible_hits":"1",},
+{"lineNum":"  287","line":"                            self.index -= 1;","class":"linePartCov","hits":"1","order":"3956","possible_hits":"2",},
+{"lineNum":"  288","line":"                            return self.operator();","class":"lineCov","hits":"1","order":"3957","possible_hits":"1",},
 {"lineNum":"  289","line":"                        },"},
 {"lineNum":"  290","line":"                    }"},
 {"lineNum":"  291","line":"                },"},
@@ -558,5 +558,5 @@ var data = {lines:[
 {"lineNum":"  557","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-03 08:56:39", "instrumented" : 288, "covered" : 288,};
+var header = { "command" : "test", "date" : "2022-02-03 18:39:00", "instrumented" : 288, "covered" : 288,};
 var merged_data = [];

@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
-<coverage line-rate="0.941" lines-covered="7077" lines-valid="7519" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1643878599">
+<coverage line-rate="0.941" lines-covered="7071" lines-valid="7518" branch-rate="1.0" branches-covered="1.0" branches-rate="1.0" complexity="1.0" version="1.9" timestamp="1643913540">
 	<sources>
 		<source>/home/runner/work/glinka/glinka/src/</source>
 	</sources>
 	<packages>
-		<package name="test" line-rate="0.941" lines-covered="7077" lines-valid="7519" branch-rate="1.0" complexity="1.0">
+		<package name="test" line-rate="0.941" lines-covered="7071" lines-valid="7518" branch-rate="1.0" complexity="1.0">
 			<classes>
 				<class name="infer_test_case_zig" filename="compiler/inferrer/infer_test_case.zig" branch-rate="1.0" complexity="1.0" line-rate="0.926">
 					<lines>
@@ -2680,7 +2680,7 @@
 						<line number="245" hits="2"/>
 					</lines>
 				</class>
-				<class name="types_zig" filename="compiler/types.zig" branch-rate="1.0" complexity="1.0" line-rate="0.841">
+				<class name="types_zig" filename="compiler/types.zig" branch-rate="1.0" complexity="1.0" line-rate="0.840">
 					<lines>
 						<line number="32" hits="2"/>
 						<line number="33" hits="1"/>
@@ -2860,23 +2860,22 @@
 						<line number="359" hits="1"/>
 						<line number="360" hits="1"/>
 						<line number="361" hits="1"/>
-						<line number="362" hits="1"/>
-						<line number="364" hits="2"/>
-						<line number="368" hits="1"/>
-						<line number="371" hits="2"/>
-						<line number="372" hits="1"/>
-						<line number="375" hits="2"/>
+						<line number="363" hits="2"/>
+						<line number="367" hits="1"/>
+						<line number="370" hits="2"/>
+						<line number="371" hits="1"/>
+						<line number="374" hits="2"/>
+						<line number="375" hits="1"/>
 						<line number="376" hits="1"/>
 						<line number="377" hits="1"/>
-						<line number="378" hits="1"/>
-						<line number="379" hits="2"/>
+						<line number="378" hits="2"/>
+						<line number="379" hits="1"/>
 						<line number="380" hits="1"/>
-						<line number="381" hits="1"/>
-						<line number="382" hits="2"/>
+						<line number="381" hits="2"/>
+						<line number="383" hits="1"/>
 						<line number="384" hits="1"/>
-						<line number="385" hits="1"/>
-						<line number="386" hits="2"/>
-						<line number="390" hits="1"/>
+						<line number="385" hits="2"/>
+						<line number="389" hits="1"/>
 					</lines>
 				</class>
 				<class name="implicit_any_error_zig" filename="compiler/errors/implicit_any_error.zig" branch-rate="1.0" complexity="1.0" line-rate="1.000">
@@ -3484,7 +3483,7 @@
 						<line number="118" hits="1"/>
 					</lines>
 				</class>
-				<class name="error_context_zig" filename="compiler/errors/error_context.zig" branch-rate="1.0" complexity="1.0" line-rate="1.000">
+				<class name="error_context_zig" filename="compiler/errors/error_context.zig" branch-rate="1.0" complexity="1.0" line-rate="0.909">
 					<lines>
 						<line number="33" hits="1"/>
 						<line number="34" hits="1"/>
@@ -3497,12 +3496,12 @@
 						<line number="48" hits="1"/>
 						<line number="51" hits="1"/>
 						<line number="52" hits="1"/>
-						<line number="55" hits="4"/>
-						<line number="56" hits="4"/>
-						<line number="57" hits="2"/>
-						<line number="60" hits="2"/>
-						<line number="61" hits="1"/>
-						<line number="62" hits="1"/>
+						<line number="55" hits="2"/>
+						<line number="56" hits="2"/>
+						<line number="57" hits="1"/>
+						<line number="60" hits="0"/>
+						<line number="61" hits="0"/>
+						<line number="62" hits="0"/>
 						<line number="66" hits="3"/>
 						<line number="67" hits="1"/>
 						<line number="68" hits="1"/>
@@ -6596,7 +6595,7 @@
 						<line number="62" hits="1"/>
 					</lines>
 				</class>
-				<class name="compiler_zig" filename="compiler/compiler.zig" branch-rate="1.0" complexity="1.0" line-rate="0.917">
+				<class name="compiler_zig" filename="compiler/compiler.zig" branch-rate="1.0" complexity="1.0" line-rate="0.902">
 					<lines>
 						<line number="61" hits="1"/>
 						<line number="67" hits="1"/>
@@ -6634,8 +6633,8 @@
 						<line number="122" hits="1"/>
 						<line number="125" hits="1"/>
 						<line number="126" hits="1"/>
-						<line number="129" hits="2"/>
-						<line number="130" hits="1"/>
+						<line number="129" hits="0"/>
+						<line number="130" hits="0"/>
 						<line number="133" hits="1"/>
 						<line number="134" hits="1"/>
 						<line number="137" hits="8"/>
@@ -7721,13 +7720,13 @@
 						<line number="109" hits="1"/>
 						<line number="113" hits="1"/>
 						<line number="114" hits="1"/>
-						<line number="117" hits="4"/>
-						<line number="118" hits="2"/>
+						<line number="117" hits="2"/>
+						<line number="118" hits="1"/>
 						<line number="119" hits="1"/>
 						<line number="120" hits="1"/>
 						<line number="121" hits="1"/>
 						<line number="122" hits="1"/>
-						<line number="123" hits="2"/>
+						<line number="123" hits="1"/>
 						<line number="124" hits="1"/>
 						<line number="125" hits="1"/>
 						<line number="126" hits="1"/>
@@ -7914,11 +7913,11 @@
 						<line number="30" hits="1"/>
 						<line number="31" hits="1"/>
 						<line number="32" hits="1"/>
-						<line number="36" hits="4"/>
-						<line number="37" hits="2"/>
-						<line number="40" hits="2"/>
-						<line number="41" hits="2"/>
-						<line number="42" hits="2"/>
+						<line number="36" hits="2"/>
+						<line number="37" hits="1"/>
+						<line number="40" hits="1"/>
+						<line number="41" hits="1"/>
+						<line number="42" hits="1"/>
 						<line number="48" hits="2"/>
 						<line number="49" hits="1"/>
 						<line number="51" hits="1"/>
