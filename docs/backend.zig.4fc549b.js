@@ -34,19 +34,19 @@ var data = {lines:[
 {"lineNum":"   33","line":""},
 {"lineNum":"   34","line":"    callbacks: Callbacks,"},
 {"lineNum":"   35","line":""},
-{"lineNum":"   36","line":"    pub fn prolog(self: *Backend) Error!void {","class":"lineCov","hits":"2","order":"85","possible_hits":"2",},
-{"lineNum":"   37","line":"        try self.callbacks.prolog(self);","class":"lineCov","hits":"1","order":"86","possible_hits":"1",},
+{"lineNum":"   36","line":"    pub fn prolog(self: *Backend) Error!void {","class":"lineCov","hits":"2","order":"87","possible_hits":"2",},
+{"lineNum":"   37","line":"        try self.callbacks.prolog(self);","class":"lineCov","hits":"1","order":"88","possible_hits":"1",},
 {"lineNum":"   38","line":"    }"},
 {"lineNum":"   39","line":""},
-{"lineNum":"   40","line":"    pub fn epilog(self: *Backend) Error!void {","class":"lineCov","hits":"2","order":"133","possible_hits":"2",},
-{"lineNum":"   41","line":"        try self.callbacks.epilog(self);","class":"lineCov","hits":"1","order":"134","possible_hits":"1",},
+{"lineNum":"   40","line":"    pub fn epilog(self: *Backend) Error!void {","class":"lineCov","hits":"2","order":"135","possible_hits":"2",},
+{"lineNum":"   41","line":"        try self.callbacks.epilog(self);","class":"lineCov","hits":"1","order":"136","possible_hits":"1",},
 {"lineNum":"   42","line":"    }"},
 {"lineNum":"   43","line":""},
-{"lineNum":"   44","line":"    pub fn processNode(self: *Backend, nd: Node) Error!void {","class":"lineCov","hits":"2","order":"3082","possible_hits":"2",},
-{"lineNum":"   45","line":"        try self.callbacks.processNode(self, nd);","class":"lineCov","hits":"1","order":"3083","possible_hits":"1",},
+{"lineNum":"   44","line":"    pub fn processNode(self: *Backend, nd: Node) Error!void {","class":"lineCov","hits":"2","order":"3118","possible_hits":"2",},
+{"lineNum":"   45","line":"        try self.callbacks.processNode(self, nd);","class":"lineCov","hits":"1","order":"3119","possible_hits":"1",},
 {"lineNum":"   46","line":"    }"},
 {"lineNum":"   47","line":"};"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-01 21:28:32", "instrumented" : 6, "covered" : 6,};
+var header = { "command" : "test", "date" : "2022-02-03 08:56:39", "instrumented" : 6, "covered" : 6,};
 var merged_data = [];
