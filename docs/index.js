@@ -101,5 +101,5 @@ var data = {files:[
 {"link":"generic_error.zig.4eeaaf4d.html","title":"generic_error.zig","summary_name":"[...]/glinka/src/compiler/errors/generic_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-04 07:34:54", "instrumented" : 7518, "covered" : 7071,};
+var header = { "command" : "test", "date" : "2022-02-04 07:42:59", "instrumented" : 7518, "covered" : 7071,};
 var merged_data = [];
