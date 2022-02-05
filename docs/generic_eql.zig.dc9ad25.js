@@ -35,7 +35,7 @@ var data = {lines:[
 {"lineNum":"   34","line":""},
 {"lineNum":"   35","line":"/// This is the same as std.meta.eql except slices are compared with"},
 {"lineNum":"   36","line":"/// std.mem.eql instead of a simple pointer comparison"},
-{"lineNum":"   37","line":"pub fn eql(a: anytype, b: @TypeOf(a)) bool {","class":"linePartCov","hits":"30","order":"255","possible_hits":"74",},
+{"lineNum":"   37","line":"pub fn eql(a: anytype, b: @TypeOf(a)) bool {","class":"linePartCov","hits":"29","order":"255","possible_hits":"73",},
 {"lineNum":"   38","line":"    const T = @TypeOf(a);"},
 {"lineNum":"   39","line":""},
 {"lineNum":"   40","line":"    switch (@typeInfo(T)) {"},
@@ -54,16 +54,16 @@ var data = {lines:[
 {"lineNum":"   53","line":"        },"},
 {"lineNum":"   54","line":"        .Union => |info| {"},
 {"lineNum":"   55","line":"            if (info.tag_type) |UnionTag| {"},
-{"lineNum":"   56","line":"                const tag_a = activeTag(a);","class":"linePartCov","hits":"2","order":"259","possible_hits":"3",},
-{"lineNum":"   57","line":"                const tag_b = activeTag(b);","class":"linePartCov","hits":"2","order":"260","possible_hits":"3",},
-{"lineNum":"   58","line":"                if (tag_a != tag_b) return false;","class":"linePartCov","hits":"2","order":"261","possible_hits":"3",},
+{"lineNum":"   56","line":"                const tag_a = activeTag(a);","class":"linePartCov","hits":"1","order":"259","possible_hits":"2",},
+{"lineNum":"   57","line":"                const tag_b = activeTag(b);","class":"linePartCov","hits":"1","order":"260","possible_hits":"2",},
+{"lineNum":"   58","line":"                if (tag_a != tag_b) return false;","class":"linePartCov","hits":"1","order":"261","possible_hits":"2",},
 {"lineNum":"   59","line":""},
 {"lineNum":"   60","line":"                inline for (info.fields) |field_info| {"},
-{"lineNum":"   61","line":"                    if (@field(UnionTag, field_info.name) == tag_a) {","class":"linePartCov","hits":"36","order":"262","possible_hits":"67",},
-{"lineNum":"   62","line":"                        return eql(@field(a, field_info.name), @field(b, field_info.name));","class":"linePartCov","hits":"7","order":"263","possible_hits":"67",},
+{"lineNum":"   61","line":"                    if (@field(UnionTag, field_info.name) == tag_a) {","class":"linePartCov","hits":"20","order":"262","possible_hits":"48",},
+{"lineNum":"   62","line":"                        return eql(@field(a, field_info.name), @field(b, field_info.name));","class":"linePartCov","hits":"2","order":"263","possible_hits":"48",},
 {"lineNum":"   63","line":"                    }"},
 {"lineNum":"   64","line":"                }"},
-{"lineNum":"   65","line":"                return false;","class":"lineNoCov","hits":"0","possible_hits":"3",},
+{"lineNum":"   65","line":"                return false;","class":"lineNoCov","hits":"0","possible_hits":"2",},
 {"lineNum":"   66","line":"            }"},
 {"lineNum":"   67","line":""},
 {"lineNum":"   68","line":"            @compileError(\"cannot compare untagged union type \" ++ @typeName(T));"},
@@ -97,5 +97,5 @@ var data = {lines:[
 {"lineNum":"   96","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-04 07:59:51", "instrumented" : 25, "covered" : 22,};
+var header = { "command" : "test", "date" : "2022-02-05 11:16:48", "instrumented" : 25, "covered" : 22,};
 var merged_data = [];

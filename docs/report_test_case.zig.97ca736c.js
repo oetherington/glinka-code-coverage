@@ -20,18 +20,18 @@ var data = {lines:[
 {"lineNum":"   19","line":"const expectEqualStrings = std.testing.expectEqualStrings;"},
 {"lineNum":"   20","line":"const WriteContext = @import(\"../../common/writer.zig\").WriteContext;"},
 {"lineNum":"   21","line":""},
-{"lineNum":"   22","line":"pub fn reportTestCase(err: anytype, expectedMessage: []const u8) !void {","class":"lineCov","hits":"6","order":"2223","possible_hits":"6",},
-{"lineNum":"   23","line":"    var ctx = try WriteContext(.{}).new(std.testing.allocator);","class":"lineCov","hits":"2","order":"2224","possible_hits":"2",},
-{"lineNum":"   24","line":"    defer ctx.deinit();","class":"linePartCov","hits":"2","order":"2244","possible_hits":"8",},
+{"lineNum":"   22","line":"pub fn reportTestCase(err: anytype, expectedMessage: []const u8) !void {","class":"lineCov","hits":"6","order":"2229","possible_hits":"6",},
+{"lineNum":"   23","line":"    var ctx = try WriteContext(.{}).new(std.testing.allocator);","class":"lineCov","hits":"2","order":"2230","possible_hits":"2",},
+{"lineNum":"   24","line":"    defer ctx.deinit();","class":"linePartCov","hits":"2","order":"2250","possible_hits":"8",},
 {"lineNum":"   25","line":""},
-{"lineNum":"   26","line":"    try err.report(ctx.writer());","class":"linePartCov","hits":"2","order":"2225","possible_hits":"4",},
+{"lineNum":"   26","line":"    try err.report(ctx.writer());","class":"linePartCov","hits":"2","order":"2231","possible_hits":"4",},
 {"lineNum":"   27","line":""},
-{"lineNum":"   28","line":"    const report = try ctx.toString();","class":"linePartCov","hits":"2","order":"2241","possible_hits":"4",},
-{"lineNum":"   29","line":"    defer ctx.freeString(report);","class":"linePartCov","hits":"2","order":"2243","possible_hits":"4",},
+{"lineNum":"   28","line":"    const report = try ctx.toString();","class":"linePartCov","hits":"2","order":"2247","possible_hits":"4",},
+{"lineNum":"   29","line":"    defer ctx.freeString(report);","class":"linePartCov","hits":"2","order":"2249","possible_hits":"4",},
 {"lineNum":"   30","line":""},
-{"lineNum":"   31","line":"    try expectEqualStrings(expectedMessage, report);","class":"linePartCov","hits":"2","order":"2242","possible_hits":"4",},
+{"lineNum":"   31","line":"    try expectEqualStrings(expectedMessage, report);","class":"linePartCov","hits":"2","order":"2248","possible_hits":"4",},
 {"lineNum":"   32","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-04 07:59:51", "instrumented" : 7, "covered" : 7,};
+var header = { "command" : "test", "date" : "2022-02-05 11:16:48", "instrumented" : 7, "covered" : 7,};
 var merged_data = [];

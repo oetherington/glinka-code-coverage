@@ -47,7 +47,7 @@ var data = {files:[
 {"link":"op_to_string.zig.5190ee59.html","title":"op_to_string.zig","summary_name":"[...]/glinka/src/backends/js/op_to_string.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"106","uncovered_lines":"0","total_lines" : "106"},
 {"link":"infer_context.zig.2577fbf2.html","title":"infer_context.zig","summary_name":"[...]/glinka/src/compiler/inferrer/infer_context.zig","covered_class":"lineCov","covered":"98.9","covered_lines":"88","uncovered_lines":"1","total_lines" : "89"},
 {"link":"primary.zig.781de8a4.html","title":"primary.zig","summary_name":"[...]/glinka/src/compiler/inferrer/primary.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"26","uncovered_lines":"0","total_lines" : "26"},
-{"link":"type.zig.f837aebd.html","title":"type.zig","summary_name":"[...]/glinka/src/common/types/type.zig","covered_class":"lineCov","covered":"96.9","covered_lines":"406","uncovered_lines":"13","total_lines" : "419"},
+{"link":"type.zig.f837aebd.html","title":"type.zig","summary_name":"[...]/glinka/src/common/types/type.zig","covered_class":"lineCov","covered":"93.8","covered_lines":"412","uncovered_lines":"27","total_lines" : "439"},
 {"link":"for.zig.4efb31ec.html","title":"for.zig","summary_name":"[...]/glinka/src/common/node_data/for.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"67","uncovered_lines":"0","total_lines" : "67"},
 {"link":"object.zig.33b9c57a.html","title":"object.zig","summary_name":"[...]/glinka/src/common/node_data/object.zig","covered_class":"lineCov","covered":"96.4","covered_lines":"54","uncovered_lines":"2","total_lines" : "56"},
 {"link":"cursor.zig.cf166edd.html","title":"cursor.zig","summary_name":"[...]/glinka/src/common/cursor.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"20","uncovered_lines":"0","total_lines" : "20"},
@@ -101,5 +101,5 @@ var data = {files:[
 {"link":"generic_error.zig.4eeaaf4d.html","title":"generic_error.zig","summary_name":"[...]/glinka/src/compiler/errors/generic_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-04 07:59:51", "instrumented" : 7518, "covered" : 7071,};
+var header = { "command" : "test", "date" : "2022-02-05 11:16:48", "instrumented" : 7538, "covered" : 7077,};
 var merged_data = [];
