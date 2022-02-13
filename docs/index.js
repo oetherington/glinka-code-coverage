@@ -12,7 +12,7 @@ var data = {files:[
 {"link":"function.zig.bc596159.html","title":"function.zig","summary_name":"[...]/glinka/src/compiler/function.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"168","uncovered_lines":"0","total_lines" : "168"},
 {"link":"decl_emitter.zig.ab2c6957.html","title":"decl_emitter.zig","summary_name":"[...]/glinka/src/backends/js/decl_emitter.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"31","uncovered_lines":"0","total_lines" : "31"},
 {"link":"conditional.zig.340ce221.html","title":"conditional.zig","summary_name":"[...]/glinka/src/compiler/conditional.zig","covered_class":"lineCov","covered":"90.9","covered_lines":"40","uncovered_lines":"4","total_lines" : "44"},
-{"link":"declaration.zig.94a333d9.html","title":"declaration.zig","summary_name":"[...]/glinka/src/compiler/declaration.zig","covered_class":"lineCov","covered":"90.7","covered_lines":"107","uncovered_lines":"11","total_lines" : "118"},
+{"link":"declaration.zig.94a333d9.html","title":"declaration.zig","summary_name":"[...]/glinka/src/compiler/declaration.zig","covered_class":"lineCov","covered":"91.1","covered_lines":"112","uncovered_lines":"11","total_lines" : "123"},
 {"link":"block.zig.57df2d77.html","title":"block.zig","summary_name":"[...]/glinka/src/compiler/block.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"10","uncovered_lines":"0","total_lines" : "10"},
 {"link":"stmt_parser.zig.3ef60526.html","title":"stmt_parser.zig","summary_name":"[...]/glinka/src/frontend/stmt_parser.zig","covered_class":"lineCov","covered":"89.1","covered_lines":"813","uncovered_lines":"99","total_lines" : "912"},
 {"link":"throw.zig.d8945f80.html","title":"throw.zig","summary_name":"[...]/glinka/src/compiler/throw.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"29","uncovered_lines":"0","total_lines" : "29"},
@@ -20,7 +20,7 @@ var data = {files:[
 {"link":"main.zig.9681a2b2.html","title":"main.zig","summary_name":"[...]/glinka/src/main.zig","covered_class":"lineNoCov","covered":"0.0","covered_lines":"0","uncovered_lines":"36","total_lines" : "36"},
 {"link":"lexer.zig.372a4ce8.html","title":"lexer.zig","summary_name":"[...]/glinka/src/frontend/lexer.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"288","uncovered_lines":"0","total_lines" : "288"},
 {"link":"parse_error.zig.b1a22024.html","title":"parse_error.zig","summary_name":"[...]/glinka/src/common/parse_error.zig","covered_class":"lineCov","covered":"86.1","covered_lines":"87","uncovered_lines":"14","total_lines" : "101"},
-{"link":"types.zig.ab01faba.html","title":"types.zig","summary_name":"[...]/glinka/src/compiler/types.zig","covered_class":"lineCov","covered":"83.6","covered_lines":"168","uncovered_lines":"33","total_lines" : "201"},
+{"link":"types.zig.ab01faba.html","title":"types.zig","summary_name":"[...]/glinka/src/compiler/types.zig","covered_class":"lineCov","covered":"84.3","covered_lines":"177","uncovered_lines":"33","total_lines" : "210"},
 {"link":"implicit_any_error.zig.4d2793e8.html","title":"implicit_any_error.zig","summary_name":"[...]/glinka/src/compiler/errors/implicit_any_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
 {"link":"return_error.zig.a02ed7d8.html","title":"return_error.zig","summary_name":"[...]/glinka/src/compiler/errors/return_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"27","uncovered_lines":"0","total_lines" : "27"},
 {"link":"interface.zig.f5a46497.html","title":"interface.zig","summary_name":"[...]/glinka/src/common/node_data/interface.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"38","uncovered_lines":"0","total_lines" : "38"},
@@ -62,7 +62,7 @@ var data = {files:[
 {"link":"assign_error.zig.d6923904.html","title":"assign_error.zig","summary_name":"[...]/glinka/src/compiler/errors/assign_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"20","uncovered_lines":"0","total_lines" : "20"},
 {"link":"binary_op.zig.a1422b8f.html","title":"binary_op.zig","summary_name":"[...]/glinka/src/common/node_data/binary_op.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"19","uncovered_lines":"0","total_lines" : "19"},
 {"link":"while.zig.e39fa847.html","title":"while.zig","summary_name":"[...]/glinka/src/common/node_data/while.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"20","uncovered_lines":"0","total_lines" : "20"},
-{"link":"binary_op.zig.209f0db5.html","title":"binary_op.zig","summary_name":"[...]/glinka/src/compiler/inferrer/binary_op.zig","covered_class":"lineCov","covered":"90.8","covered_lines":"59","uncovered_lines":"6","total_lines" : "65"},
+{"link":"binary_op.zig.209f0db5.html","title":"binary_op.zig","summary_name":"[...]/glinka/src/compiler/inferrer/binary_op.zig","covered_class":"lineCov","covered":"91.2","covered_lines":"62","uncovered_lines":"6","total_lines" : "68"},
 {"link":"ternary.zig.adacdaf8.html","title":"ternary.zig","summary_name":"[...]/glinka/src/compiler/inferrer/ternary.zig","covered_class":"lineCov","covered":"93.9","covered_lines":"46","uncovered_lines":"3","total_lines" : "49"},
 {"link":"array.zig.38a20974.html","title":"array.zig","summary_name":"[...]/glinka/src/compiler/inferrer/array.zig","covered_class":"lineCov","covered":"96.3","covered_lines":"52","uncovered_lines":"2","total_lines" : "54"},
 {"link":"function_type.zig.c51c3f09.html","title":"function_type.zig","summary_name":"[...]/glinka/src/common/types/function_type.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"28","uncovered_lines":"0","total_lines" : "28"},
@@ -101,5 +101,5 @@ var data = {files:[
 {"link":"generic_error.zig.4eeaaf4d.html","title":"generic_error.zig","summary_name":"[...]/glinka/src/compiler/errors/generic_error.zig","covered_class":"lineCov","covered":"100.0","covered_lines":"14","uncovered_lines":"0","total_lines" : "14"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-13 14:13:43", "instrumented" : 7702, "covered" : 7237,};
+var header = { "command" : "test", "date" : "2022-02-13 15:43:06", "instrumented" : 7719, "covered" : 7254,};
 var merged_data = [];

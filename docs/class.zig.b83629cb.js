@@ -46,8 +46,8 @@ var data = {lines:[
 {"lineNum":"   45","line":"        Var: Var,"},
 {"lineNum":"   46","line":"        Func: Function,"},
 {"lineNum":"   47","line":""},
-{"lineNum":"   48","line":"        pub fn getType(self: Data) Variant {","class":"lineCov","hits":"1","order":"5054","possible_hits":"1",},
-{"lineNum":"   49","line":"            return @as(Variant, self);","class":"lineCov","hits":"1","order":"5055","possible_hits":"1",},
+{"lineNum":"   48","line":"        pub fn getType(self: Data) Variant {","class":"lineCov","hits":"1","order":"5077","possible_hits":"1",},
+{"lineNum":"   49","line":"            return @as(Variant, self);","class":"lineCov","hits":"1","order":"5078","possible_hits":"1",},
 {"lineNum":"   50","line":"        }"},
 {"lineNum":"   51","line":"    };"},
 {"lineNum":"   52","line":""},
@@ -55,8 +55,8 @@ var data = {lines:[
 {"lineNum":"   54","line":"    visibility: Visibility,"},
 {"lineNum":"   55","line":"    data: Data,"},
 {"lineNum":"   56","line":""},
-{"lineNum":"   57","line":"    pub fn getType(self: ClassTypeMember) Variant {","class":"lineCov","hits":"1","order":"5052","possible_hits":"1",},
-{"lineNum":"   58","line":"        return self.data.getType();","class":"lineCov","hits":"1","order":"5053","possible_hits":"1",},
+{"lineNum":"   57","line":"    pub fn getType(self: ClassTypeMember) Variant {","class":"lineCov","hits":"1","order":"5075","possible_hits":"1",},
+{"lineNum":"   58","line":"        return self.data.getType();","class":"lineCov","hits":"1","order":"5076","possible_hits":"1",},
 {"lineNum":"   59","line":"    }"},
 {"lineNum":"   60","line":""},
 {"lineNum":"   61","line":"    pub fn dump(self: ClassTypeMember, writer: anytype, indent: usize) !void {","class":"lineCov","hits":"2","order":"538","possible_hits":"2",},
@@ -157,5 +157,5 @@ var data = {lines:[
 {"lineNum":"  156","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-13 14:13:43", "instrumented" : 50, "covered" : 49,};
+var header = { "command" : "test", "date" : "2022-02-13 15:43:06", "instrumented" : 50, "covered" : 49,};
 var merged_data = [];

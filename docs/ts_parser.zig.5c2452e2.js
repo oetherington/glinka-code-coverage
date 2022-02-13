@@ -85,20 +85,20 @@ var data = {lines:[
 {"lineNum":"   84","line":"        return typeParser.parseType(self.getParser());","class":"lineCov","hits":"1","order":"3045","possible_hits":"1",},
 {"lineNum":"   85","line":"    }"},
 {"lineNum":"   86","line":""},
-{"lineNum":"   87","line":"    pub fn parseBlock(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"3856","possible_hits":"1",},
-{"lineNum":"   88","line":"        return stmtParser.parseBlock(self.getParser());","class":"lineCov","hits":"1","order":"3857","possible_hits":"1",},
+{"lineNum":"   87","line":"    pub fn parseBlock(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"3880","possible_hits":"1",},
+{"lineNum":"   88","line":"        return stmtParser.parseBlock(self.getParser());","class":"lineCov","hits":"1","order":"3881","possible_hits":"1",},
 {"lineNum":"   89","line":"    }"},
 {"lineNum":"   90","line":""},
-{"lineNum":"   91","line":"    pub fn parseLongFunction(","class":"lineCov","hits":"1","order":"5073","possible_hits":"1",},
+{"lineNum":"   91","line":"    pub fn parseLongFunction(","class":"lineCov","hits":"1","order":"5096","possible_hits":"1",},
 {"lineNum":"   92","line":"        self: *TsParser,"},
 {"lineNum":"   93","line":"        csr: Cursor,"},
 {"lineNum":"   94","line":"        name: []const u8,"},
 {"lineNum":"   95","line":"    ) ParseResult {"},
-{"lineNum":"   96","line":"        return exprParser.parseLongFunction(self, csr, name);","class":"lineCov","hits":"1","order":"5074","possible_hits":"1",},
+{"lineNum":"   96","line":"        return exprParser.parseLongFunction(self, csr, name);","class":"lineCov","hits":"1","order":"5097","possible_hits":"1",},
 {"lineNum":"   97","line":"    }"},
 {"lineNum":"   98","line":""},
-{"lineNum":"   99","line":"    pub fn parseStmt(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"4491","possible_hits":"1",},
-{"lineNum":"  100","line":"        return stmtParser.parseStmt(self.getParser());","class":"lineCov","hits":"1","order":"4492","possible_hits":"1",},
+{"lineNum":"   99","line":"    pub fn parseStmt(self: *TsParser) ParseResult {","class":"lineCov","hits":"1","order":"4515","possible_hits":"1",},
+{"lineNum":"  100","line":"        return stmtParser.parseStmt(self.getParser());","class":"lineCov","hits":"1","order":"4516","possible_hits":"1",},
 {"lineNum":"  101","line":"    }"},
 {"lineNum":"  102","line":""},
 {"lineNum":"  103","line":"    pub fn next(self: *TsParser) ParseResult {"},
@@ -115,5 +115,5 @@ var data = {lines:[
 {"lineNum":"  114","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-13 14:13:43", "instrumented" : 33, "covered" : 30,};
+var header = { "command" : "test", "date" : "2022-02-13 15:43:06", "instrumented" : 33, "covered" : 30,};
 var merged_data = [];
