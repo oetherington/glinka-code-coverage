@@ -40,14 +40,14 @@ var data = {lines:[
 {"lineNum":"   39","line":"        };"},
 {"lineNum":"   40","line":"    }"},
 {"lineNum":"   41","line":""},
-{"lineNum":"   42","line":"    pub fn dump(","class":"linePartCov","hits":"1","order":"446","possible_hits":"2",},
+{"lineNum":"   42","line":"    pub fn dump(","class":"lineCov","hits":"1","order":"446","possible_hits":"1",},
 {"lineNum":"   43","line":"        self: BinaryOp,"},
 {"lineNum":"   44","line":"        writer: anytype,"},
 {"lineNum":"   45","line":"        indent: usize,"},
-{"lineNum":"   46","line":"    ) !void {","class":"linePartCov","hits":"1","order":"450","possible_hits":"2",},
-{"lineNum":"   47","line":"        try putInd(writer, indent, \"{s} Binary Op\\n\", .{@tagName(self.op)});","class":"linePartCov","hits":"1","order":"447","possible_hits":"2",},
-{"lineNum":"   48","line":"        try self.left.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"448","possible_hits":"4",},
-{"lineNum":"   49","line":"        try self.right.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"449","possible_hits":"4",},
+{"lineNum":"   46","line":"    ) !void {","class":"lineCov","hits":"1","order":"450","possible_hits":"1",},
+{"lineNum":"   47","line":"        try putInd(writer, indent, \"{s} Binary Op\\n\", .{@tagName(self.op)});","class":"lineCov","hits":"1","order":"447","possible_hits":"1",},
+{"lineNum":"   48","line":"        try self.left.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"448","possible_hits":"2",},
+{"lineNum":"   49","line":"        try self.right.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"449","possible_hits":"2",},
 {"lineNum":"   50","line":"    }"},
 {"lineNum":"   51","line":"};"},
 {"lineNum":"   52","line":""},
@@ -74,5 +74,5 @@ var data = {lines:[
 {"lineNum":"   73","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-09 08:39:20", "instrumented" : 19, "covered" : 19,};
+var header = { "command" : "test", "date" : "2022-02-13 12:34:35", "instrumented" : 19, "covered" : 19,};
 var merged_data = [];

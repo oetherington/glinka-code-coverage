@@ -110,7 +110,7 @@ var data = {lines:[
 {"lineNum":"  109","line":"            .Class => |t| genericEql(t, other.Class),","class":"lineNoCov","hits":"0","possible_hits":"3",},
 {"lineNum":"  110","line":"            .Enum => |t| genericEql(t, other.Enum),","class":"lineNoCov","hits":"0","possible_hits":"1",},
 {"lineNum":"  111","line":"            .Function => |t| genericEql(t, other.Function),","class":"linePartCov","hits":"2","order":"1130","possible_hits":"3",},
-{"lineNum":"  112","line":"            .Union => |t| genericEql(t, other.Union),","class":"linePartCov","hits":"2","order":"1849","possible_hits":"3",},
+{"lineNum":"  112","line":"            .Union => |t| genericEql(t, other.Union),","class":"linePartCov","hits":"2","order":"1906","possible_hits":"3",},
 {"lineNum":"  113","line":"            .Alias => |t| genericEql(t, other.Alias),","class":"lineNoCov","hits":"0","possible_hits":"3",},
 {"lineNum":"  114","line":"            .Interface => |t| genericEql(t, other.Interface),","class":"lineNoCov","hits":"0","possible_hits":"3",},
 {"lineNum":"  115","line":"        };"},
@@ -131,12 +131,12 @@ var data = {lines:[
 {"lineNum":"  130","line":"            => @intCast(usize, @enumToInt(self.getType())) ^ 0xd16575db32f7806d,","class":"lineCov","hits":"1","order":"1153","possible_hits":"1",},
 {"lineNum":"  131","line":"            .Tuple => @panic(\"TODO hash Tuple\"),","class":"lineNoCov","hits":"0","possible_hits":"1",},
 {"lineNum":"  132","line":"            .Array => |ar| ar.hash(),","class":"lineCov","hits":"1","order":"1168","possible_hits":"1",},
-{"lineNum":"  133","line":"            .Class => |cls| cls.hash(),","class":"lineCov","hits":"1","order":"1528","possible_hits":"1",},
+{"lineNum":"  133","line":"            .Class => |cls| cls.hash(),","class":"lineCov","hits":"1","order":"1566","possible_hits":"1",},
 {"lineNum":"  134","line":"            .Enum => @panic(\"TODO hash Enum\"),","class":"lineNoCov","hits":"0","possible_hits":"1",},
 {"lineNum":"  135","line":"            .Function => |f| f.hash(),","class":"lineCov","hits":"1","order":"1156","possible_hits":"1",},
-{"lineNum":"  136","line":"            .Union => |un| un.hash(),","class":"lineCov","hits":"1","order":"1843","possible_hits":"1",},
-{"lineNum":"  137","line":"            .Alias => |al| al.hash(),","class":"lineCov","hits":"1","order":"3117","possible_hits":"1",},
-{"lineNum":"  138","line":"            .Interface => |in| in.hash(),","class":"lineCov","hits":"1","order":"1921","possible_hits":"1",},
+{"lineNum":"  136","line":"            .Union => |un| un.hash(),","class":"lineCov","hits":"1","order":"1894","possible_hits":"1",},
+{"lineNum":"  137","line":"            .Alias => |al| al.hash(),","class":"lineCov","hits":"1","order":"3174","possible_hits":"1",},
+{"lineNum":"  138","line":"            .Interface => |in| in.hash(),","class":"lineCov","hits":"1","order":"1978","possible_hits":"1",},
 {"lineNum":"  139","line":"        };"},
 {"lineNum":"  140","line":"    }"},
 {"lineNum":"  141","line":""},
@@ -764,5 +764,5 @@ var data = {lines:[
 {"lineNum":"  763","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-09 08:39:20", "instrumented" : 439, "covered" : 412,};
+var header = { "command" : "test", "date" : "2022-02-13 12:34:35", "instrumented" : 439, "covered" : 412,};
 var merged_data = [];

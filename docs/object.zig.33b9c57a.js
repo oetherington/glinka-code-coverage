@@ -49,14 +49,14 @@ var data = {lines:[
 {"lineNum":"   48","line":"        };"},
 {"lineNum":"   49","line":"    }"},
 {"lineNum":"   50","line":""},
-{"lineNum":"   51","line":"    pub fn dump(","class":"linePartCov","hits":"1","order":"387","possible_hits":"2",},
+{"lineNum":"   51","line":"    pub fn dump(","class":"lineCov","hits":"1","order":"387","possible_hits":"1",},
 {"lineNum":"   52","line":"        self: ObjectProperty,"},
 {"lineNum":"   53","line":"        writer: anytype,"},
 {"lineNum":"   54","line":"        indent: usize,"},
-{"lineNum":"   55","line":"    ) !void {","class":"linePartCov","hits":"1","order":"391","possible_hits":"2",},
-{"lineNum":"   56","line":"        try putInd(writer, indent, \"Property\\n\", .{});","class":"linePartCov","hits":"1","order":"388","possible_hits":"2",},
-{"lineNum":"   57","line":"        try self.key.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"389","possible_hits":"4",},
-{"lineNum":"   58","line":"        try self.value.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"390","possible_hits":"4",},
+{"lineNum":"   55","line":"    ) !void {","class":"lineCov","hits":"1","order":"391","possible_hits":"1",},
+{"lineNum":"   56","line":"        try putInd(writer, indent, \"Property\\n\", .{});","class":"lineCov","hits":"1","order":"388","possible_hits":"1",},
+{"lineNum":"   57","line":"        try self.key.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"389","possible_hits":"2",},
+{"lineNum":"   58","line":"        try self.value.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"390","possible_hits":"2",},
 {"lineNum":"   59","line":"    }"},
 {"lineNum":"   60","line":""},
 {"lineNum":"   61","line":"    pub fn eql(self: ObjectProperty, other: ObjectProperty) bool {","class":"lineCov","hits":"1","order":"364","possible_hits":"1",},
@@ -135,5 +135,5 @@ var data = {lines:[
 {"lineNum":"  134","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-09 08:39:20", "instrumented" : 56, "covered" : 54,};
+var header = { "command" : "test", "date" : "2022-02-13 12:34:35", "instrumented" : 56, "covered" : 54,};
 var merged_data = [];

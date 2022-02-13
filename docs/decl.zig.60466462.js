@@ -71,21 +71,21 @@ var data = {lines:[
 {"lineNum":"   70","line":"        };"},
 {"lineNum":"   71","line":"    }"},
 {"lineNum":"   72","line":""},
-{"lineNum":"   73","line":"    pub fn dump(","class":"linePartCov","hits":"1","order":"325","possible_hits":"2",},
+{"lineNum":"   73","line":"    pub fn dump(","class":"lineCov","hits":"1","order":"325","possible_hits":"1",},
 {"lineNum":"   74","line":"        self: Decl,"},
 {"lineNum":"   75","line":"        writer: anytype,"},
 {"lineNum":"   76","line":"        indent: usize,"},
-{"lineNum":"   77","line":"    ) !void {","class":"linePartCov","hits":"1","order":"333","possible_hits":"2",},
-{"lineNum":"   78","line":"        try putInd(writer, indent, \"{s} Decl \\\"{s}\\\"\\n\", .{","class":"linePartCov","hits":"2","order":"326","possible_hits":"4",},
-{"lineNum":"   79","line":"            @tagName(self.scoping),","class":"linePartCov","hits":"1","order":"327","possible_hits":"2",},
-{"lineNum":"   80","line":"            self.name,","class":"linePartCov","hits":"1","order":"328","possible_hits":"2",},
+{"lineNum":"   77","line":"    ) !void {","class":"lineCov","hits":"1","order":"333","possible_hits":"1",},
+{"lineNum":"   78","line":"        try putInd(writer, indent, \"{s} Decl \\\"{s}\\\"\\n\", .{","class":"lineCov","hits":"2","order":"326","possible_hits":"2",},
+{"lineNum":"   79","line":"            @tagName(self.scoping),","class":"lineCov","hits":"1","order":"327","possible_hits":"1",},
+{"lineNum":"   80","line":"            self.name,","class":"lineCov","hits":"1","order":"328","possible_hits":"1",},
 {"lineNum":"   81","line":"        });"},
 {"lineNum":"   82","line":""},
-{"lineNum":"   83","line":"        if (self.ty) |ty|","class":"linePartCov","hits":"2","order":"329","possible_hits":"4",},
-{"lineNum":"   84","line":"            try ty.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"330","possible_hits":"4",},
+{"lineNum":"   83","line":"        if (self.ty) |ty|","class":"lineCov","hits":"2","order":"329","possible_hits":"2",},
+{"lineNum":"   84","line":"            try ty.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"330","possible_hits":"2",},
 {"lineNum":"   85","line":""},
-{"lineNum":"   86","line":"        if (self.value) |value|","class":"linePartCov","hits":"2","order":"331","possible_hits":"4",},
-{"lineNum":"   87","line":"            try value.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"332","possible_hits":"4",},
+{"lineNum":"   86","line":"        if (self.value) |value|","class":"lineCov","hits":"2","order":"331","possible_hits":"2",},
+{"lineNum":"   87","line":"            try value.dumpIndented(writer, indent + 2);","class":"linePartCov","hits":"1","order":"332","possible_hits":"2",},
 {"lineNum":"   88","line":"    }"},
 {"lineNum":"   89","line":"};"},
 {"lineNum":"   90","line":""},
@@ -125,5 +125,5 @@ var data = {lines:[
 {"lineNum":"  124","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-09 08:39:20", "instrumented" : 44, "covered" : 44,};
+var header = { "command" : "test", "date" : "2022-02-13 12:34:35", "instrumented" : 44, "covered" : 44,};
 var merged_data = [];

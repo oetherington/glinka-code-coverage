@@ -38,16 +38,16 @@ var data = {lines:[
 {"lineNum":"   37","line":"        };"},
 {"lineNum":"   38","line":"    }"},
 {"lineNum":"   39","line":""},
-{"lineNum":"   40","line":"    pub fn dump(","class":"linePartCov","hits":"1","order":"843","possible_hits":"2",},
+{"lineNum":"   40","line":"    pub fn dump(","class":"lineCov","hits":"1","order":"843","possible_hits":"1",},
 {"lineNum":"   41","line":"        self: While,"},
 {"lineNum":"   42","line":"        writer: anytype,"},
 {"lineNum":"   43","line":"        indent: usize,"},
-{"lineNum":"   44","line":"    ) !void {","class":"linePartCov","hits":"1","order":"849","possible_hits":"2",},
-{"lineNum":"   45","line":"        try putInd(writer, indent, \"While:\\n\", .{});","class":"linePartCov","hits":"1","order":"844","possible_hits":"2",},
-{"lineNum":"   46","line":"        try putInd(writer, indent + 2, \"Condition:\\n\", .{});","class":"linePartCov","hits":"1","order":"845","possible_hits":"4",},
-{"lineNum":"   47","line":"        try self.cond.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"846","possible_hits":"4",},
-{"lineNum":"   48","line":"        try putInd(writer, indent + 2, \"Body:\\n\", .{});","class":"linePartCov","hits":"1","order":"847","possible_hits":"4",},
-{"lineNum":"   49","line":"        try self.body.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"848","possible_hits":"4",},
+{"lineNum":"   44","line":"    ) !void {","class":"lineCov","hits":"1","order":"849","possible_hits":"1",},
+{"lineNum":"   45","line":"        try putInd(writer, indent, \"While:\\n\", .{});","class":"lineCov","hits":"1","order":"844","possible_hits":"1",},
+{"lineNum":"   46","line":"        try putInd(writer, indent + 2, \"Condition:\\n\", .{});","class":"linePartCov","hits":"1","order":"845","possible_hits":"2",},
+{"lineNum":"   47","line":"        try self.cond.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"846","possible_hits":"2",},
+{"lineNum":"   48","line":"        try putInd(writer, indent + 2, \"Body:\\n\", .{});","class":"linePartCov","hits":"1","order":"847","possible_hits":"2",},
+{"lineNum":"   49","line":"        try self.body.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"848","possible_hits":"2",},
 {"lineNum":"   50","line":"    }"},
 {"lineNum":"   51","line":"};"},
 {"lineNum":"   52","line":""},
@@ -76,5 +76,5 @@ var data = {lines:[
 {"lineNum":"   75","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-09 08:39:20", "instrumented" : 20, "covered" : 20,};
+var header = { "command" : "test", "date" : "2022-02-13 12:34:35", "instrumented" : 20, "covered" : 20,};
 var merged_data = [];

@@ -61,19 +61,19 @@ var data = {lines:[
 {"lineNum":"   60","line":"    }"},
 {"lineNum":"   61","line":"};"},
 {"lineNum":"   62","line":""},
-{"lineNum":"   63","line":"test \"can hash a FunctionType\" {","class":"lineCov","hits":"2","order":"1584","possible_hits":"2",},
-{"lineNum":"   64","line":"    const num = Type.newNumber();","class":"lineCov","hits":"1","order":"1585","possible_hits":"1",},
-{"lineNum":"   65","line":"    const str = Type.newString();","class":"lineCov","hits":"1","order":"1586","possible_hits":"1",},
+{"lineNum":"   63","line":"test \"can hash a FunctionType\" {","class":"lineCov","hits":"2","order":"1634","possible_hits":"2",},
+{"lineNum":"   64","line":"    const num = Type.newNumber();","class":"lineCov","hits":"1","order":"1635","possible_hits":"1",},
+{"lineNum":"   65","line":"    const str = Type.newString();","class":"lineCov","hits":"1","order":"1636","possible_hits":"1",},
 {"lineNum":"   66","line":""},
-{"lineNum":"   67","line":"    const a = FunctionType.new(&num, &[_]Type.Ptr{&str}, false);","class":"lineCov","hits":"1","order":"1587","possible_hits":"1",},
-{"lineNum":"   68","line":"    const b = FunctionType.new(&str, &[_]Type.Ptr{&num}, false);","class":"lineCov","hits":"1","order":"1588","possible_hits":"1",},
-{"lineNum":"   69","line":"    const c = FunctionType.new(&num, &[_]Type.Ptr{&str}, true);","class":"lineCov","hits":"1","order":"1589","possible_hits":"1",},
+{"lineNum":"   67","line":"    const a = FunctionType.new(&num, &[_]Type.Ptr{&str}, false);","class":"lineCov","hits":"1","order":"1637","possible_hits":"1",},
+{"lineNum":"   68","line":"    const b = FunctionType.new(&str, &[_]Type.Ptr{&num}, false);","class":"lineCov","hits":"1","order":"1638","possible_hits":"1",},
+{"lineNum":"   69","line":"    const c = FunctionType.new(&num, &[_]Type.Ptr{&str}, true);","class":"lineCov","hits":"1","order":"1639","possible_hits":"1",},
 {"lineNum":"   70","line":""},
-{"lineNum":"   71","line":"    try std.testing.expectEqual(a.hash(), a.hash());","class":"lineCov","hits":"1","order":"1590","possible_hits":"1",},
-{"lineNum":"   72","line":"    try std.testing.expect(a.hash() != b.hash());","class":"lineCov","hits":"1","order":"1591","possible_hits":"1",},
-{"lineNum":"   73","line":"    try std.testing.expect(a.hash() != c.hash());","class":"lineCov","hits":"1","order":"1592","possible_hits":"1",},
+{"lineNum":"   71","line":"    try std.testing.expectEqual(a.hash(), a.hash());","class":"lineCov","hits":"1","order":"1640","possible_hits":"1",},
+{"lineNum":"   72","line":"    try std.testing.expect(a.hash() != b.hash());","class":"lineCov","hits":"1","order":"1641","possible_hits":"1",},
+{"lineNum":"   73","line":"    try std.testing.expect(a.hash() != c.hash());","class":"lineCov","hits":"1","order":"1642","possible_hits":"1",},
 {"lineNum":"   74","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-09 08:39:20", "instrumented" : 28, "covered" : 28,};
+var header = { "command" : "test", "date" : "2022-02-13 12:34:35", "instrumented" : 28, "covered" : 28,};
 var merged_data = [];

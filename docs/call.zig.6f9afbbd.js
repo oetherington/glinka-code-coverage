@@ -39,17 +39,17 @@ var data = {lines:[
 {"lineNum":"   38","line":"        };"},
 {"lineNum":"   39","line":"    }"},
 {"lineNum":"   40","line":""},
-{"lineNum":"   41","line":"    pub fn dump(","class":"linePartCov","hits":"1","order":"985","possible_hits":"2",},
+{"lineNum":"   41","line":"    pub fn dump(","class":"lineCov","hits":"1","order":"985","possible_hits":"1",},
 {"lineNum":"   42","line":"        self: Call,"},
 {"lineNum":"   43","line":"        writer: anytype,"},
 {"lineNum":"   44","line":"        indent: usize,"},
-{"lineNum":"   45","line":"    ) !void {","class":"linePartCov","hits":"1","order":"992","possible_hits":"2",},
-{"lineNum":"   46","line":"        try putInd(writer, indent, \"Call:\\n\", .{});","class":"linePartCov","hits":"1","order":"986","possible_hits":"2",},
-{"lineNum":"   47","line":"        try putInd(writer, indent + 2, \"Function:\\n\", .{});","class":"linePartCov","hits":"1","order":"987","possible_hits":"4",},
-{"lineNum":"   48","line":"        try self.expr.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"988","possible_hits":"4",},
-{"lineNum":"   49","line":"        try putInd(writer, indent + 2, \"Args:\\n\", .{});","class":"linePartCov","hits":"1","order":"989","possible_hits":"4",},
-{"lineNum":"   50","line":"        for (self.args.items) |arg|","class":"linePartCov","hits":"2","order":"990","possible_hits":"4",},
-{"lineNum":"   51","line":"            try arg.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"991","possible_hits":"4",},
+{"lineNum":"   45","line":"    ) !void {","class":"lineCov","hits":"1","order":"992","possible_hits":"1",},
+{"lineNum":"   46","line":"        try putInd(writer, indent, \"Call:\\n\", .{});","class":"lineCov","hits":"1","order":"986","possible_hits":"1",},
+{"lineNum":"   47","line":"        try putInd(writer, indent + 2, \"Function:\\n\", .{});","class":"linePartCov","hits":"1","order":"987","possible_hits":"2",},
+{"lineNum":"   48","line":"        try self.expr.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"988","possible_hits":"2",},
+{"lineNum":"   49","line":"        try putInd(writer, indent + 2, \"Args:\\n\", .{});","class":"linePartCov","hits":"1","order":"989","possible_hits":"2",},
+{"lineNum":"   50","line":"        for (self.args.items) |arg|","class":"lineCov","hits":"2","order":"990","possible_hits":"2",},
+{"lineNum":"   51","line":"            try arg.dumpIndented(writer, indent + 4);","class":"linePartCov","hits":"1","order":"991","possible_hits":"2",},
 {"lineNum":"   52","line":"    }"},
 {"lineNum":"   53","line":"};"},
 {"lineNum":"   54","line":""},
@@ -78,5 +78,5 @@ var data = {lines:[
 {"lineNum":"   77","line":"}"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "test", "date" : "2022-02-09 08:39:20", "instrumented" : 21, "covered" : 21,};
+var header = { "command" : "test", "date" : "2022-02-13 12:34:35", "instrumented" : 21, "covered" : 21,};
 var merged_data = [];
